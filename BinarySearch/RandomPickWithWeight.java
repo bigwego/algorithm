@@ -1,8 +1,11 @@
+import java.util.Random;
+
 class RandomPickWithWeight {
     int[] sum;
-    Random rand;
 
-    public Solution(int[] w) {
+    private Random rand;
+
+    public RandomPickWithWeight(int[] w) {
         sum = new int[w.length];
         rand = new Random();
         int tmp = 0;

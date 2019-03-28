@@ -1,4 +1,12 @@
-if (nums == null || nums.length == 0) {
+/**
+ * @author: ZHANG
+ * @description:
+ * @create: 2019/03/28
+ **/
+public class SearchInRotatedSortedArrayII {
+
+    public boolean search(int[] nums, int target) {
+        if (nums == null || nums.length == 0) {
             return false;
         }
         int left = 0, right = nums.length - 1;
@@ -25,3 +33,5 @@ if (nums == null || nums.length == 0) {
             }
         }
         return nums[left] == target || nums[right] == target ? true : false;
+    }
+}

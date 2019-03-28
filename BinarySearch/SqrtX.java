@@ -1,4 +1,4 @@
-class Sqrt(x) {
+class SqrtX {
     public int mySqrt(int x) {
         if (x < 2) {
             return x;
@@ -14,6 +14,6 @@ class Sqrt(x) {
                 left = (int) mid + 1;
             }
         }
-        return (long)left*left > x ? left - 1 : left;
+        return (long) left * left > x ? left - 1 : left;
     }
 }
