@@ -1,10 +1,16 @@
-class Combinations {
+package BackTracking;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Combinations {
+
     public List<List<Integer>> combine(int n, int k) {
         List<List<Integer>> res = new ArrayList<>();
         if (k == 0) {
             return res;
         }
-        help(res, new ArrayList<Integer>(), n, 1, k);
+        help(res, new ArrayList<>(), n, 1, k);
         return res;
     }
 

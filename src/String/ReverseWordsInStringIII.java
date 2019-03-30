@@ -1,4 +1,7 @@
-class ReverseWordsInStringIII {
+package String;
+
+public class ReverseWordsInStringIII {
+
     public String reverseWords(String s) {
         char[] chs = s.toCharArray();
         int i = -1, j = 0;

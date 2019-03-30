@@ -1,3 +1,5 @@
+package BinaryTree;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -18,6 +20,7 @@ class Node {
 };
 */
 public class NaryTreeLevelOrderTraversal {
+
     public List<List<Integer>> levelOrder(Node root) {
         List<List<Integer>> res = new ArrayList<>();
         if (root == null) {
@@ -45,7 +48,7 @@ public class NaryTreeLevelOrderTraversal {
     private class Node {
         public int val;
 
-        public List<Node> children;
+        List<Node> children;
 
         public Node() {
         }

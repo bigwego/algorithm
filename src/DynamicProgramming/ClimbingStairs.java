@@ -1,4 +1,7 @@
-class ClimbingStairs {
+package DynamicProgramming;
+
+public class ClimbingStairs {
+
     public int climbStairs(int n) {
         if (n < 3) {
             return n;

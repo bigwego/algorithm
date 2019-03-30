@@ -1,3 +1,5 @@
+package Others;
+
 public class KthSmallestInLexicographicalOrder {
 
     public int findKthNumber(int n, int k) {

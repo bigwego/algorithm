@@ -1,9 +1,12 @@
+package BinarySearch;
+
 import java.util.Random;
 
-class RandomPickWithWeight {
-    int[] sum;
+public class RandomPickWithWeight {
 
-    private Random rand;
+    private int[] sum;
+
+    private final Random rand;
 
     public RandomPickWithWeight(int[] w) {
         sum = new int[w.length];

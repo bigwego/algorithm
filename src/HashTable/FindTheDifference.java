@@ -1,4 +1,7 @@
-class FindTheDifference {
+package HashTable;
+
+public class FindTheDifference {
+
     public char findTheDifference(String s, String t) {
         int[] hash = new int[26];
         for (char c : s.toCharArray()) {
@@ -9,7 +12,7 @@ class FindTheDifference {
             if (hash[c - 'a'] == 0) {
                 res = c;
                 break;
-            }else {
+            } else {
                 hash[c - 'a']--;
             }
         }

@@ -1,4 +1,7 @@
-class ProductOfArrayExceptSelf {
+package Array;
+
+public class ProductOfArrayExceptSelf {
+
     public int[] productExceptSelf(int[] nums) {
         if (nums == null || nums.length == 0) {
             return null;

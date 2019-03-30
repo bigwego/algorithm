@@ -1,10 +1,7 @@
+package Array;
+
 import java.util.Arrays;
 
-/**
- * @author: ZHANG
- * @description:
- * @create: 2019/03/28
- **/
 public class ThreeSumCloset {
 
     public int threeSumClosest(int[] nums, int target) {

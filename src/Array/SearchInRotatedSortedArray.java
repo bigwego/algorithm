@@ -1,4 +1,6 @@
-class SearchInRotatedSortedArray {
+package Array;
+
+public class SearchInRotatedSortedArray {
 
     public int search(int[] nums, int target) {
         if (nums == null || nums.length == 0) {

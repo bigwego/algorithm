@@ -1,4 +1,7 @@
-class OutOfBoundaryPaths {
+package DynamicProgramming;
+
+public class OutOfBoundaryPaths {
+
     public int findPaths(int m, int n, int N, int i, int j) {
         int[][][] dp = new int[N + 1][m][n];
         for (int k = 1; k <= N; k++) {

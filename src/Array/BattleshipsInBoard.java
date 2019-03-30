@@ -1,9 +1,14 @@
-class BattleshipsInBoard {
+package Array;
+
+public class BattleshipsInBoard {
+
     public int countBattleships(char[][] board) {
         if (board == null || board.length == 0) {
             return 0;
         }
-        int res = 0, m = board.length, n = board[0].length;
+        int res = 0;
+        int m = board.length;
+        int n = board[0].length;
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 if ((board[i][j] == '.') ||

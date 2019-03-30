@@ -1,13 +1,20 @@
+package BFS;
+
+import java.util.LinkedList;
+
 public class ShortestDistanceFromAllBuildings {
+
     /**
      * @param grid: the 2D grid
-     * @return: the shortest distance
+     * @return the shortest distance
      */
     public int shortestDistance(int[][] grid) {
         if (grid == null || grid.length == 0) {
             return 0;
         }
-        int m = grid.length, n = grid[0].length, b = 0;
+        int m = grid.length;
+        int n = grid[0].length;
+        int b = 0;
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 if (grid[i][j] == 1) {
@@ -15,7 +22,8 @@ public class ShortestDistanceFromAllBuildings {
                 }
             }
         }
-        int[][] distSum = new int[m][n], hit = new int[m][n];
+        int[][] distSum = new int[m][n];
+        int[][] hit = new int[m][n];
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 if (grid[i][j] == 1) {
@@ -40,9 +48,9 @@ public class ShortestDistanceFromAllBuildings {
         boolean[][] visited = new boolean[m][n];
         visited[i][j] = true;
         LinkedList<int[]> queue = new LinkedList<>();
-        queue.add(new int[]{i, j});
+        queue.add(new int[]{ i, j });
         int dist = 0, cntB = 1;
-        int[][] dirs = new int[][]{{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
+        int[][] dirs = new int[][]{ { 0, 1 }, { 0, -1 }, { 1, 0 }, { -1, 0 } };
         while (!queue.isEmpty()) {
             int size = queue.size();
             dist++;
@@ -60,7 +68,7 @@ public class ShortestDistanceFromAllBuildings {
                     } else if (grid[ni][nj] == 0) {
                         hit[ni][nj]++;
                         distSum[ni][nj] += dist;
-                        queue.add(new int[]{ni, nj});
+                        queue.add(new int[]{ ni, nj });
                     }
                 }
             }

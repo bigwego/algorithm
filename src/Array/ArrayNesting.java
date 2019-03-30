@@ -1,6 +1,7 @@
 package Array;
 
-class ArrayNesting {
+public class ArrayNesting {
+
     public int arrayNesting(int[] nums) {
         int res = 0;
         for (int i = 0; i < nums.length; i++) {

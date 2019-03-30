@@ -1,4 +1,7 @@
-class LongestRepeatingCharacterReplacement {
+package Array;
+
+public class LongestRepeatingCharacterReplacement {
+
     public int characterReplacement(String s, int k) {
         int start = 0, cnt = 0, maxLen = 0;
         int[] hash = new int[26];

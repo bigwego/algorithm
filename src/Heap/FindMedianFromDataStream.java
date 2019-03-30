@@ -4,9 +4,10 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 
 public class FindMedianFromDataStream {
-    private PriorityQueue<Integer> maxHeap;
 
-    private PriorityQueue<Integer> minHeap;
+    private final PriorityQueue<Integer> maxHeap;
+
+    private final PriorityQueue<Integer> minHeap;
 
     /**
      * initialize your data structure here.

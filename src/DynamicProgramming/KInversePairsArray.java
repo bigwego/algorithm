@@ -1,7 +1,12 @@
-class KInversePairsArray {
+package DynamicProgramming;
+
+public class KInversePairsArray {
+
     public int kInversePairs(int n, int k) {
         int mod = 1000000007;
-        if (k < 0 || k > n * (n - 1) / 2) return 0;
+        if (k < 0 || k > n * (n - 1) / 2) {
+            return 0;
+        }
         long[][] dp = new long[n + 1][k + 1];
         dp[0][0] = 1;
         for (int i = 0; i <= n; i++) {

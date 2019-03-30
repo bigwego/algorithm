@@ -1,4 +1,9 @@
-class BasicCalculator {
+package Stack;
+
+import java.util.Stack;
+
+public class BasicCalculator {
+
     public int calculate(String s) {
         char[] chs = s.toCharArray();
         int sign = 1, res = 0;

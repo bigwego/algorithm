@@ -1,4 +1,10 @@
-class IsomorphicStrings {
+package HashTable;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class IsomorphicStrings {
+
     public boolean isIsomorphic(String s, String t) {
         if (s.length() != t.length()) {
             return false;

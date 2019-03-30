@@ -1,8 +1,10 @@
-class DecodeString {
-    
+package DFS;
+
+public class DecodeString {
+
     private int pos;
-    
-    public String decodeString(String s) {
+
+    private String decodeString(String s) {
         StringBuilder sb = new StringBuilder();
         String num = "";
         while (pos < s.length()) {

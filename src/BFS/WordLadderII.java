@@ -1,16 +1,28 @@
-public class Solution {
-    /*
-     * @param start: a string
-     * @param end: a string
-     * @param dict: a set of string
-     * @return: a list of lists of string
+package BFS;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+public class WordLadderII {
+
+    /**
+     * @param beginWord: a string
+     * @param endWord:   a string
+     * @param wordList:  a set of string
+     * @return a list of lists of string
      */
     public List<List<String>> findLadders(String beginWord, String endWord, List<String> wordList) {
         Map<String, List<String>> graph = new HashMap<>();
         Set<String> words = new HashSet<>(wordList);
         bfs(beginWord, endWord, words, graph);
         List<List<String>> res = new ArrayList<>();
-        dfs(res, new ArrayList<String>(Arrays.asList(beginWord)), graph, beginWord, endWord);
+        dfs(res, new ArrayList<>(Arrays.asList(beginWord)), graph, beginWord, endWord);
         return res;
     }
 

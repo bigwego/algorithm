@@ -1,4 +1,4 @@
-/* The read4 API is defined in the parent class Reader4.
+package String;/* The read4 API is defined in the parent class Reader4.
       int read4(char[] buf); */
 
 public class ReadNCharactersGivenRead4II extends Reader4 {
@@ -7,23 +7,31 @@ public class ReadNCharactersGivenRead4II extends Reader4 {
      * @param n maximum number of characters to read
      * @return the number of characters read
      */
-    char[] buffer = new char[4];
-    int head = 0, tail = 0;
+    private char[] buffer = new char[4];
 
-	public int read(char[] buf, int n) {
-		int idx = 0;
-		while (idx < n) {
-			if (head == tail) {
-			    head = 0;
-				tail = read4(buffer);
-				if (tail == 0) {
-					break;
-				}
-			}
-			while (idx < n && head < tail) {
-				buf[idx++] = buffer[head++];
-			}
-		}
-		return idx;
-	}
+    private int head = 0, tail = 0;
+
+    public int read(char[] buf, int n) {
+        int idx = 0;
+        while (idx < n) {
+            if (head == tail) {
+                head = 0;
+                tail = read4(buffer);
+                if (tail == 0) {
+                    break;
+                }
+            }
+            while (idx < n && head < tail) {
+                buf[idx++] = buffer[head++];
+            }
+        }
+        return idx;
+    }
+}
+
+class Reader4 {
+
+    int read4(char[] buff) {
+        return 1;
+    }
 }

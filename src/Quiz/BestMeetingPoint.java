@@ -1,7 +1,14 @@
+package Quiz;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 public class BestMeetingPoint {
+
     /**
      * @param grid: a 2D grid
-     * @return: the minimize travel distance
+     * @return the minimize travel distance
      */
     public int minTotalDistance(int[][] grid) {
         if (grid == null || grid.length == 0) {
@@ -18,7 +25,9 @@ public class BestMeetingPoint {
             }
         }
         Collections.sort(cols);
-        int res = 0, row_mid = rows.get(rows.size() / 2), col_mid = cols.get(cols.size() / 2);
+        int res = 0;
+        int row_mid = rows.get(rows.size() / 2);
+        int col_mid = cols.get(cols.size() / 2);
         for (int i = 0; i < rows.size(); i++) {
             res += Math.abs(rows.get(i) - row_mid) + Math.abs(cols.get(i) - col_mid);
         }

@@ -1,4 +1,7 @@
-class ShortestPalindrome {
+package String;
+
+public class ShortestPalindrome {
+
     public String shortestPalindrome(String s) {
         int i = 0, j = s.length() - 1, end = j;
         while (i < j) {

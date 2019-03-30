@@ -1,4 +1,10 @@
-class SubarraySumEqualsK {
+package HashTable;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class SubarraySumEqualsK {
+
     public int subarraySum(int[] nums, int k) {
         Map<Integer, Integer> map = new HashMap<>();
         map.put(0, 1);

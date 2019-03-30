@@ -1,4 +1,7 @@
-class SqrtX {
+package BinarySearch;
+
+public class SqrtX {
+
     public int mySqrt(int x) {
         if (x < 2) {
             return x;

@@ -1,8 +1,5 @@
-/**
- * @author: ZHANG
- * @description:
- * @create: 2019/03/28
- **/
+package Array;
+
 public class SearchInRotatedSortedArrayII {
 
     public boolean search(int[] nums, int target) {

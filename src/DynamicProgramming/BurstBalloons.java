@@ -1,4 +1,7 @@
-class BurstBalloons {
+package DynamicProgramming;
+
+public class BurstBalloons {
+
     public int maxCoins(int[] nums) {
         if (nums == null || nums.length == 0) {
             return 0;

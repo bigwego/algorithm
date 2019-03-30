@@ -1,7 +1,15 @@
+package Graph;
+
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.PriorityQueue;
+
 public class AlienDictionary {
+
     /**
      * @param words: a list of words
-     * @return: a string which is correct order
+     * @return a string which is correct order
      */
     public String alienOrder(String[] words) {
         if (words == null || words.length == 0) {
@@ -22,7 +30,8 @@ public class AlienDictionary {
         }
         for (int i = 0; i < words.length - 1; i++) {
             int j = i + 1;
-            int len = Math.min(words[i].length(), words[j].length()), k = 0;
+            int len = Math.min(words[i].length(), words[j].length());
+            int k = 0;
             while (k < len) {
                 if (words[i].charAt(k) != words[j].charAt(k)) {
                     neighbors.get(words[i].charAt(k)).add(words[j].charAt(k));

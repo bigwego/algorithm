@@ -1,4 +1,9 @@
-class RemoveKDigits {
+package Stack;
+
+import java.util.Stack;
+
+public class RemoveKDigits {
+
     public String removeKdigits(String num, int k) {
         if (k == num.length()) {
             return "0";

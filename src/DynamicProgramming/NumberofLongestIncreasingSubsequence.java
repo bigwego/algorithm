@@ -1,7 +1,13 @@
-class NumberofLongestIncreasingSubsequence {
+package DynamicProgramming;
+
+public class NumberofLongestIncreasingSubsequence {
+
     public int findNumberOfLIS(int[] nums) {
-        int n = nums.length, res = 0, max_len = 0;
-        int[] lens = new int[n], cnts = new int[n];
+        int n = nums.length;
+        int res = 0;
+        int max_len = 0;
+        int[] lens = new int[n];
+        int[] cnts = new int[n];
         for (int i = 0; i < n; i++) {
             lens[i] = cnts[i] = 1;
             for (int j = 0; j < i; j++) {

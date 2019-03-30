@@ -1,11 +1,17 @@
+package DFS;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class FactorCombinations {
+
     /**
      * @param n: a integer
-     * @return: return a 2D array
+     * @return return a 2D array
      */
     public List<List<Integer>> getFactors(int n) {
         List<List<Integer>> res = new ArrayList<>();
-        help(res, new ArrayList<Integer>(), 2, n);
+        help(res, new ArrayList<>(), 2, n);
         return res;
     }
 

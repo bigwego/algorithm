@@ -1,9 +1,13 @@
-class BestTimeToBuyAndSellStockWithCooldown {
+package DynamicProgramming;
+
+public class BestTimeToBuyAndSellStockWithCooldown {
+
     public int maxProfit(int[] prices) {
         if (prices == null || prices.length == 0) {
             return 0;
         }
-        int[] hold = new int[prices.length], unhold = new int[prices.length];
+        int[] hold = new int[prices.length];
+        int[] unhold = new int[prices.length];
         hold[0] = -prices[0];
         for (int i = 1; i < prices.length; i++) {
             if (i == 1) {

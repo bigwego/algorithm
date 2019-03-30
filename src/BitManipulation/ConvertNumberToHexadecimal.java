@@ -1,4 +1,7 @@
-class ConvertNumberToHexadecimal {
+package BitManipulation;
+
+public class ConvertNumberToHexadecimal {
+
     public String toHex(int num) {
         if (num == 0) {
             return "0";

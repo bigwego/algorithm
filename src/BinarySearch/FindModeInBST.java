@@ -1,20 +1,29 @@
+package BinarySearch;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import BinaryTree.TreeNode;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
+ * int val;
+ * TreeNode left;
+ * TreeNode right;
+ * TreeNode(int x) { val = x; }
  * }
  */
-class FindModeInBST {
-    Integer prev = null;
-    int maxCnt = 0;
-    int currCnt = 1;
+public class FindModeInBST {
+    private Integer prev = null;
+
+    private int maxCnt = 0;
+
+    private int currCnt = 1;
 
     public int[] findMode(TreeNode root) {
         List<Integer> list = new ArrayList<>();
-        inorder(root, list);
+        inOrder(root, list);
         int[] res = new int[list.size()];
         for (int i = 0; i < res.length; i++) {
             res[i] = list.get(i);
@@ -22,11 +31,11 @@ class FindModeInBST {
         return res;
     }
 
-    private void inorder(TreeNode node, List<Integer> list) {
+    private void inOrder(TreeNode node, List<Integer> list) {
         if (node == null) {
             return;
         }
-        inorder(node.left, list);
+        inOrder(node.left, list);
         if (prev != null) {
             if (prev == node.val) {
                 currCnt++;
@@ -42,6 +51,6 @@ class FindModeInBST {
             list.add(node.val);
         }
         prev = node.val;
-        inorder(node.right, list);
+        inOrder(node.right, list);
     }
 }

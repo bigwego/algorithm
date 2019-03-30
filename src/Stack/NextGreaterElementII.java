@@ -1,4 +1,10 @@
-class NextGreaterElementII {
+package Stack;
+
+import java.util.Arrays;
+import java.util.Stack;
+
+public class NextGreaterElementII {
+
     public int[] nextGreaterElements(int[] nums) {
         int n = nums.length;
         int[] res = new int[n];

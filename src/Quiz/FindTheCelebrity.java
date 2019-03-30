@@ -1,7 +1,9 @@
-/* The knows API is defined in the parent class Relation.
+package Quiz;/* The knows API is defined in the parent class Relation.
       boolean knows(int a, int b); */
 
+
 public class FindTheCelebrity extends Relation {
+
     /**
      * @param n a party with n people
      * @return the celebrity's label or -1
@@ -22,5 +24,12 @@ public class FindTheCelebrity extends Relation {
             }
         }
         return c;
+    }
+}
+
+class Relation {
+
+    boolean knows(int p1, int p2) {
+        return true;
     }
 }

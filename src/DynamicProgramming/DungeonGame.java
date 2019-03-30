@@ -1,6 +1,10 @@
-class DungeonGame {
+package DynamicProgramming;
+
+public class DungeonGame {
+
     public int calculateMinimumHP(int[][] dungeon) {
-        int m = dungeon.length, n = dungeon[0].length;
+        int m = dungeon.length;
+        int n = dungeon[0].length;
         int[][] dp = new int[m][n];
         dp[m - 1][n - 1] = Math.max(1, 1 - dungeon[m - 1][n - 1]);
         for (int i = m - 2; i > -1; i--) {

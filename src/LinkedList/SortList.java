@@ -1,14 +1,19 @@
+package LinkedList;
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) { val = x; }
+ * int val;
+ * ListNode next;
+ * ListNode(int x) { val = x; }
  * }
  */
-class SortList {
-    public ListNode sortList(ListNode head) {
-        if (head == null || head.next == null) return head;
+public class SortList {
+
+    private ListNode sortList(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
         ListNode prev = null, slow = head, fast = head;
         while (fast != null && fast.next != null) {
             prev = slow;
@@ -23,7 +28,8 @@ class SortList {
     }
 
     private ListNode merge(ListNode l1, ListNode l2) {
-        ListNode dummy = new ListNode(0), tail = dummy;
+        ListNode dummy = new ListNode(0);
+        ListNode tail = dummy;
         while (l1 != null && l2 != null) {
             if (l1.val < l2.val) {
                 tail.next = l1;
@@ -34,8 +40,22 @@ class SortList {
             }
             tail = tail.next;
         }
-        if (l1 != null) tail.next = l1;
-        if (l2 != null) tail.next = l2;
+        if (l1 != null) {
+            tail.next = l1;
+        }
+        if (l2 != null) {
+            tail.next = l2;
+        }
         return dummy.next;
+    }
+
+    private class ListNode {
+        int val;
+
+        ListNode next;
+
+        ListNode(int x) {
+            val = x;
+        }
     }
 }

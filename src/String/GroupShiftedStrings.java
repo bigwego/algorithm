@@ -1,4 +1,12 @@
+package String;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 public class GroupShiftedStrings {
+
     public List<List<String>> groupStrings(String[] strings) {
         List<List<String>> res = new ArrayList<>();
         Map<String, List<String>> map = new HashMap<>();

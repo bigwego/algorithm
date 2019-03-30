@@ -1,4 +1,7 @@
-class MaximumProductOf3Numbers {
+package Others;
+
+public class MaximumProductOf3Numbers {
+
     public int maximumProduct(int[] nums) {
         Integer max1 = Integer.MIN_VALUE, max2 = Integer.MIN_VALUE, max3 = Integer.MIN_VALUE;
         Integer min1 = Integer.MAX_VALUE, min2 = Integer.MAX_VALUE;

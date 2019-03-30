@@ -1,20 +1,27 @@
+package BinaryTree;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
+ * int val;
+ * TreeNode left;
+ * TreeNode right;
+ * TreeNode(int x) { val = x; }
  * }
  */
-class MaximumBinaryTree {
+public class MaximumBinaryTree {
+
     public TreeNode constructMaximumBinaryTree(int[] nums) {
-        if (nums == null) return null;
+        if (nums == null) {
+            return null;
+        }
         return construct(nums, 0, nums.length - 1);
     }
 
     private TreeNode construct(int[] nums, int l, int r) {
-        if (l > r) return null;
+        if (l > r) {
+            return null;
+        }
         int idx = maxIdx(nums, l, r);
         TreeNode node = new TreeNode(nums[idx]);
         node.left = construct(nums, l, idx - 1);

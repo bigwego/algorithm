@@ -1,7 +1,16 @@
-class MinimumGeneticMutation {
+package BFS;
+
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Set;
+
+public class MinimumGeneticMutation {
+
     public int minMutation(String start, String end, String[] bank) {
-        char[] genes = new char[]{'A', 'C', 'G', 'T'};
-        Set<String> bankSet = new HashSet<String>(Arrays.asList(bank));
+        char[] genes = new char[]{ 'A', 'C', 'G', 'T' };
+        Set<String> bankSet = new HashSet<>(Arrays.asList(bank));
         Queue<String> queue = new LinkedList<>();
         queue.add(start);
         Set<String> visited = new HashSet<>();

@@ -1,4 +1,9 @@
-class BaseballGame {
+package Stack;
+
+import java.util.Stack;
+
+public class BaseballGame {
+
     public int calPoints(String[] ops) {
         Stack<Integer> stack = new Stack<>();
         int res = 0;
@@ -10,7 +15,8 @@ class BaseballGame {
                 res += tmp;
                 stack.push(tmp);
             } else if (s.equals("+")) {
-                int a = stack.pop(), b = stack.pop();
+                int a = stack.pop();
+                int b = stack.pop();
                 res += a + b;
                 stack.push(b);
                 stack.push(a);

@@ -1,7 +1,12 @@
-/* The isBadVersion API is defined in the parent class VersionControl.
-      boolean isBadVersion(int version); */
+package BinarySearch;
+
+/**
+ * The isBadVersion API is defined in the parent class VersionControl.
+ * boolean isBadVersion(int version);
+ */
 
 public class FirstBadVersion extends VersionControl {
+
     public int firstBadVersion(int n) {
         int low = 1, high = n;
         while (low < high) {
@@ -14,4 +19,10 @@ public class FirstBadVersion extends VersionControl {
         }
         return low;
     }
+
+    private boolean isBadVersion(int version) {
+        return true;
+    }
 }
+
+class VersionControl {}

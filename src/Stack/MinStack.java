@@ -1,39 +1,46 @@
-class MinStack {
+package Stack;
 
-	Stack<Integer> data;
-	Stack<Integer> min;
+import java.util.Stack;
 
-	/** initialize your data structure here. */
-	public MinStack() {
-		data = new Stack();
-		min = new Stack();
-	}
+public class MinStack {
 
-	public void push(int x) {
-		data.push(x);
-		if (min.isEmpty()) {
-			min.push(x);
-		} else {
-			if (min.peek() > x) {
-				min.push(x);
-			} else {
-				min.push(min.peek());
-			}
-		}
-	}
+    private Stack<Integer> data;
 
-	public void pop() {
-		data.pop();
-		min.pop();
-	}
+    private Stack<Integer> min;
 
-	public int top() {
-		return data.peek();
-	}
+    /**
+     * initialize your data structure here.
+     */
+    public MinStack() {
+        data = new Stack();
+        min = new Stack();
+    }
 
-	public int getMin() {
-		return min.peek();
-	}
+    public void push(int x) {
+        data.push(x);
+        if (min.isEmpty()) {
+            min.push(x);
+        } else {
+            if (min.peek() > x) {
+                min.push(x);
+            } else {
+                min.push(min.peek());
+            }
+        }
+    }
+
+    public void pop() {
+        data.pop();
+        min.pop();
+    }
+
+    public int top() {
+        return data.peek();
+    }
+
+    public int getMin() {
+        return min.peek();
+    }
 }
 
 /**

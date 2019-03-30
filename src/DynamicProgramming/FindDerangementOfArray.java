@@ -1,10 +1,15 @@
+package DynamicProgramming;
+
 public class FindDerangementOfArray {
+
     /**
      * @param n: an array consisting of n integers from 1 to n
-     * @return: the number of derangement it can generate
+     * @return the number of derangement it can generate
      */
     public int findDerangement(int n) {
-        if(n < 2) return 0;
+        if (n < 2) {
+            return 0;
+        }
         long[] dp = new long[n + 1];
         dp[1] = 0;
         dp[2] = 1;

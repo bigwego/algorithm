@@ -1,18 +1,24 @@
+package BinaryTree;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
+ * int val;
+ * TreeNode left;
+ * TreeNode right;
+ * TreeNode(int x) { val = x; }
  * }
  */
-class MinimumAbsoluteDifferenceInBST {
-    int res = Integer.MAX_VALUE;
-    Integer prev = null;
+public class MinimumAbsoluteDifferenceInBST {
 
-    public int getMinimumDifference(TreeNode root) {
-        if(root == null) return res;
+    int res = Integer.MAX_VALUE;
+
+    private Integer prev = null;
+
+    private int getMinimumDifference(TreeNode root) {
+        if (root == null) {
+            return res;
+        }
         getMinimumDifference(root.left);
         if (prev != null) {
             res = Math.min(res, root.val - prev);

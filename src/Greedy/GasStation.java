@@ -1,4 +1,7 @@
-class Solution {
+package Greedy;
+
+public class GasStation {
+
     public int canCompleteCircuit(int[] gas, int[] cost) {
         int sum = 0;
         for (int i = 0; i < gas.length; i++) {

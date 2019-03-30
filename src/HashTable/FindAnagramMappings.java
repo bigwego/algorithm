@@ -1,8 +1,14 @@
+package HashTable;
+
+import java.util.HashMap;
+import java.util.Map;
+
 public class FindAnagramMappings {
+
     /**
      * @param A: lists A
      * @param B: lists B
-     * @return: the index mapping
+     * @return the index mapping
      */
     public int[] anagramMappings(int[] A, int[] B) {
         Map<Integer, Integer> map = new HashMap<>();

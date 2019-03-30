@@ -1,4 +1,9 @@
-class PerfectSquares {
+package DynamicProgramming;
+
+import java.util.Arrays;
+
+public class PerfectSquares {
+
     public int numSquares(int n) {
         if (n <= 0) {
             return 0;

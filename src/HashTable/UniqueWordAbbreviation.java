@@ -4,14 +4,14 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class UniqueWordAbbreviation {
-    /*
+
+    private final Map<String, Integer> dict;
+
+    private final Map<String, Integer> abbr;
+
+    /**
      * @param dictionary: a list of words
      */
-
-    private Map<String, Integer> dict;
-
-    private Map<String, Integer> abbr;
-
     public UniqueWordAbbreviation(String[] dictionary) {
         dict = new HashMap<>();
         abbr = new HashMap<>();

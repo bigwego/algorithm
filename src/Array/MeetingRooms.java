@@ -1,18 +1,25 @@
+package Array;
+
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+
 /**
  * Definition of Interval:
  * public classs Interval {
- *     int start, end;
- *     Interval(int start, int end) {
- *         this.start = start;
- *         this.end = end;
- *     }
+ * int start, end;
+ * Interval(int start, int end) {
+ * this.start = start;
+ * this.end = end;
+ * }
  * }
  */
 
 public class MeetingRooms {
+
     /**
      * @param intervals: an array of meeting time intervals
-     * @return: if a person could attend all meetings
+     * @return if a person could attend all meetings
      */
     public boolean canAttendMeetings(List<Interval> intervals) {
         if (intervals == null || intervals.size() == 0) {

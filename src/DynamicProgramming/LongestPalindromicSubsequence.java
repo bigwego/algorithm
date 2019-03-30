@@ -1,4 +1,7 @@
-class LongestPalindromicSubsequence {
+package DynamicProgramming;
+
+public class LongestPalindromicSubsequence {
+
     public int longestPalindromeSubseq(String s) {
         int n = s.length();
         int[][] dp = new int[n][n];

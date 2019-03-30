@@ -1,12 +1,18 @@
+package String;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class GeneralizedAbbreviation {
-    /**
-     * @param word: the given word
-     * @return: the generalized abbreviations of a word
-     */
+
     List<String> res = new ArrayList<>();
 
+    /**
+     * @param word: the given word
+     * @return the generalized abbreviations of a word
+     */
     public List<String> generateAbbreviations(String word) {
-        dfs(word, new ArrayList<Character>(), 0);
+        dfs(word, new ArrayList<>(), 0);
         return res;
     }
 

@@ -1,4 +1,10 @@
-class FindAllDuplicatesArray {
+package Array;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class FindAllDuplicatesArray {
+
     public List<Integer> findDuplicates(int[] nums) {
         List<Integer> res = new ArrayList<>();
         for (int i = 0; i < nums.length; i++) {

@@ -1,10 +1,7 @@
+package BFS;
+
 import java.util.LinkedList;
 
-/**
- * @author: ZHANG
- * @description:
- * @create: 2019/03/28
- **/
 public class ZeroOneMatrix {
 
     public int[][] updateMatrix(int[][] matrix) {

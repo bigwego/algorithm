@@ -1,9 +1,10 @@
 package Others;
 
 public class ShuffleArray {
-    private int[] nums;
 
-    private java.util.Random random;
+    private final int[] nums;
+
+    private final java.util.Random random;
 
     public ShuffleArray(int[] nums) {
         this.nums = nums;

@@ -1,14 +1,17 @@
+package BinaryTree;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
+ * int val;
+ * TreeNode left;
+ * TreeNode right;
+ * TreeNode(int x) { val = x; }
  * }
  */
-class InvertBinaryTree {
-    public TreeNode invertTree(TreeNode root) {
+public class InvertBinaryTree {
+
+    private TreeNode invertTree(TreeNode root) {
         if (root == null) {
             return null;
         }

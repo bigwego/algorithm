@@ -1,4 +1,11 @@
-class NextGreaterElementI {
+package Stack;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Stack;
+
+public class NextGreaterElementI {
+
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
         Map<Integer, Integer> map = new HashMap<>();
         Stack<Integer> stack = new Stack<>();

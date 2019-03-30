@@ -1,6 +1,7 @@
 package Trie;
 
 public class AddAndSearchWord {
+    
     private TrieNode root;
 
     /**

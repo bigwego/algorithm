@@ -1,8 +1,14 @@
+package BackTracking;
+
+import java.util.HashMap;
+import java.util.Map;
+
 public class WordPatternII {
+
     /**
      * @param pattern: a string,denote pattern string
-     * @param str: a string, denote matching string
-     * @return: a boolean
+     * @param str:     a string, denote matching string
+     * @return a boolean
      */
     public boolean wordPatternMatch(String pattern, String str) {
         Map<Character, String> map = new HashMap<>();

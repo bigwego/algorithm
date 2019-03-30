@@ -1,14 +1,16 @@
+package Array;
+
 public class DesignCircularQueue {
 
-    private int[] arr;
-
-    int head;
-
-    private int tail;
+    private int head;
 
     int size;
 
-    private int capacity;
+    private final int[] arr;
+
+    private int tail;
+
+    private final int capacity;
 
     /**
      * Initialize your data structure here. Set the size of the queue to be k.

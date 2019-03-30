@@ -1,4 +1,7 @@
-class FindTheDuplicateNumber {
+package Array;
+
+public class FindTheDuplicateNumber {
+
     public int findDuplicate(int[] nums) {
         int fast = nums[nums[0]], slow = nums[0];
         while (fast != slow) {

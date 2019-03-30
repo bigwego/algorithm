@@ -1,4 +1,12 @@
-class QueueReconstructionByHeight {
+package Greedy;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
+
+public class QueueReconstructionByHeight {
+
     public int[][] reconstructQueue(int[][] people) {
         if (people == null || people.length == 0) {
             return new int[0][0];

@@ -1,4 +1,7 @@
-class MoveZeroes {
+package Array;
+
+public class MoveZeroes {
+
     public void moveZeroes(int[] nums) {
         if (nums == null || nums.length == 0) {
             return;

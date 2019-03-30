@@ -1,9 +1,13 @@
-class SurroundedRegions {
+package DFS;
+
+public class SurroundedRegions {
+
     public void solve(char[][] board) {
         if (board == null || board.length == 0) {
             return;
         }
-        int m = board.length, n = board[0].length;
+        int m = board.length;
+        int n = board[0].length;
         for (int i = 0; i < m; i++) {
             dfs(board, i, 0, m, n);
             dfs(board, i, n - 1, m, n);

@@ -1,4 +1,7 @@
-class SplitArrayLargestSum {
+package BinarySearch;
+
+public class SplitArrayLargestSum {
+
     public int splitArray(int[] nums, int m) {
         long l = 0, r = 0;
         for (int num : nums) {

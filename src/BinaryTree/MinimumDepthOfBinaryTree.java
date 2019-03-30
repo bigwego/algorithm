@@ -1,13 +1,18 @@
+package BinaryTree;
+
+import java.util.LinkedList;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
+ * int val;
+ * TreeNode left;
+ * TreeNode right;
+ * TreeNode(int x) { val = x; }
  * }
  */
 class MinimumDepthOfBinaryTree {
+
     public int minDepth(TreeNode root) {
         if (root == null) {
             return 0;

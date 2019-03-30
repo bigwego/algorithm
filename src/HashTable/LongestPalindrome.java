@@ -1,4 +1,7 @@
-class LongestPalindrome {
+package HashTable;
+
+public class LongestPalindrome {
+
     public int longestPalindrome(String s) {
         int[] hash = new int[256];
         int res = 0;

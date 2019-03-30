@@ -1,13 +1,16 @@
+package BinaryTree;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
+ * int val;
+ * TreeNode left;
+ * TreeNode right;
+ * TreeNode(int x) { val = x; }
  * }
  */
-class ValidateBinarySearchTree {
+public class ValidateBinarySearchTree {
+
     public boolean isValidBST(TreeNode root) {
         return help(root, Long.MIN_VALUE, Long.MAX_VALUE);
     }

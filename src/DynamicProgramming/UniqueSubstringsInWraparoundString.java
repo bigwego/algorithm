@@ -1,4 +1,7 @@
-class UniqueSubstringsInWraparoundString {
+package DynamicProgramming;
+
+public class UniqueSubstringsInWraparoundString {
+
     public int findSubstringInWraproundString(String p) {
         int[] hash = new int[26];
         int maxLen = 1;

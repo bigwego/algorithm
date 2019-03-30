@@ -1,4 +1,7 @@
-class Solution {
+package Array;
+
+public class RemoveDuplicatesFromSortedArrayII {
+
     public int removeDuplicates(int[] nums) {
         if (nums.length < 3) {
             return nums.length;

@@ -1,7 +1,13 @@
+package String;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class EncodeAndDecodeStrings {
-    /*
+
+    /**
      * @param strs: a list of strings
-     * @return: encodes a list of strings to a single string.
+     * @return encodes a list of strings to a single string.
      */
     public String encode(List<String> strs) {
         StringBuilder sb = new StringBuilder();
@@ -11,9 +17,9 @@ public class EncodeAndDecodeStrings {
         return sb.toString();
     }
 
-    /*
+    /**
      * @param str: A string
-     * @return: dcodes a single string to a list of strings
+     * @return decodes a single string to a list of strings
      */
     public List<String> decode(String str) {
         List<String> res = new ArrayList<>();

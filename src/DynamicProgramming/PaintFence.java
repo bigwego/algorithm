@@ -1,11 +1,14 @@
+package DynamicProgramming;
+
 public class PaintFence {
+
     /**
      * @param n: non-negative integer, n posts
      * @param k: non-negative integer, k colors
-     * @return: an integer, the total number of ways
+     * @return an integer, the total number of ways
      */
     public int numWays(int n, int k) {
-        int[] dp = new int[]{0, k, k * k, 0};
+        int[] dp = new int[]{ 0, k, k * k, 0 };
         if (n <= 2) {
             return dp[n];
         }

@@ -1,13 +1,16 @@
+package BFS;
+
 public class WallsAndGates {
+
     /**
      * @param rooms: m x n 2D grid
-     * @return: nothing
      */
     public void wallsAndGates(int[][] rooms) {
         if (rooms == null || rooms.length == 0) {
             return;
         }
-        int m = rooms.length, n = rooms[0].length;
+        int m = rooms.length;
+        int n = rooms[0].length;
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 if (rooms[i][j] == 0) {

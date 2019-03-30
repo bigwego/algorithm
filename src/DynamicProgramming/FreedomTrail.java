@@ -1,6 +1,10 @@
-class FreedomTrail {
+package DynamicProgramming;
+
+public class FreedomTrail {
+
     public int findRotateSteps(String ring, String key) {
-        int m = key.length(), n = ring.length();
+        int m = key.length();
+        int n = ring.length();
         int[][] dp = new int[m + 1][n];
         for (int i = m - 1; i > -1; i--) {
             for (int j = 0; j < n; j++) {

@@ -1,4 +1,7 @@
+package String;
+
 public class ShortestWordDistance {
+
     public int shortestDistance(String[] words, String word1, String word2) {
         if (words == null || words.length < 2) {
             return 0;

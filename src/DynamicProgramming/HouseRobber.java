@@ -1,4 +1,7 @@
-class HouseRobber {
+package DynamicProgramming;
+
+public class HouseRobber {
+
     public int rob(int[] nums) {
         if (nums == null || nums.length == 0) {
             return 0;

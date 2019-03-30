@@ -1,15 +1,18 @@
+package BinaryTree;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
+ * int val;
+ * TreeNode left;
+ * TreeNode right;
+ * TreeNode(int x) { val = x; }
  * }
  */
 
 
 public class InorderSuccessorInBST {
+
     /*
      * @param root: The root of the BST.
      * @param p: You need find the successor node of p.

@@ -1,15 +1,24 @@
+package String;
+
 public class NextGreaterElementIII {
+
     public int nextGreaterElement(int n) {
         char[] chs = String.valueOf(n).toCharArray();
         int idx = chs.length - 2;
         while (idx > -1) {
-            if (chs[idx] < chs[idx + 1]) break;
+            if (chs[idx] < chs[idx + 1]) {
+                break;
+            }
             idx--;
         }
-        if (idx == -1) return -1;
+        if (idx == -1) {
+            return -1;
+        }
         int small = idx;
         int big = chs.length - 1;
-        while (big > small && chs[big] <= chs[small]) big--;
+        while (big > small && chs[big] <= chs[small]) {
+            big--;
+        }
         swap(chs, small, big);
         reverse(chs, small + 1, chs.length - 1);
         long res = Long.valueOf(new String(chs));

@@ -1,4 +1,10 @@
+package HashTable;
+
+import java.util.HashMap;
+import java.util.Map;
+
 class ContiguousArray {
+
     public int findMaxLength(int[] nums) {
         Map<Integer, Integer> map = new HashMap<>();
         map.put(0, -1);

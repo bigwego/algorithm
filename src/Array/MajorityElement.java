@@ -1,4 +1,7 @@
-class MajorityElement {
+package Array;
+
+public class MajorityElement {
+
     public int majorityElement(int[] nums) {
         int count = 0;
         Integer candidate = null;

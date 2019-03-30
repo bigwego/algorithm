@@ -1,4 +1,7 @@
-class Base7 {
+package Others;
+
+public class Base7 {
+
     public String convertToBase7(int num) {
         if (num == 0) {
             return "0";

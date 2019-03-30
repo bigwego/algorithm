@@ -1,12 +1,17 @@
+package LinkedList;
+
+import java.util.Stack;
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) { val = x; }
+ * int val;
+ * ListNode next;
+ * ListNode(int x) { val = x; }
  * }
  */
-class AddTwoNumbersII {
+public class AddTwoNumbersII {
+
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         Stack<Integer> s1 = new Stack<>();
         Stack<Integer> s2 = new Stack<>();
@@ -21,8 +26,12 @@ class AddTwoNumbersII {
         ListNode head = new ListNode(0);
         int sum = 0;
         while (!s1.isEmpty() || !s2.isEmpty()) {
-            if (!s1.isEmpty()) sum += s1.pop();
-            if (!s2.isEmpty()) sum += s2.pop();
+            if (!s1.isEmpty()) {
+                sum += s1.pop();
+            }
+            if (!s2.isEmpty()) {
+                sum += s2.pop();
+            }
             head.val = sum % 10;
             ListNode newHead = new ListNode(sum / 10);
             newHead.next = head;

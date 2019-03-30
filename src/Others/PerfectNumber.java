@@ -1,4 +1,7 @@
-class PerfectNumber {
+package Others;
+
+public class PerfectNumber {
+
     public boolean checkPerfectNumber(int num) {
         if (num == 1) {
             return false;

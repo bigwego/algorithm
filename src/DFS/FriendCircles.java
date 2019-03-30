@@ -1,4 +1,7 @@
-class FriendCircles {
+package DFS;
+
+public class FriendCircles {
+
     public int findCircleNum(int[][] M) {
         int[] visited = new int[M.length];
         int cnt = 0;

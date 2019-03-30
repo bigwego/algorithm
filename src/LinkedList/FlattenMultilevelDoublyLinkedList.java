@@ -1,23 +1,26 @@
-/*
-// Definition for a Node.
-class Node {
-    public int val;
-    public Node prev;
-    public Node next;
-    public Node child;
+package LinkedList;
 
-    public Node() {}
+/**
+ * // Definition for a Node.
+ * class Node {
+ * public int val;
+ * public Node prev;
+ * public Node next;
+ * public Node child;
+ * <p>
+ * public Node() {}
+ * <p>
+ * public Node(int _val,Node _prev,Node _next,Node _child) {
+ * val = _val;
+ * prev = _prev;
+ * next = _next;
+ * child = _child;
+ * }
+ * };
+ */
+public class FlattenMultilevelDoublyLinkedList {
 
-    public Node(int _val,Node _prev,Node _next,Node _child) {
-        val = _val;
-        prev = _prev;
-        next = _next;
-        child = _child;
-    }
-};
-*/
-class FlattenMultilevelDoublyLinkedList {
-    public Node flatten(Node head) {
+    private Node flatten(Node head) {
         Node p = head;
         while (p != null) {
             if (p.child != null) {

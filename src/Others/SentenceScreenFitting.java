@@ -1,6 +1,7 @@
 package Others;
 
 public class SentenceScreenFitting {
+
     /**
      * @param sentence: a list of string
      * @param rows:     an integer

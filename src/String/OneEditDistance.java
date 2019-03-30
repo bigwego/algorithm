@@ -1,8 +1,11 @@
+package String;
+
 public class OneEditDistance {
+
     /**
      * @param s: a string
      * @param t: a string
-     * @return: true if they are both one edit distance apart or false
+     * @return true if they are both one edit distance apart or false
      */
     public boolean isOneEditDistance(String s, String t) {
         if (s.equals(t)) {

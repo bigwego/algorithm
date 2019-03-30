@@ -1,7 +1,10 @@
+package DynamicProgramming;
+
 public class PaintHouse {
+
     /**
      * @param costs: n x 3 cost matrix
-     * @return: An integer, the minimum cost to paint all houses
+     * @return An integer, the minimum cost to paint all houses
      */
     public int minCost(int[][] costs) {
         if (costs == null || costs.length == 0) {

@@ -1,3 +1,5 @@
+package BFS;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedList;
@@ -13,6 +15,7 @@ import java.util.Map;
  * };
  */
 public class CloneGraph {
+
     public UndirectedGraphNode cloneGraph(UndirectedGraphNode node) {
         if (node == null) {
             return node;

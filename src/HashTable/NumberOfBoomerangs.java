@@ -1,4 +1,10 @@
-class NumberOfBoomerangs {
+package HashTable;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class NumberOfBoomerangs {
+
     public int numberOfBoomerangs(int[][] points) {
         int res = 0;
         for (int i = 0; i < points.length; i++) {
@@ -9,8 +15,9 @@ class NumberOfBoomerangs {
                     map.put(dist, map.getOrDefault(dist, 0) + 1);
                 }
             }
-            for (int val : map.values())
+            for (int val : map.values()) {
                 res += val * (val - 1);
+            }
         }
         return res;
     }

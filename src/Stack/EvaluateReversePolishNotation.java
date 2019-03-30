@@ -1,4 +1,9 @@
-class EvaluateReversePolishNotation {
+package Stack;
+
+import java.util.Stack;
+
+public class EvaluateReversePolishNotation {
+
     public int evalRPN(String[] tokens) {
         Stack<Integer> stack = new Stack<>();
         for (String token : tokens) {

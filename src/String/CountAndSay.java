@@ -1,6 +1,11 @@
-class CountAndSay {
-    public String countAndSay(int n) {
-        if (n == 1) return "1";
+package String;
+
+public class CountAndSay {
+
+    private String countAndSay(int n) {
+        if (n == 1) {
+            return "1";
+        }
         String tmp = countAndSay(n - 1);
         StringBuilder sb = new StringBuilder();
         int cnt = 1;

@@ -1,4 +1,9 @@
-class DecodeString {
+package Stack;
+
+import java.util.Stack;
+
+public class DecodeString {
+
     public String decodeString(String s) {
         Stack<String> strStack = new Stack<>();
         Stack<Integer> cntStack = new Stack<>();

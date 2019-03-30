@@ -1,14 +1,17 @@
+package BinaryTree;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
+ * int val;
+ * TreeNode left;
+ * TreeNode right;
+ * TreeNode(int x) { val = x; }
  * }
  */
-class AddOneRow2Tree {
-    public TreeNode addOneRow(TreeNode root, int v, int d) {
+public class AddOneRow2Tree {
+
+    private TreeNode addOneRow(TreeNode root, int v, int d) {
         if (d == 0 || d == 1) {
             TreeNode node = new TreeNode(v);
             node.left = d == 1 ? root : null;

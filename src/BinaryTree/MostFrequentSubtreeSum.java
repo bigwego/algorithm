@@ -1,15 +1,23 @@
+package BinaryTree;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
+ * int val;
+ * TreeNode left;
+ * TreeNode right;
+ * TreeNode(int x) { val = x; }
  * }
  */
-class MostFrequentSubtreeSum {
-    int maxCnt = 0;
-    Map<Integer, Integer> map = new HashMap<>();
+public class MostFrequentSubtreeSum {
+    private int maxCnt = 0;
+
+    private Map<Integer, Integer> map = new HashMap<>();
 
     public int[] findFrequentTreeSum(TreeNode root) {
         help(root);

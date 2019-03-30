@@ -1,4 +1,10 @@
-class MinimumNumberArrowsBurstBalloons {
+package Greedy;
+
+import java.util.Arrays;
+import java.util.Comparator;
+
+public class MinimumNumberArrowsBurstBalloons {
+
     public int findMinArrowShots(int[][] points) {
         if (points == null || points.length == 0) {
             return 0;

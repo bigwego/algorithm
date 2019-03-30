@@ -1,4 +1,7 @@
-class PalindromicSubstrings {
+package String;
+
+public class PalindromicSubstrings {
+
     private int cnt = 0;
 
     public int countSubstrings(String s) {

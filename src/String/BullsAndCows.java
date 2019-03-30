@@ -1,4 +1,7 @@
-class BullsAndCows {
+package String;
+
+public class BullsAndCows {
+
     public String getHint(String secret, String guess) {
         int[] hash = new int[10];
         int bulls = 0, cows = 0;

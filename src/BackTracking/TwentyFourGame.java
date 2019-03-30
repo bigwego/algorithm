@@ -1,12 +1,9 @@
+package BackTracking;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-/**
- * @author: ZHANG
- * @description:
- * @create: 2019/03/28
- **/
 public class TwentyFourGame {
 
     private final double eps = 0.001;

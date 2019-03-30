@@ -1,4 +1,9 @@
-class ContainsDuplicateIII {
+package BinaryTree;
+
+import java.util.TreeSet;
+
+public class ContainsDuplicateIII {
+
     public boolean containsNearbyAlmostDuplicate(int[] nums, int k, int t) {
         if (nums == null || nums.length == 0 || k < 1) {
             return false;
@@ -15,7 +20,7 @@ class ContainsDuplicateIII {
             }
             set.add((long) nums[i]);
             if (i >= k) {
-                set.remove((long)nums[i - k]);
+                set.remove((long) nums[i - k]);
             }
         }
         return false;

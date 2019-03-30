@@ -1,4 +1,7 @@
-class MaximumXOROfTwoNumbersInArray {
+package Trie;
+
+public class MaximumXOROfTwoNumbersInArray {
+
     public int findMaximumXOR(int[] nums) {
         if (nums == null || nums.length == 0) {
             return 0;
@@ -31,7 +34,7 @@ class MaximumXOROfTwoNumbersInArray {
         }
         return res;
     }
-    
+
     class TrieNode {
         TrieNode[] children = new TrieNode[2];
     }

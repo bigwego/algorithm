@@ -1,4 +1,7 @@
-class MaximumAverageSubarrayI {
+package SlidingWindow;
+
+public class MaximumAverageSubarrayI {
+
     public double findMaxAverage(int[] nums, int k) {
         double sum = 0, res = Integer.MIN_VALUE;
         for (int i = 0, len = nums.length; i < len; i++) {

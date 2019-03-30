@@ -1,3 +1,5 @@
+package BinaryTree;
+
 /*
 // Definition for a Node.
 class Node {
@@ -12,11 +14,14 @@ class Node {
     }
 };
 */
-class MaximumDepthOfNaryTree {
+public class MaximumDepthOfNaryTree {
+
     int res = 0;
 
-    public int maxDepth(Node root) {
-        if (root == null) return 0;
+    private int maxDepth(Node root) {
+        if (root == null) {
+            return 0;
+        }
         int max = 0;
         for (Node node : root.children) {
             max = Math.max(max, maxDepth(node));

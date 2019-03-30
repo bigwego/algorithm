@@ -1,7 +1,12 @@
+package String;
+
+import java.util.HashMap;
+import java.util.Map;
+
 public class WordAbbreviation {
     /**
      * @param dict: an array of n distinct non-empty strings
-     * @return: an array of minimal possible abbreviations for every word
+     * @return an array of minimal possible abbreviations for every word
      */
     public String[] wordsAbbreviation(String[] dict) {
         int len = dict.length;
@@ -23,13 +28,17 @@ public class WordAbbreviation {
                     map.put(res[i], map.getOrDefault(res[i], 0) + 1);
                 }
             }
-            if (unique) break;
+            if (unique) {
+                break;
+            }
         }
         return res;
     }
 
     private String getAbbr(int pre, String s) {
-        if (s.length() - pre < 3) return s;
+        if (s.length() - pre < 3) {
+            return s;
+        }
         return s.substring(0, pre) + (s.length() - pre - 1) + s.charAt(s.length() - 1);
     }
 }

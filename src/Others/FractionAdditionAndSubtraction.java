@@ -1,9 +1,15 @@
-class FractionAdditionAndSubtraction {
+package Others;
+
+import java.util.Scanner;
+
+public class FractionAdditionAndSubtraction {
+
     public String fractionAddition(String expression) {
         Scanner sc = new Scanner(expression).useDelimiter("/|(?=[-+])");
         int A = 0, B = 1;
         while (sc.hasNext()) {
-            int a = sc.nextInt(), b = sc.nextInt();
+            int a = sc.nextInt();
+            int b = sc.nextInt();
             A = A * b + B * a;
             B = B * b;
             int gcd = gcd(A, B);

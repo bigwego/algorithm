@@ -1,11 +1,18 @@
-class SubsetsII {
+package Array;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class SubsetsII {
+
     public List<List<Integer>> subsetsWithDup(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
         if (nums == null || nums.length == 0) {
             return res;
         }
         Arrays.sort(nums);
-        help(res, new ArrayList<Integer>(), nums, 0);
+        help(res, new ArrayList<>(), nums, 0);
         return res;
     }
 

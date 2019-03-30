@@ -1,4 +1,10 @@
+package Heap;
+
+import java.util.Comparator;
+import java.util.PriorityQueue;
+
 class IPO {
+
     public int findMaximizedCapital(int k, int W, int[] Profits, int[] Capital) {
         PriorityQueue<int[]> pQueue = new PriorityQueue<>(new Comparator<int[]>() {
             @Override
@@ -14,7 +20,7 @@ class IPO {
         });
 
         for (int i = 0; i < Profits.length; i++) {
-            cQueue.add(new int[]{Capital[i], Profits[i]});
+            cQueue.add(new int[]{ Capital[i], Profits[i] });
         }
 
         while (k-- > 0) {

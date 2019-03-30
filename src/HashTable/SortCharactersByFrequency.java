@@ -1,4 +1,12 @@
-class SortCharactersByFrequency {
+package HashTable;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class SortCharactersByFrequency {
+
     public String frequencySort(String s) {
         Map<Character, Integer> map = new HashMap<>();
         for (char c : s.toCharArray()) {

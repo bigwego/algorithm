@@ -1,13 +1,22 @@
-class Roman2Integer {
+package String;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Roman2Integer {
+
     public int romanToInt(String s) {
         int res = 0;
         Map<Character, Integer> map = new HashMap<>();
         init(map);
         char[] chs = s.toCharArray();
-        for (char c : chs) res += map.get(c);
+        for (char c : chs) {
+            res += map.get(c);
+        }
         for (int i = 0, len = chs.length; i < len - 1; i++) {
-            if (map.get(chs[i]) < map.get(chs[i + 1]))
+            if (map.get(chs[i]) < map.get(chs[i + 1])) {
                 res -= 2 * map.get(chs[i]);
+            }
         }
         return res;
     }

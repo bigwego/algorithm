@@ -1,8 +1,13 @@
-class ThirdMaximumNumber {
+package Array;
+
+public class ThirdMaximumNumber {
+
     public int thirdMax(int[] nums) {
         Integer max = null, sec_max = null, third_max = null;
         for (Integer num : nums) {
-            if (num.equals(max) || num.equals(sec_max) || num.equals(third_max)) continue;
+            if (num.equals(max) || num.equals(sec_max) || num.equals(third_max)) {
+                continue;
+            }
             if (max == null || num > max) {
                 third_max = sec_max;
                 sec_max = max;

@@ -1,7 +1,13 @@
+package String;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class FlipGame {
+
     /**
      * @param s: the given string
-     * @return: all the possible states of the string after one valid move
+     * @return all the possible states of the string after one valid move
      */
     public List<String> generatePossibleNextMoves(String s) {
         List<String> res = new ArrayList<>();

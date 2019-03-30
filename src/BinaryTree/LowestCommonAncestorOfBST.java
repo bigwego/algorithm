@@ -1,20 +1,23 @@
+package BinaryTree;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
+ * int val;
+ * TreeNode left;
+ * TreeNode right;
+ * TreeNode(int x) { val = x; }
  * }
  */
-class LowestCommonAncestorOfBST {
-    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+public class LowestCommonAncestorOfBST {
+
+    private TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if (root.val > Math.max(p.val, q.val)) {
-			return lowestCommonAncestor(root.left, p, q);
-		} else if (root.val < Math.min(p.val, q.val)) {
-			return lowestCommonAncestor(root.right, p, q);
-		} else {
-			return root;
-		} 
+            return lowestCommonAncestor(root.left, p, q);
+        } else if (root.val < Math.min(p.val, q.val)) {
+            return lowestCommonAncestor(root.right, p, q);
+        } else {
+            return root;
+        }
     }
 }

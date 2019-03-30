@@ -1,9 +1,13 @@
-class DiagonalTraverse {
+package Array;
+
+public class DiagonalTraverse {
+
     public int[] findDiagonalOrder(int[][] matrix) {
-        if(matrix == null || matrix.length == 0) {
+        if (matrix == null || matrix.length == 0) {
             return new int[]{};
         }
-        int m = matrix.length, n = matrix[0].length;
+        int m = matrix.length;
+        int n = matrix[0].length;
         int[] res = new int[m * n];
         int idx = 0, i = 0, j = 0;
         while (idx < res.length) {

@@ -1,4 +1,10 @@
-class RelativeRanks {
+package Array;
+
+import java.util.Arrays;
+import java.util.Comparator;
+
+public class RelativeRanks {
+
     public String[] findRelativeRanks(int[] nums) {
         Integer[] idx = new Integer[nums.length];
         for (int i = 0; i < idx.length; i++) {

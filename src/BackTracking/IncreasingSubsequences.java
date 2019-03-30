@@ -1,7 +1,16 @@
-class IncreasingSubsequences {
+package BackTracking;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Set;
+
+public class IncreasingSubsequences {
+
     public List<List<Integer>> findSubsequences(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
-        help(res, new LinkedList<Integer>(), 0, nums);
+        help(res, new LinkedList<>(), 0, nums);
         return res;
     }
 
@@ -11,7 +20,9 @@ class IncreasingSubsequences {
         }
         Set<Integer> set = new HashSet<>();
         for (int i = idx; i < nums.length; i++) {
-            if (set.contains(nums[i])) continue;
+            if (set.contains(nums[i])) {
+                continue;
+            }
             if (list.size() == 0 || nums[i] >= list.peekLast()) {
                 set.add(nums[i]);
                 list.add(nums[i]);

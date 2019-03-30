@@ -1,7 +1,15 @@
-class WordBreakII {
-    Map<String, List<String>> map = new HashMap<>();
+package BackTracking;
 
-    public List<String> wordBreak(String s, List<String> wordDict) {
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class WordBreakII {
+
+    private Map<String, List<String>> map = new HashMap<>();
+
+    private List<String> wordBreak(String s, List<String> wordDict) {
         if (map.containsKey(s)) {
             return map.get(s);
         }

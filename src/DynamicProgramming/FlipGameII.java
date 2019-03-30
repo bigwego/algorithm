@@ -1,11 +1,17 @@
+package DynamicProgramming;
+
+import java.util.HashMap;
+import java.util.Map;
+
 public class FlipGameII {
+
+    private Map<String, Boolean> map = new HashMap<>();
+
     /**
      * @param s: the given string
-     * @return: if the starting player can guarantee a win
+     * @return if the starting player can guarantee a win
      */
-    Map<String, Boolean> map = new HashMap<>();
-
-    public boolean canWin(String s) {
+    private boolean canWin(String s) {
         if (map.containsKey(s)) {
             return map.get(s);
         }

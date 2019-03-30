@@ -1,4 +1,13 @@
-class TheSkylineProblem {
+package Array;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
+import java.util.TreeMap;
+
+public class TheSkylineProblem {
+
     public List<int[]> getSkyline(int[][] buildings) {
         Point[] points = new Point[buildings.length * 2];
         for (int i = 0; i < buildings.length; i++) {
@@ -23,7 +32,7 @@ class TheSkylineProblem {
             }
             int currMax = map.lastKey();
             if (currMax != preMax) {
-                res.add(new int[]{point.pos, currMax});
+                res.add(new int[]{ point.pos, currMax });
                 preMax = currMax;
             }
         }
@@ -49,10 +58,12 @@ class TheSkylineProblem {
 
     class Point {
         int pos;
+
         int height;
+
         boolean up;
 
-        public Point(int pos, int height, boolean up) {
+        Point(int pos, int height, boolean up) {
             this.pos = pos;
             this.height = height;
             this.up = up;

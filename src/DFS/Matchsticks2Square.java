@@ -1,4 +1,9 @@
-class Matchsticks2Square {
+package DFS;
+
+import java.util.Arrays;
+
+public class Matchsticks2Square {
+
     public boolean makesquare(int[] nums) {
         if (nums == null || nums.length < 4) {
             return false;

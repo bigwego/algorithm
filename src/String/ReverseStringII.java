@@ -1,6 +1,11 @@
-class ReverseStringII {
+package String;
+
+public class ReverseStringII {
+
     public String reverseStr(String s, int k) {
-        if (k < 2) return s;
+        if (k < 2) {
+            return s;
+        }
         int idx = 0;
         char[] chs = s.toCharArray();
         while (idx < s.length()) {

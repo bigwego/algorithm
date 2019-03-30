@@ -1,4 +1,10 @@
-class HappyNumber {
+package HashTable;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class HappyNumber {
+
     public boolean isHappy(int n) {
         if (n == 1) {
             return true;
@@ -16,7 +22,7 @@ class HappyNumber {
         }
         return false;
     }
-    
+
     private int getHappy(int n) {
         int res = 0;
         while (n > 0) {

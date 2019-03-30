@@ -1,4 +1,7 @@
-class PredictWinner {
+package DynamicProgramming;
+
+public class PredictWinner {
+
     public boolean PredictTheWinner(int[] nums) {
         int m = nums.length;
         int[][] dp = new int[m][m];

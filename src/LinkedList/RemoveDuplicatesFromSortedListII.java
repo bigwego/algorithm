@@ -1,12 +1,15 @@
+package LinkedList;
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) { val = x; }
+ * int val;
+ * ListNode next;
+ * ListNode(int x) { val = x; }
  * }
  */
-class RemoveDuplicatesFromSortedListII {
+public class RemoveDuplicatesFromSortedListII {
+
     public ListNode deleteDuplicates(ListNode head) {
         if (head == null || head.next == null) {
             return head;
@@ -20,7 +23,7 @@ class RemoveDuplicatesFromSortedListII {
                 while (curr.next != null && curr.next.val == val) {
                     curr.next = curr.next.next;
                 }
-            }else {
+            } else {
                 curr = curr.next;
             }
         }

@@ -1,4 +1,11 @@
-class BrickWall {
+package HashTable;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class BrickWall {
+
     public int leastBricks(List<List<Integer>> wall) {
         Map<Integer, Integer> map = new HashMap<>();
         int cnt = 0;

@@ -1,4 +1,7 @@
+package BitManipulation;
+
 public class NumberOf1Bits {
+
     // you need to treat n as an unsigned value
     public int hammingWeight(int n) {
         int res = 0;

@@ -1,6 +1,10 @@
-class WordSearch {
+package DFS;
+
+public class WordSearch {
+
     public boolean exist(char[][] board, String word) {
-        int m = board.length, n = board[0].length;
+        int m = board.length;
+        int n = board[0].length;
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 if (dfs(board, m, n, i, j, 0, word)) {

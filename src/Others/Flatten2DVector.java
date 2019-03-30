@@ -1,38 +1,44 @@
+package Others;
+
+import java.util.Iterator;
+import java.util.List;
+
 public class Flatten2DVector implements Iterator<Integer> {
 
-    List<List<Integer>> list;
-        int elementIdx, listIdx;
+    private List<List<Integer>> list;
 
-        public Flatten2DVector(List<List<Integer>> vec2d) {
-            list = vec2d;
+    private int elementIdx, listIdx;
+
+    public Flatten2DVector(List<List<Integer>> vec2d) {
+        list = vec2d;
+        elementIdx = 0;
+        listIdx = 0;
+    }
+
+    @Override
+    public Integer next() {
+        return list.get(listIdx).get(elementIdx++);
+    }
+
+    @Override
+    public boolean hasNext() {
+        if (list == null || list.size() == 0) {
+            return false;
+        }
+        if (elementIdx == list.get(listIdx).size()) {
             elementIdx = 0;
-            listIdx = 0;
+            listIdx++;
         }
-
-        @Override
-        public Integer next() {
-            return list.get(listIdx).get(elementIdx++);
+        while (listIdx < list.size() && list.get(listIdx).size() == 0) {
+            listIdx++;
         }
+        return listIdx != list.size();
+    }
 
-        @Override
-        public boolean hasNext() {
-            if (list == null || list.size() == 0) {
-                return false;
-            }
-            if (elementIdx == list.get(listIdx).size()) {
-                elementIdx = 0;
-                listIdx++;
-            }
-            while (listIdx < list.size() && list.get(listIdx).size() == 0) {
-                listIdx++;
-            }
-            return listIdx != list.size();
-        }
+    @Override
+    public void remove() {
 
-        @Override
-        public void remove() {
-
-        }
+    }
 }
 
 /**

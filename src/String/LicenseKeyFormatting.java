@@ -1,4 +1,7 @@
-class LicenseKeyFormatting {
+package String;
+
+public class LicenseKeyFormatting {
+
     public String licenseKeyFormatting(String S, int K) {
         StringBuilder sb = new StringBuilder();
         for (int i = S.length() - 1; i > -1; i--) {

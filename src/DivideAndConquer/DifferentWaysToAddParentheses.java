@@ -1,5 +1,11 @@
-class DifferentWaysToAddParentheses {
-    public List<Integer> diffWaysToCompute(String input) {
+package DivideAndConquer;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class DifferentWaysToAddParentheses {
+
+    private List<Integer> diffWaysToCompute(String input) {
         List<Integer> res = new ArrayList<>();
         char[] chs = input.toCharArray();
         for (int i = 0; i < chs.length; i++) {

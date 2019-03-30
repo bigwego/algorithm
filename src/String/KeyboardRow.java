@@ -1,7 +1,15 @@
-class KeyboardRow {
+package String;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class KeyboardRow {
+
     public String[] findWords(String[] words) {
         List<String> list = new ArrayList<>();
-        String[] lines = new String[]{"qwertyuiop", "asdfghjkl", "zxcvbnm"};
+        String[] lines = new String[]{ "qwertyuiop", "asdfghjkl", "zxcvbnm" };
         Map<Character, Integer> map = new HashMap<>();
         for (int i = 0; i < lines.length; i++) {
             for (char c : lines[i].toCharArray()) {
@@ -9,7 +17,9 @@ class KeyboardRow {
             }
         }
         for (String word : words) {
-            if (word == "") continue;
+            if (word == "") {
+                continue;
+            }
             String w = word.toLowerCase();
             int idx = map.get(w.charAt(0));
             for (char c : w.toCharArray()) {

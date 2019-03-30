@@ -1,10 +1,13 @@
-class TargetSum {
+package DynamicProgramming;
+
+public class TargetSum {
+
     public int findTargetSumWays(int[] nums, int S) {
         int sum = 0;
         for (int num : nums) {
             sum += num;
         }
-        return sum < S||(sum + S) % 2 != 0 ? 0 : help(nums, (sum + S) >>> 1);
+        return sum < S || (sum + S) % 2 != 0 ? 0 : help(nums, (sum + S) >>> 1);
     }
 
     private int help(int[] nums, int target) {

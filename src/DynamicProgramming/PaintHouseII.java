@@ -1,14 +1,18 @@
+package DynamicProgramming;
+
 public class PaintHouseII {
+
     /**
      * @param costs: n x k cost matrix
-     * @return: an integer, the minimum cost to paint all houses
+     * @return an integer, the minimum cost to paint all houses
      */
     public int minCostII(int[][] costs) {
         if (costs == null || costs.length == 0) {
             return 0;
         }
         int preMin1 = -1, preMin2 = -1;
-        int m = costs.length, k = costs[0].length;
+        int m = costs.length;
+        int k = costs[0].length;
         for (int i = 0; i < m; i++) {
             int nextMin1 = -1, nextMin2 = -1;
             for (int j = 0; j < k; j++) {

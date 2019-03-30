@@ -1,22 +1,25 @@
+package BinaryTree;
+
 /**
  * Definition of TreeNode:
  * public class TreeNode {
- *     public int val;
- *     public TreeNode left, right;
- *     public TreeNode(int val) {
- *         this.val = val;
- *         this.left = this.right = null;
- *     }
+ * public int val;
+ * public TreeNode left, right;
+ * public TreeNode(int val) {
+ * this.val = val;
+ * this.left = this.right = null;
+ * }
  * }
  */
 
 public class BinaryTreeLongestConsecutiveSequenceII {
-    /**
-     * @param root: the root of binary tree
-     * @return: the length of the longest consecutive sequence path
-     */
+
     int max = 0;
 
+    /**
+     * @param root: the root of binary tree
+     * @return the length of the longest consecutive sequence path
+     */
     public int longestConsecutive2(TreeNode root) {
         if (root == null) {
             return 0;
@@ -45,6 +48,6 @@ public class BinaryTreeLongestConsecutiveSequenceII {
             dec = Math.max(dec, right[1] + 1);
         }
         max = Math.max(max, inc + dec - 1);
-        return new int[]{inc, dec};
+        return new int[]{ inc, dec };
     }
 }

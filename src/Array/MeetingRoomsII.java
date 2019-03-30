@@ -1,25 +1,32 @@
+package Array;
+
+import java.util.Arrays;
+import java.util.List;
+
 /**
  * Definition of Interval:
  * public classs Interval {
- *     int start, end;
- *     Interval(int start, int end) {
- *         this.start = start;
- *         this.end = end;
- *     }
+ * int start, end;
+ * Interval(int start, int end) {
+ * this.start = start;
+ * this.end = end;
+ * }
  * }
  */
 
 public class MeetingRoomsII {
+
     /**
      * @param intervals: an array of meeting time intervals
-     * @return: the minimum number of conference rooms required
+     * @return the minimum number of conference rooms required
      */
     public int minMeetingRooms(List<Interval> intervals) {
         if (intervals == null || intervals.size() == 0) {
             return 0;
         }
         int size = intervals.size();
-        int[] starts = new int[size], ends = new int[size];
+        int[] starts = new int[size];
+        int[] ends = new int[size];
         for (int i = 0; i < size; i++) {
             starts[i] = intervals.get(i).start;
             ends[i] = intervals.get(i).end;

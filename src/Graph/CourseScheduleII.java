@@ -1,4 +1,9 @@
-class CourseScheduleII {
+package Graph;
+
+import java.util.LinkedList;
+
+public class CourseScheduleII {
+
     public int[] findOrder(int numCourses, int[][] prerequisites) {
         int[] indegrees = new int[numCourses];
         for (int[] pre : prerequisites) {

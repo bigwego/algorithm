@@ -1,13 +1,21 @@
+package BackTracking;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import BinaryTree.TreeNode;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
+ * int val;
+ * TreeNode left;
+ * TreeNode right;
+ * TreeNode(int x) { val = x; }
  * }
  */
-class PathSumIII {
+public class PathSumIII {
+
     public int pathSum(TreeNode root, int sum) {
         Map<Integer, Integer> map = new HashMap<>();
         map.put(0, 1);

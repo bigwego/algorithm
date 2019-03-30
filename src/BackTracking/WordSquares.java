@@ -1,7 +1,15 @@
+package BackTracking;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 public class WordSquares {
-    /*
+
+    /**
      * @param words: a set of words without duplicates
-     * @return: all word squares
+     * @return all word squares
      */
     public List<List<String>> wordSquares(String[] words) {
         List<List<String>> res = new ArrayList<>();
@@ -36,7 +44,9 @@ public class WordSquares {
         for (String word : path) {
             prefix += word.charAt(pre);
         }
-        if (!map.containsKey(prefix)) return;
+        if (!map.containsKey(prefix)) {
+            return;
+        }
         for (String next : map.get(prefix)) {
             path.add(next);
             dfs(res, path, pre + 1, map, len);

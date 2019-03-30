@@ -1,10 +1,16 @@
-class Subsets {
+package Array;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Subsets {
+
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
         if (nums == null || nums.length == 0) {
             return res;
         }
-        help(res, new ArrayList<Integer>(), nums, 0);
+        help(res, new ArrayList<>(), nums, 0);
         return res;
     }
 

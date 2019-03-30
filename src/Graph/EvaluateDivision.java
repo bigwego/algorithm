@@ -1,4 +1,11 @@
-class EvaluateDivision {
+package Graph;
+
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+
+public class EvaluateDivision {
+
     public double[] calcEquation(String[][] equations, double[] values, String[][] queries) {
         Map<String, Map<String, Double>> map = new HashMap<>();
         for (int i = 0; i < equations.length; i++) {
@@ -14,7 +21,7 @@ class EvaluateDivision {
         }
         double[] res = new double[queries.length];
         for (int i = 0; i < res.length; i++) {
-            res[i] = dfs(map, queries[i][0], queries[i][1], new HashSet<String>(), 1);
+            res[i] = dfs(map, queries[i][0], queries[i][1], new HashSet<>(), 1);
         }
         return res;
     }
