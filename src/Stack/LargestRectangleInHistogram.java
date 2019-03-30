@@ -1,4 +1,9 @@
-class LargestRectangleInHistogram {
+package Stack;
+
+import java.util.Stack;
+
+public class LargestRectangleInHistogram {
+
     public int largestRectangleArea(int[] heights) {
         if (heights == null || heights.length == 0) {
             return 0;
