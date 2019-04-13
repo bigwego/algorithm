@@ -23,9 +23,9 @@ import java.util.List;
  */
 public class NestedIterator implements Iterator<Integer> {
 
-    private List<Integer> nums;
+    private final List<Integer> nums;
 
-    private Iterator<Integer> it;
+    private final Iterator<Integer> it;
 
     public NestedIterator(List<NestedInteger> nestedList) {
         nums = new ArrayList<>();
@@ -53,14 +53,6 @@ public class NestedIterator implements Iterator<Integer> {
                 add(list, next);
             }
         }
-    }
-
-    interface NestedInteger {
-        boolean isInteger();
-
-        Integer getInteger();
-
-        List<NestedInteger> getList();
     }
 }
 

@@ -1,32 +1,19 @@
-package BackTracking;
-
-import java.util.HashSet;
+package DynamicProgramming;
 
 public class CountNumbersWithUniqueDigits {
 
-    int res = 0;
-
     public int countNumbersWithUniqueDigits(int n) {
-        if (n < 2) {
-            return (int) Math.pow(10, n);
+        if (n < 1) {
+            return 1;
         }
-        help(new HashSet<>(), n);
+        int res = 10;
+        int availableNumbers = 9;
+        int currUniqueDigits = 9;
+        while (n-- > 1 && availableNumbers > 0) {
+            currUniqueDigits *= availableNumbers;
+            res += currUniqueDigits;
+            availableNumbers--;
+        }
         return res;
-    }
-
-    private void help(HashSet<Integer> digits, int n) {
-        if (digits.size() > 0) {
-            res++;
-        }
-        if (digits.size() == n) {
-            return;
-        }
-        for (int i = 0; i <= 9; i++) {
-            if (!digits.contains(i)) {
-                digits.add(i);
-                help(digits, n);
-                digits.remove(i);
-            }
-        }
     }
 }
