@@ -39,4 +39,35 @@ public class MinimumGeneticMutation {
         }
         return -1;
     }
+
+    public int minMutation2(String start, String end, String[] bank) {
+        Set<String> genes = new HashSet<>(Arrays.asList(bank));
+        char[] chs = new char[]{ 'A', 'C', 'G', 'T' };
+        LinkedList<String> queue = new LinkedList<>();
+        queue.add(start);
+        int res = 1;
+        while (!queue.isEmpty()) {
+            for (int i = 0, sz = queue.size(); i < sz; i++) {
+                String curr = queue.poll();
+                if (curr.equals(end)) {
+                    return res;
+                }
+                for (int j = 0, len = curr.length(); j < len; j++) {
+                    char[] tmp = curr.toCharArray();
+                    for (char c : chs) {
+                        if (c != tmp[j]) {
+                            tmp[j] = c;
+                            String tmpStr = String.valueOf(tmp);
+                            if (genes.contains(tmpStr)) {
+                                queue.add(tmpStr);
+                                genes.remove(tmpStr);
+                            }
+                        }
+                    }
+                }
+            }
+            res++;
+        }
+        return -1;
+    }
 }

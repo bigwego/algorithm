@@ -8,5 +8,9 @@ public interface NestedInteger {
 
     Integer getInteger();
 
+    void setInteger(int value);
+
     List<NestedInteger> getList();
+
+    void add(NestedInteger ni);
 }

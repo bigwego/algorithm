@@ -13,7 +13,9 @@ import java.util.LinkedList;
  */
 class MinimumDepthOfBinaryTree {
 
-    public int minDepth(TreeNode root) {
+    private int res = Integer.MAX_VALUE;
+
+    public int minDepth1(TreeNode root) {
         if (root == null) {
             return 0;
         }
@@ -37,5 +39,21 @@ class MinimumDepthOfBinaryTree {
             }
         }
         return depth;
+    }
+
+    public int minDepth2(TreeNode root) {
+        help(root, 1);
+        return res == Integer.MAX_VALUE ? 0 : res;
+    }
+
+    private void help(TreeNode root, int depth) {
+        if (root == null) {
+            return;
+        }
+        if (root.left == null && root.right == null) {
+            res = Math.min(res, depth);
+        }
+        help(root.left, depth + 1);
+        help(root.right, depth + 1);
     }
 }

@@ -4,14 +4,15 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Random;
 
 public class InsertDeleteGetRandomO {
 
-    private Map<Integer, Integer> map;
+    private final Map<Integer, Integer> map;
 
-    private List<Integer> nums;
+    private final List<Integer> nums;
 
-    private java.util.Random random;
+    private final Random random;
 
     public InsertDeleteGetRandomO() {
         map = new HashMap<>();

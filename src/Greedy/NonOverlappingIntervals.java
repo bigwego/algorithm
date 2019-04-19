@@ -1,6 +1,7 @@
 package Greedy;
 
 import java.util.Arrays;
+import java.util.Comparator;
 
 /**
  * Definition for an interval.
@@ -17,9 +18,7 @@ public class NonOverlappingIntervals {
         if (intervals == null || intervals.length == 0) {
             return 0;
         }
-        Arrays.sort(intervals, (o1, o2) -> {
-            return o1.end - o2.end;
-        });
+        Arrays.sort(intervals, Comparator.comparingInt(o -> o.end));
         int cnt = 1, end = intervals[0].end;
         for (Interval it : intervals) {
             if (it.start >= end) {

@@ -23,6 +23,10 @@ import java.util.Stack;
  */
 
 public class ConvertBST2DoublyLinkedList {
+    private DoublyListNode prev;
+
+    private DoublyListNode head;
+
     /**
      * @param root: The root of tree
      * @return the head of doubly list node
@@ -50,6 +54,26 @@ public class ConvertBST2DoublyLinkedList {
             root = root.right;
         }
         return res;
+    }
+
+    public DoublyListNode bstToDoublyList2(TreeNode root) {
+        help(root);
+        return head;
+    }
+
+    private void help(TreeNode node) {
+        if (node == null) {
+            return;
+        }
+        help(node.left);
+        DoublyListNode curr = new DoublyListNode(node.val);
+        curr.prev = prev;
+        if (prev != null) {
+            prev.next = curr;
+        } else {
+            head = curr;
+        }
+        help(node.right);
     }
 
     private class DoublyListNode {
