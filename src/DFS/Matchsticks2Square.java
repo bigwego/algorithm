@@ -49,4 +49,34 @@ public class Matchsticks2Square {
             nums[j--] = tmp;
         }
     }
+
+    public boolean makesquare2(int[] nums) {
+        int sum = 0;
+        for (int num : nums) {
+            sum += num;
+        }
+        if (sum % 4 != 0) {
+            return false;
+        }
+        Arrays.sort(nums);
+        int side = sum / 4;
+        return help(nums, nums.length - 1, new int[]{ side, side, side, side });
+    }
+
+    private boolean help(int[] nums, int idx, int[] sides) {
+        if (idx == -1) {
+            return sides[0] == 0 && sides[1] == 0 && sides[2] == 0 && sides[3] == 0;
+        }
+        for (int i = 0; i < 4; i++) {
+            if (nums[idx] > sides[i]) {
+                continue;
+            }
+            sides[i] -= nums[idx];
+            if (help(nums, idx + 1, sides)) {
+                return true;
+            }
+            sides[i] += nums[idx];
+        }
+        return false;
+    }
 }

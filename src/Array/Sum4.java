@@ -9,7 +9,7 @@ import java.util.List;
  * @description:
  * @create: 2019/03/28
  **/
-public class FourSum {
+public class Sum4 {
 
     public List<List<Integer>> fourSum(int[] nums, int target) {
         List<List<Integer>> res = new ArrayList<>();

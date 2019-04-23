@@ -18,4 +18,21 @@ public class Pattern132 {
         }
         return false;
     }
+
+    public boolean find132pattern2(int[] nums) {
+        int len = nums.length;
+        int top = len;
+        int[] stack = new int[len];
+        int second = Integer.MIN_VALUE;
+        for (int i = len - 1; i > -1; i--) {
+            if (nums[i] < second) {
+                return true;
+            }
+            while (top < len && stack[top] < nums[i]) {
+                second = stack[top++];
+            }
+            stack[--top] = nums[i];
+        }
+        return false;
+    }
 }
