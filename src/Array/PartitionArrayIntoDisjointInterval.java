@@ -25,4 +25,19 @@ public class PartitionArrayIntoDisjointInterval {
         }
         return -1;
     }
+
+    public int partitionDisjoint2(int[] A) {
+        int partitionId = 0;
+        int localMax = A[0];
+        int max = A[0];
+        for (int i = 1, len = A.length; i < len; i++) {
+            if (A[i] < localMax) {
+                partitionId = i + 1;
+                localMax = max;
+            } else {
+                max = Math.max(max, A[i]);
+            }
+        }
+        return partitionId + 1;
+    }
 }

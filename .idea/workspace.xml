@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a720b7d4-b752-46a3-b325-eddac017ec52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/PartitionArrayIntoDisjointInterval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AtomicDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BFS/ColoringBorder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DFS/ColoringBorder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/SatisfiabilityOfEqualityEquations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/VowelSpellchecker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/BrokenCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/BrokenCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/PartitionArrayIntoDisjointInterval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/PartitionArrayIntoDisjointInterval.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -93,11 +87,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Array/PartitionArrayIntoDisjointInterval.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="745">
+              <caret line="40" column="31" selection-start-line="29" selection-end-line="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/String/VowelSpellchecker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -148,7 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Array/BinaryPrefixDivisibleBy5.java" />
         <option value="$PROJECT_DIR$/src/HashTable/RemoveOutermostParentheses.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/SumOfRoot2LeafBinaryNumbers.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/TwoCityScheduling.java" />
@@ -199,6 +204,7 @@
         <option value="$PROJECT_DIR$/src/DFS/ColoringBorde.java" />
         <option value="$PROJECT_DIR$/src/DFS/ColoringBorder.java" />
         <option value="$PROJECT_DIR$/src/Array/PartitionArrayIntoDisjointInterval.java" />
+        <option value="$PROJECT_DIR$/src/String/VowelSpellchecker.java" />
       </list>
     </option>
   </component>
@@ -241,6 +247,12 @@
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="DFS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="String" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -375,12 +387,12 @@
       <workItem from="1558162306772" duration="29000" />
       <workItem from="1558162355686" duration="152000" />
       <workItem from="1558162604673" duration="1578000" />
-      <workItem from="1558223016791" duration="2056000" />
+      <workItem from="1558223016791" duration="3946000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119171000" />
+    <option name="totallyTimeSpent" value="121061000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -417,17 +429,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/lang/Character.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="194" column="29" selection-start-line="194" selection-start-column="29" selection-end-line="194" selection-end-column="29" />
-          <folding>
-            <element signature="e#190944#190945#0" expanded="true" />
-            <element signature="e#190987#190988#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/String/ReverseWordsInStringIII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -838,8 +839,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/PartitionArrayIntoDisjointInterval.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="745">
+          <caret line="40" column="31" selection-start-line="29" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/String/VowelSpellchecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
