@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a720b7d4-b752-46a3-b325-eddac017ec52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Stack/ScoreOfParentheses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String/WordSubSets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/WordSubSets.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,8 +45,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/String/WordSubSets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            <state relative-caret-position="779">
+              <caret line="41" column="5" selection-start-line="7" selection-end-line="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,7 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Others/MovingStonesUntilConsecutive.java" />
         <option value="$PROJECT_DIR$/src/Array/MaximumWidthRamp.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/BinaryTreesWithFactors.java" />
         <option value="$PROJECT_DIR$/src/String/CamelcaseMatching.java" />
@@ -124,6 +125,7 @@
         <option value="$PROJECT_DIR$/src/Solution.java" />
         <option value="$PROJECT_DIR$/src/HashTable/DesignHashMap.java" />
         <option value="$PROJECT_DIR$/src/Stack/ScoreOfParentheses.java" />
+        <option value="$PROJECT_DIR$/src/String/WordSubSets.java" />
       </list>
     </option>
   </component>
@@ -301,12 +303,12 @@
       <workItem from="1558162355686" duration="152000" />
       <workItem from="1558162604673" duration="1578000" />
       <workItem from="1558223016791" duration="4955000" />
-      <workItem from="1558237128818" duration="12272000" />
+      <workItem from="1558237128818" duration="12702000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134342000" />
+    <option name="totallyTimeSpent" value="134772000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -813,8 +815,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/String/WordSubSets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        <state relative-caret-position="779">
+          <caret line="41" column="5" selection-start-line="7" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
