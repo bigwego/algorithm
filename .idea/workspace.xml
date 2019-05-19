@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a720b7d4-b752-46a3-b325-eddac017ec52" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/String/WordSubSets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/WordSubSets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/CheckIfWordIsValidAfterSubstitutions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,14 +43,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/String/WordSubSets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="779">
-              <caret line="41" column="5" selection-start-line="7" selection-end-line="42" />
+            <state relative-caret-position="380">
+              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/String/CheckIfWordIsValidAfterSubstitutions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="87" selection-start-line="5" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -75,7 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Array/MaximumWidthRamp.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/BinaryTreesWithFactors.java" />
         <option value="$PROJECT_DIR$/src/String/CamelcaseMatching.java" />
         <option value="$PROJECT_DIR$/src/BackTracking/NumberOfSquarefulArrays.java" />
@@ -126,6 +135,7 @@
         <option value="$PROJECT_DIR$/src/HashTable/DesignHashMap.java" />
         <option value="$PROJECT_DIR$/src/Stack/ScoreOfParentheses.java" />
         <option value="$PROJECT_DIR$/src/String/WordSubSets.java" />
+        <option value="$PROJECT_DIR$/src/String/CheckIfWordIsValidAfterSubstitutions.java" />
       </list>
     </option>
   </component>
@@ -303,12 +313,12 @@
       <workItem from="1558162355686" duration="152000" />
       <workItem from="1558162604673" duration="1578000" />
       <workItem from="1558223016791" duration="4955000" />
-      <workItem from="1558237128818" duration="12702000" />
+      <workItem from="1558237128818" duration="13110000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134772000" />
+    <option name="totallyTimeSpent" value="135180000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -345,16 +355,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Array/VideoStitching.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/String/CamelcaseMatching.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -815,11 +815,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/String/WordSubSets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="41" column="5" selection-start-line="7" selection-end-line="42" />
+        <state relative-caret-position="380">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/String/CheckIfWordIsValidAfterSubstitutions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="87" selection-start-line="5" selection-end-line="10" />
         </state>
       </provider>
     </entry>
