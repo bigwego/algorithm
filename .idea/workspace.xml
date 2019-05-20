@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a720b7d4-b752-46a3-b325-eddac017ec52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BinaryTree/AllNodesDistanceKInBT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinaryTree/RangeSumOfBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BFS/CutOffTreesForGolfEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BFS/SnakesAndLadders.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/META-INF/algorithm.kotlin_module" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,7 +71,28 @@
         <entry file="file://$PROJECT_DIR$/src/BinaryTree/AllNodesDistanceKInBT.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="521">
-              <caret line="47" column="21" lean-forward="true" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+              <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BinaryTree/RangeSumOfBST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BFS/CutOffTreesForGolfEvent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="65" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,10 +101,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/BinaryTree/RangeSumOfBST.java">
+        <entry file="file://$PROJECT_DIR$/src/BFS/SnakesAndLadders.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="5" selection-start-line="4" selection-end-line="23" />
+            <state relative-caret-position="681">
+              <caret line="38" column="18" selection-start-line="7" selection-end-line="39" />
             </state>
           </provider>
         </entry>
@@ -111,8 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Array/RLEIterator.java" />
-        <option value="$PROJECT_DIR$/src/DynamicProgramming/LongestArithmeticSequence.java" />
         <option value="$PROJECT_DIR$/src/Array/PancakeSorting.java" />
         <option value="$PROJECT_DIR$/src/HashTable/DesignHashMap.java" />
         <option value="$PROJECT_DIR$/src/Stack/ScoreOfParentheses.java" />
@@ -162,6 +180,8 @@
         <option value="$PROJECT_DIR$/src/Solution.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/AllNodesDistanceKInBT.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/RangeSumOfBST.java" />
+        <option value="$PROJECT_DIR$/src/BFS/CutOffTreesForGolfEvent.java" />
+        <option value="$PROJECT_DIR$/src/BFS/SnakesAndLadders.java" />
       </list>
     </option>
   </component>
@@ -192,6 +212,12 @@
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="BFS" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -351,12 +377,12 @@
       <workItem from="1558162604673" duration="1578000" />
       <workItem from="1558223016791" duration="4955000" />
       <workItem from="1558237128818" duration="30638000" />
-      <workItem from="1558357313222" duration="3695000" />
+      <workItem from="1558357313222" duration="7061000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156403000" />
+    <option name="totallyTimeSpent" value="159769000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -393,8 +419,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/factory/factorymethod/ICourseFactory.java" />
-    <entry file="file://$PROJECT_DIR$/src/factory/simplefactory/CourseFactory.java" />
     <entry file="file://$PROJECT_DIR$/src/factory/factorymethod/JavaCourseFactory.java" />
     <entry file="file://$PROJECT_DIR$/src/factory/factorymethod/PythonCourseFactory.java" />
     <entry file="file://$PROJECT_DIR$/src/factory/simplefactory/PythonCourse.java" />
@@ -619,7 +643,7 @@
     <entry file="file://$PROJECT_DIR$/src/BinaryTree/AllNodesDistanceKInBT.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="521">
-          <caret line="47" column="21" lean-forward="true" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -628,8 +652,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryTree/RangeSumOfBST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="5" selection-start-line="4" selection-end-line="23" />
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BFS/CutOffTreesForGolfEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="65" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BFS/SnakesAndLadders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret line="38" column="18" selection-start-line="7" selection-end-line="39" />
         </state>
       </provider>
     </entry>
