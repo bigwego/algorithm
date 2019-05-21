@@ -34,7 +34,7 @@ public class SnakesAndLadders {
                     }
                 }
             }
-            res++
+            res++;
         }
 
         return -1;
