@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a720b7d4-b752-46a3-b325-eddac017ec52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Greedy/SmallestRangeII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashTable/OnlineElection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -35,10 +35,13 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Greedy/SmallestRangeII.java">
+        <entry file="file://$PROJECT_DIR$/src/HashTable/OnlineElection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+            <state relative-caret-position="659">
+              <caret line="33" column="5" selection-start-line="8" selection-end-line="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,7 +68,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/factory/simplefactory/JavaCourse.java" />
         <option value="$PROJECT_DIR$/src/factory/simplefactory/SimpleFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/factory/simplefactory/CourseFactory.java" />
         <option value="$PROJECT_DIR$/src/factory/factorymethod/JavaCourseFactory.java" />
@@ -116,6 +118,7 @@
         <option value="$PROJECT_DIR$/src/BinaryTree/CompleteBinaryTreeInserter.java" />
         <option value="$PROJECT_DIR$/src/Stack/MinimumAdd2MakeParenthesesValid.java" />
         <option value="$PROJECT_DIR$/src/Greedy/SmallestRangeII.java" />
+        <option value="$PROJECT_DIR$/src/HashTable/OnlineElection.java" />
       </list>
     </option>
   </component>
@@ -163,6 +166,12 @@
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Greedy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="HashTable" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -325,12 +334,12 @@
       <workItem from="1558237128818" duration="30638000" />
       <workItem from="1558357313222" duration="10046000" />
       <workItem from="1558410925689" duration="166000" />
-      <workItem from="1558476518574" duration="3750000" />
+      <workItem from="1558476518574" duration="4876000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166670000" />
+    <option name="totallyTimeSpent" value="167796000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -367,7 +376,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/singleton/hungry/HungrySingleton.java" />
     <entry file="file://$PROJECT_DIR$/src/singleton/lazy/LazySimpleSingleton.java" />
     <entry file="file://$PROJECT_DIR$/src/singleton/lazy/LazySingleDoubleCheck.java" />
     <entry file="file://$PROJECT_DIR$/src/singleton/lazy/LazySingleInnerClass.java" />
@@ -564,8 +572,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Greedy/SmallestRangeII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+        <state relative-caret-position="391">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HashTable/OnlineElection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="659">
+          <caret line="33" column="5" selection-start-line="8" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
