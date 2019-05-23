@@ -26,4 +26,22 @@ public class SmallestStartingFromLeaf {
             help(node.right, list, tmp);
         }
     }
+
+    private String smallestFromLeaf2(TreeNode root) {
+        if (root == null) {
+            return "";
+        }
+        String l = smallestFromLeaf2(root.left);
+        String r = smallestFromLeaf2(root.right);
+        int lenL = l.length();
+        int lenR = r.length();
+        if (lenL > 0 && lenR > 0) {
+            return (l.compareTo(r) < 0 ? l : r) + (char) (root.val + 'a');
+        }
+        if (lenL > 0) {
+            return l + (char) (root.val + 'a');
+        } else {
+            return r + (char) (root.val + 'a');
+        }
+    }
 }
