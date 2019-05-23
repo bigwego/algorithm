@@ -16,10 +16,7 @@ public class SwapAdjacentInLRString {
             if (i == len && j == len) {
                 return true;
             }
-            if (i == len && j != len) {
-                return false;
-            }
-            if (i != len && j == len) {
+            if (i == len || j == len) {
                 return false;
             }
             if (start.charAt(i) != end.charAt(j)) {
