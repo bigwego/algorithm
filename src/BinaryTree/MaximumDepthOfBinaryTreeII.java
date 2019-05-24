@@ -14,7 +14,7 @@ class Node {
     }
 };
 */
-public class MaximumDepthOfNaryTree {
+public class MaximumDepthOfBinaryTreeII {
 
     int res = 0;
 
