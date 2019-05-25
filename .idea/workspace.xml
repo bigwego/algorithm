@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a720b7d4-b752-46a3-b325-eddac017ec52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/KnightDialer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/MinimumAreaRectangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,13 +34,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HashTable/MinimumAreaRectangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
+            <state>
               <caret line="28" column="50" selection-start-line="10" selection-end-line="29" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+              <folding>
+                <element signature="e#68#69#0" expanded="true" />
+                <element signature="e#104#105#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,7 +101,6 @@
         <option value="$PROJECT_DIR$/src/template/course/BigDataCourse.java" />
         <option value="$PROJECT_DIR$/src/template/jdbc/RowMapper.java" />
         <option value="$PROJECT_DIR$/src/template/jdbc/JdbcTemplate.java" />
-        <option value="$PROJECT_DIR$/src/Solution.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/AllNodesDistanceKInBT.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/RangeSumOfBST.java" />
         <option value="$PROJECT_DIR$/src/BFS/CutOffTreesForGolfEvent.java" />
@@ -120,6 +131,7 @@
         <option value="$PROJECT_DIR$/src/BFS/ShortestBridge.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/KnightDialer.java" />
         <option value="$PROJECT_DIR$/src/HashTable/MinimumAreaRectangle.java" />
+        <option value="$PROJECT_DIR$/src/Solution.java" />
       </list>
     </option>
   </component>
@@ -129,7 +141,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -138,6 +150,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,8 +246,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -265,7 +277,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SlidingWindowMaximum">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="ArrayOfDoubledPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Array.ArrayOfDoubledPairs" />
       <module name="algorithm" />
@@ -290,6 +302,14 @@
     <configuration name="SlidingWindowMaximum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Array.SlidingWindowMaximum" />
       <module name="algorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
+      <module name="algorithm" />
+      <option name="VM_PARAMETERS" value="-XX:+PrintGCDetails" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -324,8 +344,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.ArrayOfDoubledPairs" />
+      <item itemvalue="Application.AtomicDemo" />
+      <item itemvalue="Application.PersonProxy" />
+      <item itemvalue="Application.SlidingWindowMaximum" />
+      <item itemvalue="Application.Solution" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.PersonProxy" />
         <item itemvalue="Application.AtomicDemo" />
         <item itemvalue="Application.ArrayOfDoubledPairs" />
@@ -387,24 +415,26 @@
       <workItem from="1558561727617" duration="5721000" />
       <workItem from="1558647722832" duration="6173000" />
       <workItem from="1558734030742" duration="1390000" />
-      <workItem from="1558736622948" duration="5234000" />
+      <workItem from="1558736622948" duration="5545000" />
+      <workItem from="1558760740314" duration="1364000" />
+      <workItem from="1558762381531" duration="1799000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186378000" />
+    <option name="totallyTimeSpent" value="189852000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.32403433" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.33261803" />
       <window_info id="Structure" order="1" sideWeight="0.50120485" side_tool="true" weight="0.3304721" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -533,13 +563,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/observer/Person.java" />
-    <entry file="file://$PROJECT_DIR$/src/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Stack/MinimumAdd2MakeParenthesesValid.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -747,10 +770,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HashTable/MinimumAreaRectangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
+        <state>
           <caret line="28" column="50" selection-start-line="10" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding>
+            <element signature="e#68#69#0" expanded="true" />
+            <element signature="e#104#105#0" expanded="true" />
           </folding>
         </state>
       </provider>
