@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a720b7d4-b752-46a3-b325-eddac017ec52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/MinimumIncrement2MakeArrayUnique.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/RevealCardsInIncreasingOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/ValidateStackSequences.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -34,14 +35,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Array/MinimumIncrement2MakeArrayUnique.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+            <state relative-caret-position="340">
+              <caret line="17" column="19" selection-start-line="7" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Array/RevealCardsInIncreasingOrder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="21" column="19" selection-start-line="8" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Stack/ValidateStackSequences.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="657">
+              <caret line="33" column="20" selection-start-line="7" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -68,8 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/proxy/staticproxy/Son.java" />
-        <option value="$PROJECT_DIR$/src/proxy/staticproxy/Father.java" />
         <option value="$PROJECT_DIR$/src/proxy/dynamicproxy/jdk/Girl.java" />
         <option value="$PROJECT_DIR$/src/proxy/dynamicproxy/jdk/PersonProxy.java" />
         <option value="$PROJECT_DIR$/src/proxy/dynamicproxy/jdk/MyInvocationHandler.java" />
@@ -119,6 +136,8 @@
         <option value="$PROJECT_DIR$/src/HashTable/MinimumAreaRectangle.java" />
         <option value="$PROJECT_DIR$/src/Solution.java" />
         <option value="$PROJECT_DIR$/src/Array/MinimumIncrement2MakeArrayUnique.java" />
+        <option value="$PROJECT_DIR$/src/Array/RevealCardsInIncreasingOrder.java" />
+        <option value="$PROJECT_DIR$/src/Stack/ValidateStackSequences.java" />
       </list>
     </option>
   </component>
@@ -405,12 +424,12 @@
       <workItem from="1558736622948" duration="5545000" />
       <workItem from="1558760740314" duration="1364000" />
       <workItem from="1558762381531" duration="2325000" />
-      <workItem from="1558820517758" duration="643000" />
+      <workItem from="1558820517758" duration="2513000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191021000" />
+    <option name="totallyTimeSpent" value="192891000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -447,8 +466,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/adaptor/poweradaptor.java" />
-    <entry file="file://$PROJECT_DIR$/src/adaptor/power/AC220.java" />
     <entry file="file://$PROJECT_DIR$/src/adaptor/power/DC5V.java" />
     <entry file="file://$PROJECT_DIR$/src/adaptor/power/PowerAdaptor.java" />
     <entry file="file://$PROJECT_DIR$/src/DivideAndConquer/DifferentWaysToAddParentheses.java">
@@ -774,11 +791,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/MinimumIncrement2MakeArrayUnique.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        <state relative-caret-position="340">
+          <caret line="17" column="19" selection-start-line="7" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/RevealCardsInIncreasingOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="19" selection-start-line="8" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stack/ValidateStackSequences.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="657">
+          <caret line="33" column="20" selection-start-line="7" selection-end-line="34" />
         </state>
       </provider>
     </entry>
