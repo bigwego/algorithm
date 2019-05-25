@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a720b7d4-b752-46a3-b325-eddac017ec52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/RevealCardsInIncreasingOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/ValidateStackSequences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTree/FlipEquivalentBinaryTrees.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/ValidateStackSequences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/ValidateStackSequences.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,11 +56,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Stack/ValidateStackSequences.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="657">
-              <caret line="33" column="20" selection-start-line="7" selection-end-line="34" />
+            <state relative-caret-position="672">
+              <caret line="46" column="31" selection-start-line="37" selection-end-line="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BinaryTree/FlipEquivalentBinaryTrees.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="15" column="91" selection-start-line="5" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -87,7 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/proxy/dynamicproxy/jdk/Girl.java" />
         <option value="$PROJECT_DIR$/src/proxy/dynamicproxy/jdk/PersonProxy.java" />
         <option value="$PROJECT_DIR$/src/proxy/dynamicproxy/jdk/MyInvocationHandler.java" />
         <option value="$PROJECT_DIR$/src/proxy/dynamicproxy/jdk/MyProxy.java" />
@@ -138,6 +146,7 @@
         <option value="$PROJECT_DIR$/src/Array/MinimumIncrement2MakeArrayUnique.java" />
         <option value="$PROJECT_DIR$/src/Array/RevealCardsInIncreasingOrder.java" />
         <option value="$PROJECT_DIR$/src/Stack/ValidateStackSequences.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/FlipEquivalentBinaryTrees.java" />
       </list>
     </option>
   </component>
@@ -424,12 +433,12 @@
       <workItem from="1558736622948" duration="5545000" />
       <workItem from="1558760740314" duration="1364000" />
       <workItem from="1558762381531" duration="2325000" />
-      <workItem from="1558820517758" duration="2513000" />
+      <workItem from="1558820517758" duration="3412000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="192891000" />
+    <option name="totallyTimeSpent" value="193790000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -466,7 +475,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/adaptor/power/DC5V.java" />
     <entry file="file://$PROJECT_DIR$/src/adaptor/power/PowerAdaptor.java" />
     <entry file="file://$PROJECT_DIR$/src/DivideAndConquer/DifferentWaysToAddParentheses.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -808,8 +816,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Stack/ValidateStackSequences.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="33" column="20" selection-start-line="7" selection-end-line="34" />
+        <state relative-caret-position="672">
+          <caret line="46" column="31" selection-start-line="37" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/FlipEquivalentBinaryTrees.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="91" selection-start-line="5" selection-end-line="16" />
         </state>
       </provider>
     </entry>
