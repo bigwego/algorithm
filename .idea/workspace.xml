@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a720b7d4-b752-46a3-b325-eddac017ec52" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Array/MinimumIncrement2MakeArrayUnique.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,26 +34,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HashTable/MinimumAreaRectangle.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Array/MinimumIncrement2MakeArrayUnique.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="28" column="50" selection-start-line="10" selection-end-line="29" />
+            <state relative-caret-position="320">
+              <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-              <folding>
-                <element signature="e#68#69#0" expanded="true" />
-                <element signature="e#104#105#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,7 +68,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/proxy/staticproxy/Person.java" />
         <option value="$PROJECT_DIR$/src/proxy/staticproxy/Son.java" />
         <option value="$PROJECT_DIR$/src/proxy/staticproxy/Father.java" />
         <option value="$PROJECT_DIR$/src/proxy/dynamicproxy/jdk/Girl.java" />
@@ -132,6 +118,7 @@
         <option value="$PROJECT_DIR$/src/DynamicProgramming/KnightDialer.java" />
         <option value="$PROJECT_DIR$/src/HashTable/MinimumAreaRectangle.java" />
         <option value="$PROJECT_DIR$/src/Solution.java" />
+        <option value="$PROJECT_DIR$/src/Array/MinimumIncrement2MakeArrayUnique.java" />
       </list>
     </option>
   </component>
@@ -141,7 +128,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -151,7 +138,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -246,6 +232,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -417,24 +404,25 @@
       <workItem from="1558734030742" duration="1390000" />
       <workItem from="1558736622948" duration="5545000" />
       <workItem from="1558760740314" duration="1364000" />
-      <workItem from="1558762381531" duration="1799000" />
+      <workItem from="1558762381531" duration="2325000" />
+      <workItem from="1558820517758" duration="643000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189852000" />
+    <option name="totallyTimeSpent" value="191021000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.33261803" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.33690986" />
       <window_info id="Structure" order="1" sideWeight="0.50120485" side_tool="true" weight="0.3304721" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -443,7 +431,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Problems" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.96385545" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Duplicates" order="13" weight="0.32891566" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32891566" />
@@ -459,7 +447,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/strategy/PromotionStrategy.java" />
     <entry file="file://$PROJECT_DIR$/src/adaptor/poweradaptor.java" />
     <entry file="file://$PROJECT_DIR$/src/adaptor/power/AC220.java" />
     <entry file="file://$PROJECT_DIR$/src/adaptor/power/DC5V.java" />
@@ -768,9 +755,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/HashTable/MinimumAreaRectangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="560">
           <caret line="28" column="50" selection-start-line="10" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -778,13 +772,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/Array/MinimumIncrement2MakeArrayUnique.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        <state relative-caret-position="320">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
           <folding>
-            <element signature="e#68#69#0" expanded="true" />
-            <element signature="e#104#105#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
