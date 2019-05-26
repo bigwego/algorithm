@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a720b7d4-b752-46a3-b325-eddac017ec52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BinaryTree/FlipEquivalentBinaryTrees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTree/ConstructBSTFromPreorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/DeleteColumns2MakeSortedII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stack/ValidateStackSequences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/ValidateStackSequences.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,41 +35,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Array/MinimumIncrement2MakeArrayUnique.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="17" column="19" selection-start-line="7" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Array/RevealCardsInIncreasingOrder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="21" column="19" selection-start-line="8" selection-end-line="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Stack/ValidateStackSequences.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="46" column="31" selection-start-line="37" selection-end-line="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/BinaryTree/FlipEquivalentBinaryTrees.java">
+        <entry file="file://$PROJECT_DIR$/src/BinaryTree/ConstructBSTFromPreorderTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="91" selection-start-line="5" selection-end-line="16" />
+            <state relative-caret-position="440">
+              <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+              <folding>
+                <element signature="e#123#124#0" expanded="true" />
+                <element signature="e#148#149#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,8 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/proxy/dynamicproxy/jdk/PersonProxy.java" />
-        <option value="$PROJECT_DIR$/src/proxy/dynamicproxy/jdk/MyInvocationHandler.java" />
         <option value="$PROJECT_DIR$/src/proxy/dynamicproxy/jdk/MyProxy.java" />
         <option value="$PROJECT_DIR$/src/strategy/PromotionStrategy.java" />
         <option value="$PROJECT_DIR$/src/strategy/EmptyStrategy.java" />
@@ -147,6 +119,8 @@
         <option value="$PROJECT_DIR$/src/Array/RevealCardsInIncreasingOrder.java" />
         <option value="$PROJECT_DIR$/src/Stack/ValidateStackSequences.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/FlipEquivalentBinaryTrees.java" />
+        <option value="$PROJECT_DIR$/src/String/DeleteColumns2MakeSortedII.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/ConstructBSTFromPreorderTraversal.java" />
       </list>
     </option>
   </component>
@@ -165,7 +139,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -261,6 +234,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -292,7 +266,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.AtomicDemo">
     <configuration name="ArrayOfDoubledPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Array.ArrayOfDoubledPairs" />
       <module name="algorithm" />
@@ -307,15 +281,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="proxy.dynamicproxy.jdk.PersonProxy" />
+    <configuration name="DeleteColumns2MakeSortedII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.DeleteColumns2MakeSortedII" />
       <module name="algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SlidingWindowMaximum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.SlidingWindowMaximum" />
+    <configuration name="PersonProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="proxy.dynamicproxy.jdk.PersonProxy" />
       <module name="algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -363,16 +337,16 @@
       <item itemvalue="Application.ArrayOfDoubledPairs" />
       <item itemvalue="Application.AtomicDemo" />
       <item itemvalue="Application.PersonProxy" />
-      <item itemvalue="Application.SlidingWindowMaximum" />
       <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.DeleteColumns2MakeSortedII" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AtomicDemo" />
+        <item itemvalue="Application.DeleteColumns2MakeSortedII" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.PersonProxy" />
-        <item itemvalue="Application.AtomicDemo" />
         <item itemvalue="Application.ArrayOfDoubledPairs" />
-        <item itemvalue="Application.SlidingWindowMaximum" />
       </list>
     </recent_temporary>
   </component>
@@ -433,18 +407,21 @@
       <workItem from="1558736622948" duration="5545000" />
       <workItem from="1558760740314" duration="1364000" />
       <workItem from="1558762381531" duration="2325000" />
-      <workItem from="1558820517758" duration="3412000" />
+      <workItem from="1558820517758" duration="3977000" />
+      <workItem from="1558863920414" duration="2950000" />
+      <workItem from="1558871299359" duration="2806000" />
+      <workItem from="1558909048587" duration="839000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193790000" />
+    <option name="totallyTimeSpent" value="200950000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.33690986" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.21173105" />
       <window_info id="Structure" order="1" sideWeight="0.50120485" side_tool="true" weight="0.3304721" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -475,18 +452,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/adaptor/power/PowerAdaptor.java" />
-    <entry file="file://$PROJECT_DIR$/src/DivideAndConquer/DifferentWaysToAddParentheses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/template/course/BigDataCourse.java" />
-    <entry file="file://$PROJECT_DIR$/src/template/course/JavaCourse.java" />
-    <entry file="file://$PROJECT_DIR$/src/template/course/NetworkCourse.java" />
-    <entry file="file://$PROJECT_DIR$/src/template/jdbc/RowMapper.java" />
     <entry file="file://$PROJECT_DIR$/src/template/jdbc/JdbcTemplate.java" />
     <entry file="file://$PROJECT_DIR$/out/production/algorithm/Array/MaximumSwap.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -797,20 +762,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Array/MinimumIncrement2MakeArrayUnique.java">
+    <entry file="file://$PROJECT_DIR$/src/String/DeleteColumns2MakeSortedII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="19" selection-start-line="7" selection-end-line="18" />
+        <state relative-caret-position="20">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Array/RevealCardsInIncreasingOrder.java">
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/FlipEquivalentBinaryTrees.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="19" selection-start-line="8" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -821,10 +783,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinaryTree/FlipEquivalentBinaryTrees.java">
+    <entry file="file://$PROJECT_DIR$/src/Array/RevealCardsInIncreasingOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="91" selection-start-line="5" selection-end-line="16" />
+        <state relative-caret-position="140">
+          <caret line="7" column="53" lean-forward="true" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/MinimumIncrement2MakeArrayUnique.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="19" selection-start-line="7" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Contended.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="305" column="32" selection-start-line="305" selection-start-column="32" selection-end-line="305" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="2420" column="38" selection-start-line="2420" selection-start-column="38" selection-end-line="2420" selection-end-column="38" />
+          <folding>
+            <element signature="e#93710#93711#0" expanded="true" />
+            <element signature="e#93797#93798#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="1394" column="22" selection-start-line="1394" selection-start-column="22" selection-end-line="1394" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/ConstructBSTFromPreorderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+          <folding>
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#148#149#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
