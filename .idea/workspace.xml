@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a720b7d4-b752-46a3-b325-eddac017ec52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BinaryTree/ConstructBSTFromPreorderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/DeleteColumns2MakeSortedII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -38,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BinaryTree/ConstructBSTFromPreorderTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+            <state relative-caret-position="616">
+              <caret line="28" column="5" selection-start-line="4" selection-end-line="29" />
               <folding>
                 <element signature="e#123#124#0" expanded="true" />
                 <element signature="e#148#149#0" expanded="true" />
@@ -410,16 +408,15 @@
       <workItem from="1558820517758" duration="3977000" />
       <workItem from="1558863920414" duration="2950000" />
       <workItem from="1558871299359" duration="2806000" />
-      <workItem from="1558909048587" duration="839000" />
+      <workItem from="1558909048587" duration="1138000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200950000" />
+    <option name="totallyTimeSpent" value="201249000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.21173105" />
       <window_info id="Structure" order="1" sideWeight="0.50120485" side_tool="true" weight="0.3304721" />
@@ -834,8 +831,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryTree/ConstructBSTFromPreorderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        <state relative-caret-position="616">
+          <caret line="28" column="5" selection-start-line="4" selection-end-line="29" />
           <folding>
             <element signature="e#123#124#0" expanded="true" />
             <element signature="e#148#149#0" expanded="true" />
