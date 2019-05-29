@@ -1,6 +1,17 @@
 package Others;
 
+import java.util.Scanner;
+
 public class RobotBoundedInCircle {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+        String input;
+        while ((input = in.next()) != null) {
+            System.out.println(input);
+        }
+    }
 
     public boolean isRobotBounded(String instructions) {
         int i = 0;
