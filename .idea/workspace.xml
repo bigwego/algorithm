@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a720b7d4-b752-46a3-b325-eddac017ec52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/PartitionArrayForMaximumSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/LongestStringChain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -76,11 +76,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/PartitionArrayForMaximumSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="27" selection-start-line="5" selection-end-line="17" />
+            <state relative-caret-position="176">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Stack/RemoveAllAdjacentDuplicatesInString.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="616">
+              <caret line="28" column="63" selection-start-line="7" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/LongestStringChain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="27" column="19" selection-start-line="9" selection-end-line="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,8 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/template/jdbc/JdbcTemplate.java" />
-        <option value="$PROJECT_DIR$/src/BinaryTree/AllNodesDistanceKInBT.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/RangeSumOfBST.java" />
         <option value="$PROJECT_DIR$/src/BFS/CutOffTreesForGolfEvent.java" />
         <option value="$PROJECT_DIR$/src/BFS/SnakesAndLadders.java" />
@@ -159,6 +178,8 @@
         <option value="$PROJECT_DIR$/src/Graph/FlowerPlantingWithNoAdjacent.java" />
         <option value="$PROJECT_DIR$/src/Heap/LastStoneWeight.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/PartitionArrayForMaximumSum.java" />
+        <option value="$PROJECT_DIR$/src/Stack/RemoveAllAdjacentDuplicatesInString.java" />
+        <option value="$PROJECT_DIR$/src/DynamicProgramming/LongestStringChain.java" />
       </list>
     </option>
   </component>
@@ -218,6 +239,12 @@
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Others" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Stack" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -407,12 +434,12 @@
       <workItem from="1559044327229" duration="2926000" />
       <workItem from="1559081294376" duration="3894000" />
       <workItem from="1559167765693" duration="2807000" />
-      <workItem from="1559255463326" duration="906000" />
+      <workItem from="1559255463326" duration="1991000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216374000" />
+    <option name="totallyTimeSpent" value="217459000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -476,16 +503,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/jre/lib/rt.jar!/java/lang/Cloneable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#157#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/observer/Person.java" />
     <entry file="file://$PROJECT_DIR$/src/Stack/MinimumAdd2MakeParenthesesValid.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -882,8 +899,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/PartitionArrayForMaximumSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="27" selection-start-line="5" selection-end-line="17" />
+        <state relative-caret-position="176">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stack/RemoveAllAdjacentDuplicatesInString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="63" selection-start-line="7" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/LongestStringChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" column="19" selection-start-line="9" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
