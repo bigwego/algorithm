@@ -13,7 +13,7 @@ public class GrumpyBookstoreOwner {
             } else {
                 tmp += customers[i];
             }
-            if (i > X) {
+            if (i >= X) {
                 tmp -= grumpy[i - X] * customers[i - X];
             }
             res = Math.max(res, tmp);
