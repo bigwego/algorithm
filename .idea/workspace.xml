@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a720b7d4-b752-46a3-b325-eddac017ec52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/FixedPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/PreviousPermutationWithinOneSwap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/IndexPairsOfString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/CampusBikeII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SlidingWindow/GrumpyBookstoreOwner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SlidingWindow/GrumpyBookstoreOwner.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,7 +43,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HashTable/IndexPairsOfString.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="739">
@@ -54,6 +51,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Array/CampusBikeII.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -81,7 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Array/MaximumSumCircularSubArray.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/CompleteBinaryTreeInserter.java" />
         <option value="$PROJECT_DIR$/src/Stack/MinimumAdd2MakeParenthesesValid.java" />
         <option value="$PROJECT_DIR$/src/Greedy/SmallestRangeII.java" />
@@ -132,6 +137,7 @@
         <option value="$PROJECT_DIR$/src/Array/PreviousPermutationWithinOneSwap.java" />
         <option value="$PROJECT_DIR$/src/Array/FixedPoint.java" />
         <option value="$PROJECT_DIR$/src/HashTable/IndexPairsOfString.java" />
+        <option value="$PROJECT_DIR$/src/Array/CampusBikeII.java" />
       </list>
     </option>
   </component>
@@ -168,54 +174,6 @@
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Array" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="BinaryTree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DynamicProgramming" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Graph" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="HashTable" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Heap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Others" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SlidingWindow" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Stack" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -406,12 +364,12 @@
       <workItem from="1559167765693" duration="2807000" />
       <workItem from="1559255463326" duration="2076000" />
       <workItem from="1559342410056" duration="2251000" />
-      <workItem from="1559426572683" duration="811000" />
+      <workItem from="1559426572683" duration="1883000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="220606000" />
+    <option name="totallyTimeSpent" value="221678000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -475,13 +433,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/DFS/RegionsCutBySlashes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/String/ComplexNumberMultiplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -885,6 +836,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/CampusBikeII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
         </state>
       </provider>
     </entry>
