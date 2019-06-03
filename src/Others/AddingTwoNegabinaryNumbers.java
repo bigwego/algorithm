@@ -11,8 +11,8 @@ public class AddingTwoNegabinaryNumbers {
         Stack<Integer> stack = new Stack<>();
 
         while (i > -1 || j > -1 || c != 0) {
-            int v1 = i > -1 ? arr1[i] : 0;
-            int v2 = j > -1 ? arr2[j] : 0;
+            int v1 = i > -1 ? arr1[i--] : 0;
+            int v2 = j > -1 ? arr2[j--] : 0;
             c = v1 + v2 + c;
             stack.push(c & 1);
             c = -(c >> 1);
