@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a720b7d4-b752-46a3-b325-eddac017ec52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/String/GCDOfStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String/GCDOfStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/GCDOfStrings.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,8 +66,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/String/GCDOfStrings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="688">
-              <caret line="35" column="18" selection-start-line="5" selection-end-line="36" />
+            <state relative-caret-position="743">
+              <caret line="48" column="66" selection-start-line="39" selection-end-line="49" />
             </state>
           </provider>
         </entry>
@@ -373,16 +373,15 @@
       <workItem from="1559255463326" duration="2076000" />
       <workItem from="1559342410056" duration="2251000" />
       <workItem from="1559426572683" duration="2239000" />
-      <workItem from="1559518016026" duration="738000" />
+      <workItem from="1559518016026" duration="1150000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="222772000" />
+    <option name="totallyTimeSpent" value="223184000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.24034335" />
       <window_info id="Structure" order="1" sideWeight="0.50120485" side_tool="true" weight="0.3304721" />
@@ -850,8 +849,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/String/GCDOfStrings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="688">
-          <caret line="35" column="18" selection-start-line="5" selection-end-line="36" />
+        <state relative-caret-position="743">
+          <caret line="48" column="66" selection-start-line="39" selection-end-line="49" />
         </state>
       </provider>
     </entry>

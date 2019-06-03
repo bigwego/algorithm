@@ -35,4 +35,18 @@ public class GCDOfStrings {
 
         return "";
     }
+
+    private String gcdOfStrings2(String str1, String str2) {
+        if (str1.length() < str2.length()) {
+            return gcdOfStrings2(str2, str1);
+        }
+        if (!str1.startsWith(str2)) {
+            return "";
+        }
+        if (str2.isEmpty()) {
+            return str1;
+        }
+        return gcdOfStrings2(str1.substring(str2.length()), str2);
+    }
+
 }
