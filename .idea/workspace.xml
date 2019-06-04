@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a720b7d4-b752-46a3-b325-eddac017ec52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/DistantBarcodes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/PartitionArrayForMaximumSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/PartitionArrayForMaximumSum.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,46 +34,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Array/FlipColumnsForMaximumNumberOfEqualRows.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Others/ConvertBaseNeg2.java">
+        <entry file="file://$PROJECT_DIR$/src/Graph/FlowerPlantingWithNoAdjacent.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
-              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Others/AddingTwoNegabinaryNumbers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HashTable/RemoveOutermostParentheses.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Heap/LastStoneWeight.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,10 +46,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Array/DistantBarcodes.java">
+        <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/PartitionArrayForMaximumSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="33" column="19" selection-start-line="7" selection-end-line="34" />
+            <state relative-caret-position="352">
+              <caret line="16" column="27" lean-forward="true" selection-start-line="5" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -150,7 +113,6 @@
         <option value="$PROJECT_DIR$/src/Others/RobotBoundedInCircle.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/MinimumScoreTriangulationOfPolygon.java" />
         <option value="$PROJECT_DIR$/src/Graph/FlowerPlantingWithNoAdjacent.java" />
-        <option value="$PROJECT_DIR$/src/DynamicProgramming/PartitionArrayForMaximumSum.java" />
         <option value="$PROJECT_DIR$/src/Stack/RemoveAllAdjacentDuplicatesInString.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/LongestStringChain.java" />
         <option value="$PROJECT_DIR$/src/Array/HeightChecker.java" />
@@ -165,6 +127,7 @@
         <option value="$PROJECT_DIR$/src/HashTable/RemoveOutermostParentheses.java" />
         <option value="$PROJECT_DIR$/src/Heap/LastStoneWeight.java" />
         <option value="$PROJECT_DIR$/src/Array/DistantBarcodes.java" />
+        <option value="$PROJECT_DIR$/src/DynamicProgramming/PartitionArrayForMaximumSum.java" />
       </list>
     </option>
   </component>
@@ -401,12 +364,12 @@
       <workItem from="1559518016026" duration="1150000" />
       <workItem from="1559530280914" duration="197000" />
       <workItem from="1559599721050" duration="3138000" />
-      <workItem from="1559686239320" duration="1563000" />
+      <workItem from="1559686239320" duration="2581000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="228082000" />
+    <option name="totallyTimeSpent" value="229100000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -760,23 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/PartitionArrayForMaximumSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Graph/FlowerPlantingWithNoAdjacent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/MinimumScoreTriangulationOfPolygon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -829,31 +775,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Array/FlipColumnsForMaximumNumberOfEqualRows.java">
+    <entry file="file://$PROJECT_DIR$/src/Array/DistantBarcodes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Others/ConvertBaseNeg2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Others/AddingTwoNegabinaryNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HashTable/RemoveOutermostParentheses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        <state relative-caret-position="629">
+          <caret line="33" column="19" selection-start-line="7" selection-end-line="34" />
         </state>
       </provider>
     </entry>
@@ -867,10 +792,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Array/DistantBarcodes.java">
+    <entry file="file://$PROJECT_DIR$/src/HashTable/RemoveOutermostParentheses.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="33" column="19" selection-start-line="7" selection-end-line="34" />
+        <state relative-caret-position="242">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Others/AddingTwoNegabinaryNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Others/ConvertBaseNeg2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/FlipColumnsForMaximumNumberOfEqualRows.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graph/FlowerPlantingWithNoAdjacent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/PartitionArrayForMaximumSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="27" lean-forward="true" selection-start-line="5" selection-end-line="17" />
         </state>
       </provider>
     </entry>
