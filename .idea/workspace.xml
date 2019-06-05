@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a720b7d4-b752-46a3-b325-eddac017ec52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/Depress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/MedianIndex.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,15 +33,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Array/TwoSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Others/FindTheNumbersII.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -117,11 +108,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Array/Depress.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
+            <state relative-caret-position="154">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Array/MedianIndex.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -149,7 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BinaryTree/MaximumBinaryTreeII.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/MaximumDepthOfBinaryTreeII.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/MaximumDiffBetweenNodeAndAncestor.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/OnlineStockSpan.java" />
@@ -200,6 +202,7 @@
         <option value="$PROJECT_DIR$/src/Array/MultiKeywordSort.java" />
         <option value="$PROJECT_DIR$/src/Array/SearchInsertPosition.java" />
         <option value="$PROJECT_DIR$/src/Array/Depress.java" />
+        <option value="$PROJECT_DIR$/src/Array/MedianIndex.java" />
       </list>
     </option>
   </component>
@@ -444,12 +447,12 @@
       <workItem from="1559599721050" duration="3138000" />
       <workItem from="1559686239320" duration="3277000" />
       <workItem from="1559712279198" duration="133000" />
-      <workItem from="1559772191571" duration="3746000" />
+      <workItem from="1559772191571" duration="4306000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="233675000" />
+    <option name="totallyTimeSpent" value="234235000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -513,13 +516,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Array/FlipString2MonotoneIncreasing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="24" selection-start-line="5" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/KnightDialer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="739">
@@ -897,8 +893,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/Depress.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
+        <state relative-caret-position="154">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/MedianIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
