@@ -14,6 +14,6 @@ public class MedianIndex {
 
         Arrays.sort(a);
         int len = a.length;
-        return map.get(a[len / 2]);
+        return map.get(a[(len & 1) == 0 ? len / 2 - 1 : len / 2]);
     }
 }

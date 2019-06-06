@@ -11,9 +11,9 @@ public class Depress {
         for (int i = 0; i <= k; i++) {
             res += arr[i];
             if (res >= m) {
-                return "yes";
+                return "no";
             }
         }
-        return "no";
+        return "yes";
     }
 }
