@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a720b7d4-b752-46a3-b325-eddac017ec52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BinaryTree/BinaryTreeInorderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinaryTree/BinaryTreePathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/ModernLudoI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTree/InvertBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/InvertBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTree/MaximumDepthOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/MaximumDepthOfBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTree/BinaryTreePathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/BinaryTreePathSum.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -95,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BinaryTree/BinaryTreePathSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="77">
+              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,7 +120,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/ModernLudoI.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="638">
@@ -206,11 +201,11 @@
         <option value="$PROJECT_DIR$/src/LinkedList/ReverseOrderStorage.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/DeleteNth2MthNodesInLinkedList.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/MaximumDepthOfBinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/BinaryTree/BinaryTreePathSum.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/BinaryTreePreorderTraversal2.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/InvertBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/BinaryTreeInorderTraversal.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/ModernLudoI.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/BinaryTreePathSum.java" />
       </list>
     </option>
   </component>
@@ -475,12 +470,12 @@
       <workItem from="1559712279198" duration="133000" />
       <workItem from="1559772191571" duration="5153000" />
       <workItem from="1559787773265" duration="243000" />
-      <workItem from="1559861745626" duration="5156000" />
+      <workItem from="1559861745626" duration="5523000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240481000" />
+    <option name="totallyTimeSpent" value="240848000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -872,16 +867,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinaryTree/BinaryTreePathSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryTree/BinaryTreePreorderTraversal2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -931,6 +916,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="638">
           <caret line="29" column="26" lean-forward="true" selection-start-line="9" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/BinaryTreePathSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
