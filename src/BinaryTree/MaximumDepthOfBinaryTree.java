@@ -11,7 +11,7 @@ package BinaryTree;
  */
 public class MaximumDepthOfBinaryTree {
 
-    private int maxDepth(TreeNode root) {
+    public int maxDepth(TreeNode root) {
         if (root == null) {
             return 0;
         }

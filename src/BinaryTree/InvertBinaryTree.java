@@ -11,7 +11,7 @@ package BinaryTree;
  */
 public class InvertBinaryTree {
 
-    private TreeNode invertTree(TreeNode root) {
+    public TreeNode invertTree(TreeNode root) {
         if (root == null) {
             return null;
         }
