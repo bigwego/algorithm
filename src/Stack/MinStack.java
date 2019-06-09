@@ -43,6 +43,50 @@ public class MinStack {
     }
 }
 
+class MinStack2 {
+
+    private Stack<Integer> push;
+
+    private Stack<Integer> min;
+
+    public MinStack2() {
+        push = new Stack<>();
+        min = new Stack<>();
+    }
+
+    /*
+     * @param number: An integer
+     * @return: nothing
+     */
+    public void push(int number) {
+        push.push(number);
+        if (min.isEmpty()) {
+            min.push(number);
+        } else {
+            if (min.peek() <= number) {
+                min.push(min.peek());
+            } else {
+                min.push(number);
+            }
+        }
+    }
+
+    /*
+     * @return: An integer
+     */
+    public int pop() {
+        min.pop();
+        return push.pop();
+    }
+
+    /*
+     * @return: An integer
+     */
+    public int min() {
+        return min.peek();
+    }
+}
+
 /**
  * Your MinStack object will be instantiated and called as such:
  * MinStack obj = new MinStack();
