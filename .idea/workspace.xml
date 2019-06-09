@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a720b7d4-b752-46a3-b325-eddac017ec52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/DoingHomework.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/PlayGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design/ImplementQueueByTwoStacks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Heap/SkipStones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Others/TrailingZeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashTable/SaveMoney.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/META-INF/algorithm.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stack/MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/MinStack.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,14 +47,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Stack/MinStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1159">
-              <caret line="86" column="5" lean-forward="true" selection-start-line="47" selection-end-line="87" />
+            <state relative-caret-position="458">
+              <caret line="31" column="23" lean-forward="true" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
               <folding>
                 <element signature="e#1477#1478#0" expanded="true" />
                 <element signature="e#1510#1511#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Greedy/TaskScheduler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" column="73" lean-forward="true" selection-start-line="7" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/HashTable/SaveMoney.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,7 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/DynamicProgramming/LongestStringChain.java" />
         <option value="$PROJECT_DIR$/src/Array/HeightChecker.java" />
         <option value="$PROJECT_DIR$/src/SlidingWindow/GrumpyBookstoreOwner.java" />
         <option value="$PROJECT_DIR$/src/Array/PreviousPermutationWithinOneSwap.java" />
@@ -140,6 +154,7 @@
         <option value="$PROJECT_DIR$/src/Array/DoingHomework.java" />
         <option value="$PROJECT_DIR$/src/Design/ImplementQueueByTwoStacks.java" />
         <option value="$PROJECT_DIR$/src/Stack/MinStack.java" />
+        <option value="$PROJECT_DIR$/src/HashTable/SaveMoney.java" />
       </list>
     </option>
   </component>
@@ -206,6 +221,12 @@
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="DynamicProgramming" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="HashTable" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -430,12 +451,12 @@
       <workItem from="1559787773265" duration="243000" />
       <workItem from="1559861745626" duration="6883000" />
       <workItem from="1559946551657" duration="5478000" />
-      <workItem from="1560035572836" duration="2017000" />
+      <workItem from="1560035572836" duration="2985000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="249703000" />
+    <option name="totallyTimeSpent" value="250671000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -499,20 +520,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Array/TwoSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/Depress.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -872,11 +879,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Stack/MinStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1159">
-          <caret line="86" column="5" lean-forward="true" selection-start-line="47" selection-end-line="87" />
+        <state relative-caret-position="458">
+          <caret line="31" column="23" lean-forward="true" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
           <folding>
             <element signature="e#1477#1478#0" expanded="true" />
             <element signature="e#1510#1511#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Greedy/TaskScheduler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="73" lean-forward="true" selection-start-line="7" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HashTable/SaveMoney.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
