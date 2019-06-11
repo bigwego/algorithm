@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a720b7d4-b752-46a3-b325-eddac017ec52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BackTracking/LetterTilePossibilities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinaryTree/InsufficientNodesInRoot2LeafPaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/SmallestSubsequenceOfDistinctCharacters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,11 +34,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BinaryTree/InsufficientNodesInRoot2LeafPaths.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="69" selection-start-line="5" selection-end-line="14" />
+            <state relative-caret-position="352">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Stack/SmallestSubsequenceOfDistinctCharacters.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="22" column="79" selection-start-line="22" selection-start-column="79" selection-end-line="22" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -68,7 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Array/PreviousPermutationWithinOneSwap.java" />
         <option value="$PROJECT_DIR$/src/Array/FixedPoint.java" />
         <option value="$PROJECT_DIR$/src/HashTable/IndexPairsOfString.java" />
         <option value="$PROJECT_DIR$/src/Array/CampusBikeII.java" />
@@ -119,6 +125,7 @@
         <option value="$PROJECT_DIR$/src/Solution.java" />
         <option value="$PROJECT_DIR$/src/BackTracking/LetterTilePossibilities.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/InsufficientNodesInRoot2LeafPaths.java" />
+        <option value="$PROJECT_DIR$/src/Stack/SmallestSubsequenceOfDistinctCharacters.java" />
       </list>
     </option>
   </component>
@@ -208,6 +215,12 @@
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Others" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Stack" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -418,12 +431,12 @@
       <workItem from="1560035572836" duration="3743000" />
       <workItem from="1560123969977" duration="756000" />
       <workItem from="1560232029278" duration="6000" />
-      <workItem from="1560292551073" duration="884000" />
+      <workItem from="1560292551073" duration="2220000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="253075000" />
+    <option name="totallyTimeSpent" value="254411000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -487,13 +500,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/String/ImplementStrStr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="22" selection-start-line="5" selection-start-column="8" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/String/FirstUniqueCharacterInString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -867,8 +873,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryTree/InsufficientNodesInRoot2LeafPaths.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="69" selection-start-line="5" selection-end-line="14" />
+        <state relative-caret-position="352">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stack/SmallestSubsequenceOfDistinctCharacters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="79" selection-start-line="22" selection-start-column="79" selection-end-line="22" selection-end-column="79" />
         </state>
       </provider>
     </entry>
