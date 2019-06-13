@@ -16,4 +16,25 @@ public class MaximumSubarray {
         }
         return res;
     }
+
+    public int maxSubArray2(int[] nums) {
+        if (nums == null || nums.length == 0) {
+            return 0;
+        }
+
+        int res = 1;
+        int sum = Integer.MIN_VALUE;
+        int i = 0;
+
+        for (int j = 0, len = nums.length; i < len; i++) {
+            sum += nums[j];
+            res = Math.max(res, sum);
+            if (sum < 0) {
+                i = j + 1;
+                sum = 0;
+            }
+        }
+
+        return res;
+    }
 }
