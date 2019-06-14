@@ -1,5 +1,6 @@
 package Array;
 
+// Problem 33. Search in Rotated Sorted Array
 public class SearchInRotatedSortedArray {
 
     public int search(int[] nums, int target) {
@@ -27,5 +28,28 @@ public class SearchInRotatedSortedArray {
             }
         }
         return nums[left] == target ? left : -1;
+    }
+
+    public int search2(int[] a, int target) {
+        if (a == null || a.length == 0) {
+            return -1;
+        }
+
+        int l = 0, r = a.length - 1;
+
+        while (l < r) {
+            int mid = l + (r - l) / 2;
+            int num = a[mid] < a[0] == target < a[0] ?
+                    a[mid] : a[mid] < a[0] ? Integer.MIN_VALUE : Integer.MAX_VALUE;
+            if (target == num) {
+                return mid;
+            } else if (target < num) {
+                r = mid - 1;
+            } else {
+                l = mid + 1;
+            }
+        }
+
+        return a[l] == target ? l : -1;
     }
 }
