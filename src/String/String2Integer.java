@@ -31,4 +31,29 @@ public class String2Integer {
         }
         return sign * total;
     }
+
+    public int myAtoi2(String str) {
+        char[] chs = str.toCharArray();
+        int len = chs.length;
+        int sign = 1;
+        long total = 0;
+        int idx = 0;
+
+        while (idx < len && chs[idx] == ' ') {
+            idx++;
+        }
+
+        if (idx == len) return 0;
+        if (chs[idx] == '+' || chs[idx] == '-')
+            sign = chs[idx++] == '+' ? sign : -sign;
+
+        while (idx < len && Character.isDigit(chs[idx])) {
+            total = 10 * total + chs[idx] - '0';
+            if (total > Integer.MAX_VALUE)
+                return sign == 1 ? Integer.MAX_VALUE : Integer.MIN_VALUE;
+            idx++;
+        }
+
+        return sign * (int) total;
+    }
 }
