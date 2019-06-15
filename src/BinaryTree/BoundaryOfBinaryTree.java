@@ -22,60 +22,39 @@ public class BoundaryOfBinaryTree {
      * @return a list of integer
      */
     public List<Integer> boundaryOfBinaryTree(TreeNode root) {
-        List<TreeNode> left = new ArrayList<>();
-        List<TreeNode> right = new ArrayList<>();
-        List<TreeNode> leaves = new ArrayList<>();
-        traverseLeft(left, root.left);
-        traverseRight(right, root.right);
-        traverseLeaves(leaves, root);
-
         List<Integer> res = new ArrayList<>();
+        if (root == null) return res;
+
         res.add(root.val);
-        for (int i = 0; i < left.size(); i++) {
-            res.add(left.get(i).val);
+
+        TreeNode curr = root.left;
+        while (curr != null && (curr.left != null || curr.right != null)) {
+            res.add(curr.val);
+            curr = curr.left == null ? curr.right : curr.left;
         }
-        for (int i = 1; i < leaves.size(); i++) {
-            res.add(leaves.get(i).val);
+
+        dfs(root, res);
+
+        curr = root.right;
+        List<Integer> rightBound = new ArrayList<>();
+        while (curr != null && (curr.left != null || curr.right != null)) {
+            rightBound.add(curr.val);
+            curr = curr.right == null ? curr.left : curr.right;
         }
-        for (int i = right.size() - 2; i > -1; i--) {
-            res.add(right.get(i).val);
-        }
+
+        for (int i = rightBound.size() - 1; i > -1; i--)
+            res.add(rightBound.get(i));
+
         return res;
     }
 
-    private void traverseLeaves(List<TreeNode> list, TreeNode node) {
-        if (node == null) {
-            return;
-        }
+    private void dfs(TreeNode node, List<Integer> list) {
+        if (node == null) return;
         if (node.left == null && node.right == null) {
-            list.add(node);
+            list.add(node.val);
             return;
         }
-        traverseLeaves(list, node.left);
-        traverseLeaves(list, node.right);
-    }
-
-    private void traverseRight(List<TreeNode> list, TreeNode node) {
-        if (node == null) {
-            return;
-        }
-        list.add(node);
-        if (node.right != null) {
-            traverseRight(list, node.right);
-        } else {
-            traverseRight(list, node.left);
-        }
-    }
-
-    private void traverseLeft(List<TreeNode> list, TreeNode node) {
-        if (node == null) {
-            return;
-        }
-        list.add(node);
-        if (node.left != null) {
-            traverseLeft(list, node.left);
-        } else {
-            traverseLeft(list, node.right);
-        }
+        dfs(node.left, list);
+        dfs(node.right, list);
     }
 }

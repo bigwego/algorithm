@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a720b7d4-b752-46a3-b325-eddac017ec52" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/PartitionEqualSubsetSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/PartitionEqualSubsetSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTree/BoundaryOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/BoundaryOfBinaryTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,11 +78,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/PartitionEqualSubsetSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="739">
-              <caret line="69" column="31" selection-start-line="48" selection-end-line="70" />
+            <state relative-caret-position="1069">
+              <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/String/EncodeAndDecodeStrings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="548">
+              <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BinaryTree/BoundaryOfBinaryTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="518">
+              <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -110,8 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Design/ImplementQueueByTwoStacks.java" />
-        <option value="$PROJECT_DIR$/src/Stack/MinStack.java" />
         <option value="$PROJECT_DIR$/src/HashTable/SaveMoney.java" />
         <option value="$PROJECT_DIR$/src/BackTracking/LetterTilePossibilities.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/InsufficientNodesInRoot2LeafPaths.java" />
@@ -161,6 +177,8 @@
         <option value="$PROJECT_DIR$/src/BinaryTree/RightSideView.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/BinaryTreeRightSideView.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/PartitionEqualSubsetSum.java" />
+        <option value="$PROJECT_DIR$/src/String/EncodeAndDecodeStrings.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/BoundaryOfBinaryTree.java" />
       </list>
     </option>
   </component>
@@ -427,12 +445,12 @@
       <workItem from="1560427808818" duration="5402000" />
       <workItem from="1560473772687" duration="14000" />
       <workItem from="1560492370744" duration="272000" />
-      <workItem from="1560496451653" duration="26786000" />
+      <workItem from="1560496451653" duration="27903000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="296859000" />
+    <option name="totallyTimeSpent" value="297976000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -496,27 +514,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/io/BufferedReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="592" column="1" lean-forward="true" selection-start-line="592" selection-start-column="1" selection-end-line="592" selection-end-column="1" />
-          <folding>
-            <element signature="e#3011#3012#0" expanded="true" />
-            <element signature="e#3058#3059#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1232">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/ThreeSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
@@ -883,8 +880,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/PartitionEqualSubsetSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="739">
-          <caret line="69" column="31" selection-start-line="48" selection-end-line="70" />
+        <state relative-caret-position="1069">
+          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/String/EncodeAndDecodeStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/BoundaryOfBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
         </state>
       </provider>
     </entry>
