@@ -32,15 +32,22 @@ public class BinaryTreeRightSideView {
         return res;
     }
 
-    private class TreeNode {
-        int val;
+    public List<Integer> rightSideView2(TreeNode root) {
+        List<Integer> res = new ArrayList<>();
+        if (root == null) return res;
+        LinkedList<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
 
-        TreeNode left;
-
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
+        while (!queue.isEmpty()) {
+            for (int i = 0, sz = queue.size(); i < sz; i++) {
+                TreeNode curr = queue.poll();
+                if (i == 0)
+                    res.add(curr.val);
+                if (curr.right != null) queue.add(curr.right);
+                if (curr.left != null) queue.add(curr.left);
+            }
         }
+
+        return res;
     }
 }
