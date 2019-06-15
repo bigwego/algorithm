@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a720b7d4-b752-46a3-b325-eddac017ec52" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/BinaryTree/PathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/PathSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/MaximalSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/MaximalSquare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTree/RightSideView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/BinaryTreeRightSideView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/PerfectSquares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/PerfectSquares.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,11 +43,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BinaryTree/PathSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="59" selection-start-line="15" selection-end-line="19" />
+            <state relative-caret-position="462">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BinaryTree/InvertBinaryTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="31" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/PerfectSquares.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="704">
+              <caret line="32" column="21" selection-start-line="22" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BinaryTree/BinaryTreeRightSideView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -75,9 +102,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BinarySearch/SearchForARange.java" />
-        <option value="$PROJECT_DIR$/src/Heap/SkipStones.java" />
-        <option value="$PROJECT_DIR$/src/Others/TrailingZeros.java" />
         <option value="$PROJECT_DIR$/src/BinarySearch/PlayGame.java" />
         <option value="$PROJECT_DIR$/src/Array/DoingHomework.java" />
         <option value="$PROJECT_DIR$/src/Design/ImplementQueueByTwoStacks.java" />
@@ -126,6 +150,9 @@
         <option value="$PROJECT_DIR$/src/BinaryTree/SubtreeOfAnotherTree.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/MaximalSquare.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/PathSum.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/InvertBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/DynamicProgramming/PerfectSquares.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/RightSideView.java" />
       </list>
     </option>
   </component>
@@ -392,12 +419,12 @@
       <workItem from="1560427808818" duration="5402000" />
       <workItem from="1560473772687" duration="14000" />
       <workItem from="1560492370744" duration="272000" />
-      <workItem from="1560496451653" duration="24537000" />
+      <workItem from="1560496451653" duration="25110000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="294610000" />
+    <option name="totallyTimeSpent" value="295183000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -461,27 +488,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/String/LongestSubstringWithoutRepeatingCharacters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HashTable/LongestPalindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/lang/Character.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="133" column="4" selection-start-line="133" selection-start-column="4" selection-end-line="133" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/lang/Byte.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
@@ -848,8 +854,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryTree/PathSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="59" selection-start-line="15" selection-end-line="19" />
+        <state relative-caret-position="462">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/InvertBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="31" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/PerfectSquares.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="32" column="21" selection-start-line="22" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/BinaryTreeRightSideView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
         </state>
       </provider>
     </entry>
