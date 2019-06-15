@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a720b7d4-b752-46a3-b325-eddac017ec52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BinaryTree/BinaryTreeZigzagLevelOrderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/KthLargestElementInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/KthLargestElementInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BFS/WordLadder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BFS/WordLadder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTree/LowestCommonAncestor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/LowestCommonAncestor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String/CountAndSay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/CountAndSay.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,22 +35,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BFS/WordLadder.java">
+        <entry file="file://$PROJECT_DIR$/src/String/CountAndSay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1257">
-              <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
+            <state relative-caret-position="739">
+              <caret line="41" column="29" selection-start-line="25" selection-end-line="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/BinaryTree/BinaryTreeZigzagLevelOrderTraversal.java">
+        <entry file="file://$PROJECT_DIR$/src/BinaryTree/LowestCommonAncestor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="27" column="19" lean-forward="true" selection-start-line="9" selection-end-line="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="550">
+              <caret line="25" column="43" lean-forward="true" selection-start-line="20" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -80,8 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BinaryTree/BinaryTreePreorderTraversal2.java" />
-        <option value="$PROJECT_DIR$/src/BinaryTree/InvertBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/BinaryTreeInorderTraversal.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/ModernLudoI.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/BinaryTreePathSum.java" />
@@ -131,6 +124,8 @@
         <option value="$PROJECT_DIR$/src/Array/KthLargestElementInArray.java" />
         <option value="$PROJECT_DIR$/src/BFS/WordLadder.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/BinaryTreeZigzagLevelOrderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/String/CountAndSay.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/LowestCommonAncestor.java" />
       </list>
     </option>
   </component>
@@ -385,12 +380,12 @@
       <workItem from="1560427808818" duration="5402000" />
       <workItem from="1560473772687" duration="14000" />
       <workItem from="1560492370744" duration="272000" />
-      <workItem from="1560496451653" duration="17557000" />
+      <workItem from="1560496451653" duration="18653000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="287630000" />
+    <option name="totallyTimeSpent" value="288726000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -454,20 +449,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/lang/NoClassDefFoundError.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/lang/IndexOutOfBoundsException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="35" column="3" lean-forward="true" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/lang/ClassCastException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
@@ -846,11 +827,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryTree/BinaryTreeZigzagLevelOrderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="19" lean-forward="true" selection-start-line="9" selection-end-line="28" />
+        <state relative-caret-position="462">
+          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/String/CountAndSay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="739">
+          <caret line="41" column="29" selection-start-line="25" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/LowestCommonAncestor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="43" lean-forward="true" selection-start-line="20" selection-end-line="26" />
         </state>
       </provider>
     </entry>

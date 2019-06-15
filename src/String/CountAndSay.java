@@ -1,5 +1,6 @@
 package String;
 
+// Problem 38. Count and Say
 public class CountAndSay {
 
     private String countAndSay(int n) {
@@ -20,4 +21,25 @@ public class CountAndSay {
         }
         return sb.toString();
     }
+
+    public String countAndSay2(int n) {
+        if (n == 1) return "1";
+
+        String prev = countAndSay2(n - 1);
+        int cnt = 1;
+        StringBuilder sb = new StringBuilder();
+
+        for (int i = 0, len = prev.length(); i < len; ) {
+            while (i < len - 1 && prev.charAt(i) == prev.charAt(i + 1)) {
+                i++;
+                cnt++;
+            }
+            sb.append(cnt).append(prev.charAt(i));
+            cnt = 1;
+            i++;
+        }
+
+        return sb.toString();
+    }
+
 }
