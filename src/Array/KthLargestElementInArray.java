@@ -2,6 +2,7 @@ package Array;
 
 import java.util.Random;
 
+// Problem 215. Kth Largest Element in an Array
 public class KthLargestElementInArray {
 
     public int findKthLargest(int[] nums, int k) {
@@ -52,4 +53,34 @@ public class KthLargestElementInArray {
         nums[j] = temp;
     }
 
+    public int findKthLargest2(int[] nums, int k) {
+        int l = 0, r = nums.length - 1;
+        k = nums.length - k;
+        while (l < r) {
+            int p = partition2(nums, l, r);
+            if (p == k) {
+                break;
+            } else if (p < k) {
+                l = p + 1;
+            } else {
+                r = p - 1;
+            }
+        }
+        return nums[k];
+    }
+
+    private int partition2(int[] nums, int l, int r) {
+        int i = l, j = r + 1;
+        while (true) {
+            while (i < r && nums[++i] < nums[l]) {
+            }
+            while (j > l && nums[l] < nums[--j]) {
+            }
+
+            if (i >= j) break;
+            swap(nums, i, j);
+        }
+        swap(nums, l, j);
+        return j;
+    }
 }
