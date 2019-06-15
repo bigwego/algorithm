@@ -2,9 +2,11 @@ package Graph;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 class CourseSchedule {
 
@@ -44,5 +46,41 @@ class CourseSchedule {
             }
         }
         return true;
+    }
+
+    public boolean canFinish2(int numCourses, int[][] prerequisites) {
+        Map<Integer, Set<Integer>> graph = new HashMap<>();
+        int[] indegrees = new int[numCourses];
+
+        for (int[] pre : prerequisites) {
+            int c1 = pre[0], c2 = pre[1];
+            graph.putIfAbsent(c2, new HashSet<>());
+            graph.get(c2).add(c1);
+            indegrees[c1]++;
+        }
+
+        int cnt = 0;
+        LinkedList<Integer> queue = new LinkedList<>();
+        for (int i = 0; i < numCourses; i++) {
+            if (indegrees[i] == 0) {
+                queue.add(i);
+                cnt++;
+            }
+        }
+
+        while (!queue.isEmpty()) {
+            for (int i = 0, sz = queue.size(); i < sz; i++) {
+                int c = queue.poll();
+                if (!graph.containsKey(c)) continue;
+                for (int next : graph.get(c)) {
+                    if (--indegrees[next] == 0) {
+                        queue.add(next);
+                        cnt++;
+                    }
+                }
+            }
+        }
+
+        return cnt == numCourses;
     }
 }
