@@ -13,6 +13,6 @@ public class SumOfDigitsInMinimumNumber {
             min /= 10;
         }
 
-        return (min & 1) == 1 ? 0 : 1;
+        return (sum & 1) == 1 ? 0 : 1;
     }
 }
