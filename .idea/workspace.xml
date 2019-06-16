@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a720b7d4-b752-46a3-b325-eddac017ec52" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/DecodeWays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/DecodeWays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/ClimbingStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/ClimbingStairs.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,11 +33,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/DecodeWays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="739">
-              <caret line="41" column="23" selection-start-line="25" selection-end-line="42" />
+            <state relative-caret-position="673">
+              <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Array/ThreeSumCloset.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Array/ThreeSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/ClimbingStairs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="27" column="19" selection-start-line="18" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -65,7 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LinkedList/RemoveNthNodeFromEndOfList.java" />
         <option value="$PROJECT_DIR$/src/BackTracking/Permutations.java" />
         <option value="$PROJECT_DIR$/src/String/GenerateParentheses.java" />
         <option value="$PROJECT_DIR$/src/Array/KthLargestElementInArray.java" />
@@ -116,6 +142,7 @@
         <option value="$PROJECT_DIR$/src/Array/RemoveDuplicatesFromSortedArray.java" />
         <option value="$PROJECT_DIR$/src/String/ZigZagConversion.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/DecodeWays.java" />
+        <option value="$PROJECT_DIR$/src/DynamicProgramming/ClimbingStairs.java" />
       </list>
     </option>
   </component>
@@ -370,12 +397,12 @@
       <workItem from="1560427808818" duration="5402000" />
       <workItem from="1560473772687" duration="14000" />
       <workItem from="1560492370744" duration="272000" />
-      <workItem from="1560496451653" duration="41612000" />
+      <workItem from="1560496451653" duration="42107000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="311685000" />
+    <option name="totallyTimeSpent" value="312180000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -439,20 +466,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BinaryTree/BinaryTreeInorderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="739">
-          <caret line="37" column="19" selection-start-line="24" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinaryTree/LowestCommonAncestor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="43" lean-forward="true" selection-start-line="20" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/String/CountAndSay.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="739">
@@ -675,13 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Array/ThreeSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="662">
-          <caret line="71" column="19" selection-start-line="45" selection-end-line="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/String/LongestCommonPrefix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -809,8 +815,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/DecodeWays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="739">
-          <caret line="41" column="23" selection-start-line="25" selection-end-line="42" />
+        <state relative-caret-position="673">
+          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/ThreeSumCloset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/ThreeSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/ClimbingStairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" column="19" selection-start-line="18" selection-end-line="28" />
         </state>
       </provider>
     </entry>
