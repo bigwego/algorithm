@@ -40,4 +40,21 @@ public class NextPermutation {
         nums[i] = nums[j];
         nums[j] = temp;
     }
+
+    public void nextPermutation2(int[] nums) {
+        if (nums == null || nums.length < 2) return;
+        int len = nums.length, idx = len - 2;
+
+        while (idx > -1 && nums[idx] >= nums[idx + 1]) idx--;
+        if (idx == -1) {
+            reverse(nums, 0, len - 1);
+            return;
+        }
+
+        int fs = idx;
+        idx = len - 1;
+        while (idx > fs && nums[idx] <= nums[fs]) idx--;
+        swap(nums, fs, idx);
+        reverse(nums, fs + 1, len - 1);
+    }
 }

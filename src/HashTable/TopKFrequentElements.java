@@ -29,4 +29,29 @@ public class TopKFrequentElements {
         }
         return res;
     }
+
+    public List<Integer> topKFrequent2(int[] nums, int k) {
+        List<Integer> res = new ArrayList<>();
+        List<Integer>[] freqs = new List[nums.length + 1];
+        Map<Integer, Integer> cnts = new HashMap<>();
+
+        for (int num : nums)
+            cnts.put(num, cnts.getOrDefault(num, 0) + 1);
+
+        for (int num : cnts.keySet()) {
+            int freq = cnts.get(num);
+            if (freqs[freq] == null) freqs[freq] = new ArrayList<>();
+            freqs[freq].add(num);
+        }
+
+        for (int i = freqs.length - 1; i > -1; i--) {
+            if (freqs[i] == null) continue;
+            for (int num : freqs[i])
+                res.add(num);
+            k -= freqs[i].size();
+            if (k < 0) break;
+        }
+
+        return res;
+    }
 }
