@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a720b7d4-b752-46a3-b325-eddac017ec52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/LargestValuesFromLabels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BFS/ShortestPathInBinaryMatrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -35,13 +35,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Array/LargestValuesFromLabels.java">
+        <entry file="file://$PROJECT_DIR$/src/BFS/ShortestPathInBinaryMatrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="30" column="19" selection-start-line="9" selection-end-line="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="343">
+              <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -69,7 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Array/ProductOfArrayExceptSelf.java" />
         <option value="$PROJECT_DIR$/src/Array/SearchInRotatedSortedArray.java" />
         <option value="$PROJECT_DIR$/src/String/LetterCombinationsOfPhoneNumber.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/WordBreak.java" />
@@ -120,6 +116,7 @@
         <option value="$PROJECT_DIR$/src/LinkedList/MergeTwoSortedLists.java" />
         <option value="$PROJECT_DIR$/src/Array/DuplicateZeros.java" />
         <option value="$PROJECT_DIR$/src/Array/LargestValuesFromLabels.java" />
+        <option value="$PROJECT_DIR$/src/BFS/ShortestPathInBinaryMatrix.java" />
       </list>
     </option>
   </component>
@@ -156,6 +153,12 @@
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Array" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="BFS" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -368,12 +371,12 @@
       <workItem from="1560427808818" duration="5402000" />
       <workItem from="1560473772687" duration="14000" />
       <workItem from="1560492370744" duration="272000" />
-      <workItem from="1560496451653" duration="37366000" />
+      <workItem from="1560496451653" duration="38216000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="307439000" />
+    <option name="totallyTimeSpent" value="308289000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -437,16 +440,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/String/LetterCombinationsOfPhoneNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" column="19" selection-start-line="10" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BackTracking/Permutations.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
@@ -816,11 +809,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/LargestValuesFromLabels.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="30" column="19" selection-start-line="9" selection-end-line="31" />
+        <state relative-caret-position="638">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BFS/ShortestPathInBinaryMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
         </state>
       </provider>
     </entry>
