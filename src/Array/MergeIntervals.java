@@ -1,6 +1,7 @@
 package Array;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
@@ -43,5 +44,33 @@ public class MergeIntervals {
         }
         res.add(new Interval(start, end));
         return res;
+    }
+
+    public int[][] merge2(int[][] intervals) {
+        if (intervals == null || intervals.length == 0) return new int[][]{};
+
+        List<int[]> res = new ArrayList<>();
+        Arrays.sort(intervals, (i1, i2) -> {
+            return i1[0] - i2[0];
+        });
+
+        int start = intervals[0][0], end = intervals[0][1];
+        for (int i = 1, len = intervals.length; i < len; i++) {
+            int s = intervals[i][0];
+            if (s <= end) {
+                end = Math.max(end, intervals[i][1]);
+            } else {
+                res.add(new int[]{ start, end });
+                start = s;
+                end = intervals[i][1];
+            }
+        }
+
+        res.add(new int[]{ start, end });
+        int[][] ret = new int[res.size()][2];
+        for (int i = 0, len = ret.length; i < len; i++)
+            ret[i] = res.get(i);
+
+        return ret;
     }
 }
