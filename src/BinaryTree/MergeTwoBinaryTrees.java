@@ -23,4 +23,16 @@ public class MergeTwoBinaryTrees {
         node.right = mergeTrees(t1.right, t2.right);
         return node;
     }
+
+    public TreeNode mergeTrees2(TreeNode t1, TreeNode t2) {
+        if (t1 == null && t2 == null) return null;
+        if (t1 == null || t2 == null) {
+            return t1 == null ? t2 : t1;
+        }
+
+        TreeNode node = new TreeNode(t1.val + t2.val);
+        node.left = mergeTrees2(t1.left, t2.left);
+        node.right = mergeTrees2(t1.right, t2.right);
+        return node;
+    }
 }
