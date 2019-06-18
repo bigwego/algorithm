@@ -48,14 +48,4 @@ public class SortList {
         }
         return dummy.next;
     }
-
-    private class ListNode {
-        int val;
-
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
 }
