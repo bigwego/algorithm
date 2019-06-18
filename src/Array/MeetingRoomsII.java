@@ -1,6 +1,7 @@
 package Array;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -42,5 +43,31 @@ public class MeetingRoomsII {
             }
         }
         return cnt;
+    }
+
+    public int minMeetingRooms2(List<Interval> intervals) {
+        if (intervals == null || intervals.size() == 0) return 0;
+
+        int size = intervals.size();
+        int[] starts = new int[size], ends = new int[size];
+
+        for (int i = 0; i < size; i++) {
+            starts[i] = intervals.get(i).start;
+            ends[i] = intervals.get(i).end;
+        }
+
+        Arrays.sort(starts);
+        Arrays.sort(ends);
+
+        int res = 0, endIdx = 0;
+        for (int i = 0; i < size; i++) {
+            if (starts[i] < ends[endIdx]) {
+                res++;
+            } else {
+                endIdx++;
+            }
+        }
+
+        return res;
     }
 }
