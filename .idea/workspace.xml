@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a720b7d4-b752-46a3-b325-eddac017ec52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Others/CountPrimes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/RemoveNthNodeFromEndOfList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/RemoveNthNodeFromEndOfList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,19 +34,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Others/CountPrimes.java">
+        <entry file="file://$PROJECT_DIR$/src/LinkedList/RemoveNthNodeFromEndOfList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Others/ConvertBaseNeg2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="673">
+              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -74,7 +65,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/HashTable/JewelsAndStones.java" />
         <option value="$PROJECT_DIR$/src/String/ReverseString.java" />
         <option value="$PROJECT_DIR$/src/Array/MergeIntervals.java" />
         <option value="$PROJECT_DIR$/src/Array/ThreeSum.java" />
@@ -125,6 +115,7 @@
         <option value="$PROJECT_DIR$/src/HashTable/MostCommonWord.java" />
         <option value="$PROJECT_DIR$/src/Array/MeetingRoomsII.java" />
         <option value="$PROJECT_DIR$/src/Others/CountPrimes.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/RemoveNthNodeFromEndOfList.java" />
       </list>
     </option>
   </component>
@@ -376,12 +367,12 @@
       <workItem from="1560496451653" duration="55711000" />
       <workItem from="1560812506652" duration="13000" />
       <workItem from="1560818655323" duration="1236000" />
-      <workItem from="1560840528887" duration="5513000" />
+      <workItem from="1560840528887" duration="5769000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="332546000" />
+    <option name="totallyTimeSpent" value="332802000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -445,13 +436,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/String/ReverseWordsInStringIII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/TwoSumII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -796,6 +780,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Others/CountPrimes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Others/ConvertBaseNeg2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -803,10 +794,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Others/CountPrimes.java">
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/RemoveNthNodeFromEndOfList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="673">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
         </state>
       </provider>
     </entry>
