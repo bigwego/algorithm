@@ -30,4 +30,16 @@ public class LinkedListCycle {
         }
         return false;
     }
+
+    public boolean hasCycle2(ListNode head) {
+        ListNode f = head, s = head;
+
+        while (f != null && f.next != null) {
+            f = f.next.next;
+            s = s.next;
+            if(f==s) return true;
+        }
+
+        return false;
+    }
 }
