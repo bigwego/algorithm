@@ -17,4 +17,21 @@ public class PermutationInString {
         }
         return s1.length() == 0;
     }
+
+    public boolean checkInclusion2(String s1, String s2) {
+        int[] cnts = new int[26];
+        for (char c : s1.toCharArray()) cnts[c - 'a']++;
+
+        int i = 0;
+        for (int j = 0, len = s2.length(); j < len; j++) {
+            if (--cnts[s2.charAt(j) - 'a'] < 0) {
+                while (++cnts[s2.charAt(i++) - 'a'] != 0) {
+                }
+            } else if (j - i == s1.length() - 1) {
+                return true;
+            }
+        }
+
+        return false;
+    }
 }
