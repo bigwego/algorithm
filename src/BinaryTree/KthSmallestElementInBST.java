@@ -1,5 +1,7 @@
 package BinaryTree;
 
+import java.util.Stack;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -29,5 +31,22 @@ public class KthSmallestElementInBST {
             return;
         }
         help(root.right, k);
+    }
+
+    public int kthSmallest2(TreeNode root, int k) {
+        Stack<TreeNode> stack = new Stack<>();
+        stack.push(root);
+
+        while (!stack.isEmpty() || root != null) {
+            while (root != null) {
+                stack.push(root);
+                root = root.left;
+            }
+            root = stack.pop();
+            if (--k == 0) return root.val;
+            root = root.right;
+        }
+
+        return -1;
     }
 }
