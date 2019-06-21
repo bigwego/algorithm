@@ -29,4 +29,22 @@ public class RemoveDuplicatesFromSortedListII {
         }
         return dummy.next;
     }
+
+    public ListNode deleteDuplicates2(ListNode head) {
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
+        ListNode curr = dummy;
+
+        while (curr.next != null && curr.next.next != null) {
+            if (curr.next.val == curr.next.next.val) {
+                int num = curr.next.val;
+                while (curr.next != null && curr.next.val == num)
+                    curr.next = curr.next.next;
+            } else {
+                curr = curr.next;
+            }
+        }
+
+        return dummy.next;
+    }
 }

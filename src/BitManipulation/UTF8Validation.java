@@ -31,4 +31,24 @@ public class UTF8Validation {
         }
         return true;
     }
+
+    public boolean validUtf82(int[] data) {
+        for (int i = 0, len = data.length; i < len; i++) {
+            int d = data[i];
+            if (d > 255) return false;
+            int jump = 0;
+            if ((d & 128) == 0) jump = 0;
+            else if ((d & 224) == 192) jump = 1;
+            else if ((d & 240) == 224) jump = 2;
+            else if ((d & 248) == 240) jump = 3;
+            else return false;
+            if (i + jump > len) return false;
+            while (jump-- > 0) {
+                i++;
+                if ((data[i] & 192) != 128) return false;
+            }
+        }
+
+        return true;
+    }
 }
