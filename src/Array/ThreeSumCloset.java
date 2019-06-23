@@ -25,5 +25,27 @@ public class ThreeSumCloset {
         return res;
     }
 
+    public int threeSumClosest2(int[] nums, int target) {
+        Arrays.sort(nums);
+
+        int res = 0, diff = Integer.MAX_VALUE;
+
+        for (int i = 0, len = nums.length; i < len - 2; i++) {
+            int l = i + 1, r = len - 1;
+            int sum = 0;
+            while (l < r) {
+                sum = nums[i] + nums[l] + nums[r];
+                if (sum == target) return sum;
+                if (Math.abs(sum - target) < diff) {
+                    res = sum;
+                    diff = Math.abs(sum - target);
+                }
+                if (sum > target) r--;
+                else l++;
+            }
+        }
+
+        return res;
+    }
 
 }
