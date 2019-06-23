@@ -51,4 +51,34 @@ public class FriendCircles {
         while (i != u[i]) i = u[u[i]];
         return i;
     }
+
+    public int findCircleNum3(int[][] M) {
+        int n = M.length;
+        int[] roots = new int[n];
+        for (int i = 0; i < n; i++) roots[i] = i;
+
+        int cnt = n;
+
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = i + 1; j < n; j++) {
+                if (M[i][j] == 1) {
+                    int ri = find3(roots, i);
+                    int rj = find3(roots, j);
+                    if (ri != rj) {
+                        roots[rj] = ri;
+                        cnt--;
+                    }
+                }
+            }
+        }
+
+        return cnt;
+    }
+
+    private int find3(int[] roots, int i) {
+        while (roots[i] != i) {
+            i = roots[roots[i]];
+        }
+        return i;
+    }
 }

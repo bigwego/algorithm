@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a720b7d4-b752-46a3-b325-eddac017ec52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Others/PermutationSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design/LRUCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UnionFind/FriendCircles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UnionFind/FriendCircles.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,11 +53,41 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Others/PermutationSequence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="25" column="29" selection-start-line="8" selection-end-line="26" />
+            <state relative-caret-position="282">
+              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DFS/FriendCircles.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/UnionFind/FriendCircles.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="67" column="19" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Design/LRUCache.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,7 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LinkedList/SwapNodesInPairs.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/IntersectionOfTwoLinkedList.java" />
         <option value="$PROJECT_DIR$/src/Array/IntersectionOfTwoArraysII.java" />
         <option value="$PROJECT_DIR$/src/HashTable/ValidSudoku.java" />
@@ -108,7 +139,6 @@
         <option value="$PROJECT_DIR$/src/HashTable/SubarraySumsDivisibleByK.java" />
         <option value="$PROJECT_DIR$/src/BackTracking/RestoreIPAddress.java" />
         <option value="$PROJECT_DIR$/src/UnionFind/FriendCircle.java" />
-        <option value="$PROJECT_DIR$/src/UnionFind/FriendCircles.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/DeleteAndEarn.java" />
         <option value="$PROJECT_DIR$/src/Stack/RemoveKDigits.java" />
         <option value="$PROJECT_DIR$/src/SlidingWindow/PermutationInString.java" />
@@ -137,6 +167,8 @@
         <option value="$PROJECT_DIR$/src/Array/ThreeSum.java" />
         <option value="$PROJECT_DIR$/src/Array/KthLargestElementInArray.java" />
         <option value="$PROJECT_DIR$/src/Others/PermutationSequence.java" />
+        <option value="$PROJECT_DIR$/src/UnionFind/FriendCircles.java" />
+        <option value="$PROJECT_DIR$/src/Design/LRUCache.java" />
       </list>
     </option>
   </component>
@@ -173,7 +205,7 @@
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Others" type="462c0819:PsiDirectoryNode" />
+              <item name="Design" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -212,15 +244,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HeapSort">
-    <configuration name="EnumDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EnumDemo" />
-      <module name="algorithm" />
-      <option name="PROGRAM_PARAMETERS" value="2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LRUCache">
     <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Heap.HeapSort" />
       <module name="algorithm" />
@@ -230,6 +254,13 @@
     </configuration>
     <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Array.InsertionSort" />
+      <module name="algorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LRUCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Design.LRUCache" />
       <module name="algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -280,19 +311,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.EnumDemo" />
       <item itemvalue="Application.PowerXN" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.InsertionSort" />
       <item itemvalue="Application.HeapSort" />
+      <item itemvalue="Application.LRUCache" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LRUCache" />
         <item itemvalue="Application.HeapSort" />
         <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.PowerXN" />
-        <item itemvalue="Application.EnumDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -397,24 +428,24 @@
       <workItem from="1561086340370" duration="108000" />
       <workItem from="1561087605817" duration="14154000" />
       <workItem from="1561202084544" duration="2710000" />
-      <workItem from="1561243506915" duration="3912000" />
+      <workItem from="1561243506915" duration="5852000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="370246000" />
+    <option name="totallyTimeSpent" value="372186000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="703" y="23" width="737" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.23884892" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49879518" weight="0.23884892" />
       <window_info id="Structure" order="1" sideWeight="0.50120485" side_tool="true" weight="0.3304721" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32866243" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32866243" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -466,27 +497,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Stack/RemoveKDigits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HashTable/IsomorphicStrings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinaryTree/FlattenBinaryTree2LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Design/TicTacToe.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -830,8 +840,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Others/PermutationSequence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="25" column="29" selection-start-line="8" selection-end-line="26" />
+        <state relative-caret-position="282">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DFS/FriendCircles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UnionFind/FriendCircles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="67" column="19" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Design/LRUCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
