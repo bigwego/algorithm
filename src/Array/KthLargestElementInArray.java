@@ -83,4 +83,33 @@ public class KthLargestElementInArray {
         swap(nums, l, j);
         return j;
     }
+
+    public int findKthLargest3(int[] nums, int k) {
+        int l = 0, r = nums.length - 1;
+        k = nums.length - k;
+
+        while (l < r) {
+            int p = partition3(nums, l, r);
+            if (p == k) break;
+            if (p > k) r = p - 1;
+            else l = p + 1;
+        }
+
+        return nums[k];
+    }
+
+    private int partition3(int[] nums, int l, int r) {
+        int pos = new Random().nextInt(r - l) + l + 1;
+        swap(nums, l, pos);
+
+        int i = l, j = r + 1;
+        while (true) {
+            while (i < r && nums[++i] < nums[l]) ;
+            while (j > l && nums[--j] > nums[l]) ;
+            if (i >= j) break;
+            swap(nums, i, j);
+        }
+        swap(nums, l, j);
+        return j;
+    }
 }
