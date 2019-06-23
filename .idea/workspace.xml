@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a720b7d4-b752-46a3-b325-eddac017ec52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Heap/HeapSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Others/MultiplyStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Others/MultiplyStrings.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -88,11 +87,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Heap/HeapSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="628">
-              <caret line="58" column="4" lean-forward="true" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
+            <state relative-caret-position="282">
+              <caret line="61" column="24" lean-forward="true" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Others/MultiplyStrings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="436">
+              <caret line="23" column="54" selection-start-line="5" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -149,7 +157,6 @@
         <option value="$PROJECT_DIR$/src/DynamicProgramming/DeleteAndEarn.java" />
         <option value="$PROJECT_DIR$/src/Stack/RemoveKDigits.java" />
         <option value="$PROJECT_DIR$/src/SlidingWindow/PermutationInString.java" />
-        <option value="$PROJECT_DIR$/src/Others/MultiplyStrings.java" />
         <option value="$PROJECT_DIR$/src/String/ReverseWordsInAString.java" />
         <option value="$PROJECT_DIR$/src/Stack/SimplifyPath.java" />
         <option value="$PROJECT_DIR$/src/Array/TrappingRainWater.java" />
@@ -171,6 +178,7 @@
         <option value="$PROJECT_DIR$/src/Array/MaximumSwap.java" />
         <option value="$PROJECT_DIR$/src/Others/ImplementRand10UsingRand7.java" />
         <option value="$PROJECT_DIR$/src/Heap/HeapSort.java" />
+        <option value="$PROJECT_DIR$/src/Others/MultiplyStrings.java" />
       </list>
     </option>
   </component>
@@ -431,12 +439,12 @@
       <workItem from="1561086340370" duration="108000" />
       <workItem from="1561087605817" duration="14154000" />
       <workItem from="1561202084544" duration="2710000" />
-      <workItem from="1561243506915" duration="1289000" />
+      <workItem from="1561243506915" duration="1903000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="367623000" />
+    <option name="totallyTimeSpent" value="368237000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="703" y="23" width="737" height="877" extended-state="0" />
@@ -448,7 +456,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32866243" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32866243" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -661,13 +669,6 @@
     <entry file="file://$PROJECT_DIR$/src/String/ReverseStringII.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Others/MultiplyStrings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/Triangle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="924">
@@ -864,8 +865,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Heap/HeapSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="58" column="4" lean-forward="true" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
+        <state relative-caret-position="282">
+          <caret line="61" column="24" lean-forward="true" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Others/MultiplyStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="23" column="54" selection-start-line="5" selection-end-line="24" />
         </state>
       </provider>
     </entry>
