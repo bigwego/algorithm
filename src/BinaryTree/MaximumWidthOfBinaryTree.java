@@ -2,6 +2,9 @@ package BinaryTree;
 
 import java.util.HashMap;
 import java.util.LinkedList;
+import java.util.Map;
+
+import sun.jvm.hotspot.utilities.Assert;
 
 /**
  * Definition for a binary tree node.
@@ -43,6 +46,36 @@ class MaximumWidthOfBinaryTree {
             }
             res = Math.max(res, e - s + 1);
         }
+        return res;
+    }
+
+    public int widthOfBinaryTree2(TreeNode root) {
+        if (root == null) return 0;
+
+        Map<TreeNode, Integer> map = new HashMap<>();
+        LinkedList<TreeNode> queue = new LinkedList<>();
+        queue.offer(root);
+        map.put(root, 1);
+
+        int s = 0, e = 0, res = 0;
+
+        while (!queue.isEmpty()) {
+            for (int i = 0, sz = queue.size(); i < sz; i++) {
+                TreeNode curr = queue.poll();
+                if (i == 0) s = map.get(curr);
+                if (i == sz - 1) e = map.get(curr);
+                if (curr.left != null) {
+                    queue.add(curr.left);
+                    map.put(curr.left, 2 * map.get(curr));
+                }
+                if (curr.right != null) {
+                    queue.add(curr.right);
+                    map.put(curr.right, 2 * map.get(curr) + 1);
+                }
+            }
+            res = Math.max(res, e - s + 1);
+        }
+
         return res;
     }
 }
