@@ -2,7 +2,7 @@ package Trie;
 
 public class Trie {
 
-    private final TrieNode root;
+    private TrieNode root;
 
     /**
      * Initialize your data structure here.
