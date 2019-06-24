@@ -27,4 +27,17 @@ public class ClimbingStairs {
 
         return one;
     }
+
+    public int climbStairs3(int n) {
+        if (n < 3) return n;
+
+        int minusOne = 2, minusTwo = 1;
+        for (int i = 2; i < n; i++) {
+            int tmp = minusOne;
+            minusOne += minusTwo;
+            minusTwo = tmp;
+        }
+
+        return minusOne;
+    }
 }
