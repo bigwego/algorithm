@@ -25,4 +25,18 @@ public class KthSmallestElementInSortedMatrix {
         }
         return res[0];
     }
+
+    public int kthSmallest2(int[][] matrix, int k) {
+        PriorityQueue<int[]> queue = new PriorityQueue<>((o1, o2) -> o1[2] - o2[2]);
+        int n = matrix.length;
+        for (int i = 0; i < n; i++)
+            queue.offer(new int[]{ 0, i, matrix[0][i] });
+
+        while (true) {
+            int[] curr = queue.poll();
+            if (--k == 0) return curr[2];
+            if (curr[0] != n - 1)
+                queue.offer(new int[]{ curr[0] + 1, curr[1], matrix[curr[0] + 1][curr[1]] });
+        }
+    }
 }
