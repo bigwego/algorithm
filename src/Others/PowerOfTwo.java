@@ -14,4 +14,9 @@ public class PowerOfTwo {
         }
         return true;
     }
+
+    public boolean isPowerOfTwo2(int n) {
+        if (n < 1) return false;
+        return (n & (n - 1)) == 0;
+    }
 }
