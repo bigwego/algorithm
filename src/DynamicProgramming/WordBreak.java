@@ -47,4 +47,21 @@ public class WordBreak {
         map.put(s, res);
         return res;
     }
+
+    public boolean wordBreak3(String s, List<String> wordDict) {
+        boolean[] dp = new boolean[s.length() + 1];
+        dp[0] = true;
+        Set<String> words = new HashSet<>(wordDict);
+
+        for (int i = 1, len = dp.length; i < len; i++) {
+            for (int j = 0; j < i; j++) {
+                if (dp[j] && words.contains(s.substring(j, i))) {
+                    dp[i] = true;
+                    break;
+                }
+            }
+        }
+
+        return dp[dp.length - 1];
+    }
 }
