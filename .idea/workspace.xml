@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a720b7d4-b752-46a3-b325-eddac017ec52" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/String/LongestSubstringWithAtLeastKRepeatingChars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/LongestSubstringWithAtLeastKRepeatingChars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/LongestConsecutiveSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/LongestConsecutiveSequence.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,11 +90,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/String/LongestSubstringWithAtLeastKRepeatingChars.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+            <state relative-caret-position="531">
+              <caret line="50" column="24" lean-forward="true" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Array/LongestConsecutiveSequence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="739">
+              <caret line="46" column="19" selection-start-line="29" selection-end-line="47" />
             </state>
           </provider>
         </entry>
@@ -122,7 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LinkedList/SortList.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/MergeKSortedLists.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/Triangle.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/RussianDollEnvelopes.java" />
@@ -173,6 +181,7 @@
         <option value="$PROJECT_DIR$/src/Others/ExcelSheetColumnNumber.java" />
         <option value="$PROJECT_DIR$/src/HashTable/FourSumII.java" />
         <option value="$PROJECT_DIR$/src/String/LongestSubstringWithAtLeastKRepeatingChars.java" />
+        <option value="$PROJECT_DIR$/src/Array/LongestConsecutiveSequence.java" />
       </list>
     </option>
   </component>
@@ -431,12 +440,12 @@
       <workItem from="1561086340370" duration="108000" />
       <workItem from="1561087605817" duration="14154000" />
       <workItem from="1561202084544" duration="2710000" />
-      <workItem from="1561243506915" duration="33089000" />
+      <workItem from="1561243506915" duration="33643000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="399423000" />
+    <option name="totallyTimeSpent" value="399977000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="726" y="0" width="714" height="900" extended-state="6" />
@@ -500,13 +509,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/ReverseNodesInKGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/InsertionSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -874,8 +876,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/String/LongestSubstringWithAtLeastKRepeatingChars.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+        <state relative-caret-position="531">
+          <caret line="50" column="24" lean-forward="true" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/LongestConsecutiveSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="739">
+          <caret line="46" column="19" selection-start-line="29" selection-end-line="47" />
         </state>
       </provider>
     </entry>
