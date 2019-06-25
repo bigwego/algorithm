@@ -6,7 +6,6 @@ public class MaximumXOROfTwoNumbersInArray {
         if (nums == null || nums.length == 0) {
             return 0;
         }
-        int res = Integer.MIN_VALUE;
 
         TrieNode root = buildTrie(nums);
 
@@ -14,7 +13,7 @@ public class MaximumXOROfTwoNumbersInArray {
     }
 
     private int solve(int[] nums, TrieNode root) {
-        int res = 0;
+        int res = Integer.MIN_VALUE;
 
         for (int num : nums) {
             int sum = 0;
