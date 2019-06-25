@@ -7,17 +7,15 @@ public class MaximumXOROfTwoNumbersInArray {
             return 0;
         }
         int res = Integer.MIN_VALUE;
-        TrieNode root = new TrieNode();
-        for (int num : nums) {
-            TrieNode node = root;
-            for (int i = 31; i > -1; i--) {
-                int currBit = (num >>> i) & 1;
-                if (node.children[currBit] == null) {
-                    node.children[currBit] = new TrieNode();
-                }
-                node = node.children[currBit];
-            }
-        }
+
+        TrieNode root = buildTrie(nums);
+
+        return solve(nums, root);
+    }
+
+    private int solve(int[] nums, TrieNode root) {
+        int res = 0;
+
         for (int num : nums) {
             int sum = 0;
             TrieNode node = root;
@@ -35,7 +33,22 @@ public class MaximumXOROfTwoNumbersInArray {
         return res;
     }
 
-    class TrieNode {
+    private TrieNode buildTrie(int[] nums) {
+        TrieNode root = new TrieNode();
+        for (int num : nums) {
+            TrieNode node = root;
+            for (int i = 31; i > -1; i--) {
+                int currBit = (num >>> i) & 1;
+                if (node.children[currBit] == null) {
+                    node.children[currBit] = new TrieNode();
+                }
+                node = node.children[currBit];
+            }
+        }
+        return root;
+    }
+
+    private class TrieNode {
         TrieNode[] children = new TrieNode[2];
     }
 }
