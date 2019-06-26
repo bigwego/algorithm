@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a720b7d4-b752-46a3-b325-eddac017ec52" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Others/CountPrimes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Others/CountPrimes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/MissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/MissingNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Greedy/GasStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Greedy/GasStation.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -96,11 +97,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Array/MissingNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="330">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Greedy/GasStation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="497">
+              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -128,8 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Array/CombinationSumII.java" />
-        <option value="$PROJECT_DIR$/src/LinkedList/RemoveDuplicatesFromSortedList.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/RemoveDuplicatesFromSortedListII.java" />
         <option value="$PROJECT_DIR$/src/String/MinimumWindowSubstring.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/KthSmallestElementInBST.java" />
@@ -179,6 +190,8 @@
         <option value="$PROJECT_DIR$/src/BitManipulation/ReverseBits.java" />
         <option value="$PROJECT_DIR$/src/BitManipulation/NumberOf1Bits.java" />
         <option value="$PROJECT_DIR$/src/Others/CountPrimes.java" />
+        <option value="$PROJECT_DIR$/src/Array/MissingNumber.java" />
+        <option value="$PROJECT_DIR$/src/Greedy/GasStation.java" />
       </list>
     </option>
   </component>
@@ -444,12 +457,12 @@
       <workItem from="1561087605817" duration="14154000" />
       <workItem from="1561202084544" duration="2710000" />
       <workItem from="1561243506915" duration="37993000" />
-      <workItem from="1561530156813" duration="1965000" />
+      <workItem from="1561530156813" duration="2983000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="406292000" />
+    <option name="totallyTimeSpent" value="407310000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="726" y="0" width="714" height="900" extended-state="6" />
@@ -486,13 +499,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Array/ContainsDuplicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/ProductOfArrayExceptSelf.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -857,8 +863,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/MissingNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="330">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Greedy/GasStation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
         </state>
       </provider>
     </entry>

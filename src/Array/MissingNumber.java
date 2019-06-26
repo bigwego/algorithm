@@ -1,5 +1,8 @@
 package Array;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class MissingNumber {
 
     public int missingNumber(int[] nums) {
