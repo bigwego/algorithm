@@ -1,26 +1,28 @@
 package Stack;
 
-import java.util.Stack;
+import java.util.LinkedList;
 
 public class SimplifyPath {
 
     public String simplifyPath(String path) {
         String[] strs = path.split("/");
-        Stack<String> stack = new Stack<>();
+        if (strs.length == 0) return "/";
 
+        LinkedList<String> stack = new LinkedList<>();
         for (String str : strs) {
-            if (str.equals(".")) continue;
+            if (str.equals(".") || str.equals("")) continue;
             if (str.equals("..")) {
-                if (!stack.isEmpty()) stack.pop();
-            } else {
-                stack.push(str);
-            }
+                if (!stack.isEmpty())
+                    stack.pop();
+            } else stack.push(str);
         }
 
-        StringBuilder sb = new StringBuilder();
-        while (!stack.isEmpty())
-            sb.append("/").append(stack.pop());
+        if (stack.isEmpty()) return "/";
 
-        return sb.toString();
+        String res = "";
+        for (String str : stack)
+            res = "/" + str + res;
+
+        return res.equals("") ? "/" : res;
     }
 }
