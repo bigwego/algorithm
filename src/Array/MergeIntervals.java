@@ -50,9 +50,7 @@ public class MergeIntervals {
         if (intervals == null || intervals.length == 0) return new int[][]{};
 
         List<int[]> res = new ArrayList<>();
-        Arrays.sort(intervals, (i1, i2) -> {
-            return i1[0] - i2[0];
-        });
+        Arrays.sort(intervals, Comparator.comparingInt(i -> i[0]));
 
         int start = intervals[0][0], end = intervals[0][1];
         for (int i = 1, len = intervals.length; i < len; i++) {
@@ -72,5 +70,24 @@ public class MergeIntervals {
             ret[i] = res.get(i);
 
         return ret;
+    }
+
+    public int[][] merge3(int[][] intervals) {
+        List<int[]> res = new ArrayList();
+        int[] starts = new int[intervals.length];
+        int[] ends = new int[intervals.length];
+        for (int i = 0; i < intervals.length; i++) {
+            starts[i] = intervals[i][0];
+            ends[i] = intervals[i][1];
+        }
+        Arrays.sort(starts);
+        Arrays.sort(ends);
+        for (int i = 0, j = 0; i < intervals.length; i++) {
+            if (i == intervals.length - 1 || starts[i + 1] > ends[i]) {
+                res.add(new int[]{ starts[j], ends[i] });
+                j = i + 1;
+            }
+        }
+        return res.toArray(new int[0][]);
     }
 }
