@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a720b7d4-b752-46a3-b325-eddac017ec52" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/SlidingWindow/PermutationInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SlidingWindow/PermutationInString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String/LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/LongestCommonPrefix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Others/MultiplyStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Others/MultiplyStrings.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,15 +33,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Trie/MaximumXOROfTwoNumbersInArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Others/TrailingZeros.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -119,11 +108,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SlidingWindow/PermutationInString.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="458">
+              <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Others/MultiplyStrings.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="919">
-              <caret line="53" column="21" selection-start-line="38" selection-end-line="54" />
+              <caret line="46" column="54" selection-start-line="27" selection-end-line="47" />
             </state>
           </provider>
         </entry>
@@ -156,7 +154,6 @@
         <option value="$PROJECT_DIR$/src/Array/MaximumSwap.java" />
         <option value="$PROJECT_DIR$/src/Others/ImplementRand10UsingRand7.java" />
         <option value="$PROJECT_DIR$/src/Heap/HeapSort.java" />
-        <option value="$PROJECT_DIR$/src/Others/MultiplyStrings.java" />
         <option value="$PROJECT_DIR$/src/Array/ThreeSum.java" />
         <option value="$PROJECT_DIR$/src/Array/KthLargestElementInArray.java" />
         <option value="$PROJECT_DIR$/src/Others/PermutationSequence.java" />
@@ -202,6 +199,7 @@
         <option value="$PROJECT_DIR$/src/String/LongestSubstringWithoutRepeatingCharacters.java" />
         <option value="$PROJECT_DIR$/src/String/LongestCommonPrefix.java" />
         <option value="$PROJECT_DIR$/src/SlidingWindow/PermutationInString.java" />
+        <option value="$PROJECT_DIR$/src/Others/MultiplyStrings.java" />
       </list>
     </option>
   </component>
@@ -468,12 +466,12 @@
       <workItem from="1561087605817" duration="14154000" />
       <workItem from="1561202084544" duration="2710000" />
       <workItem from="1561243506915" duration="37993000" />
-      <workItem from="1561530156813" duration="3728000" />
+      <workItem from="1561530156813" duration="4203000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="408055000" />
+    <option name="totallyTimeSpent" value="408530000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1444" y="-1080" width="954" height="1080" extended-state="6" />
@@ -510,20 +508,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Design/Twitter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#2377#2378#0" expanded="true" />
-            <element signature="e#2465#2466#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList/RotateList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -884,8 +868,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SlidingWindow/PermutationInString.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Others/MultiplyStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="919">
-          <caret line="53" column="21" selection-start-line="38" selection-end-line="54" />
+          <caret line="46" column="54" selection-start-line="27" selection-end-line="47" />
         </state>
       </provider>
     </entry>
