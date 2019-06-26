@@ -34,4 +34,23 @@ public class PermutationInString {
 
         return false;
     }
+
+    public boolean checkInclusion3(String s1, String s2) {
+        int[] cnts = new int[26];
+
+        for (char c : s1.toCharArray())
+            cnts[c - 'a']++;
+
+        int i = 0;
+        for (int j = 0, len = s2.length(); j < len; j++) {
+            int idx = s2.charAt(j) - 'a';
+            cnts[idx]--;
+            while (cnts[idx] < 0) {
+                cnts[s2.charAt(i++) - 'a']++;
+            }
+            if (j - i == s1.length() - 1) return true;
+        }
+
+        return false;
+    }
 }
