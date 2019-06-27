@@ -31,5 +31,4 @@ public class BinaryTreeZigzagLevelOrderTraversal {
 
         return res;
     }
-
 }
