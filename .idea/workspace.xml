@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a720b7d4-b752-46a3-b325-eddac017ec52" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/ReverseLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/RotateList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/RotateList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -87,11 +87,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinkedList/ReverseLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="919">
-              <caret line="50" column="20" selection-start-line="41" selection-end-line="51" />
+            <state relative-caret-position="699">
+              <caret line="40" column="49" lean-forward="true" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LinkedList/RotateList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
             </state>
           </provider>
         </entry>
@@ -135,7 +144,6 @@
         <option value="$PROJECT_DIR$/src/Array/ThreeSumCloset.java" />
         <option value="$PROJECT_DIR$/src/Array/ContainerWithMostWater.java" />
         <option value="$PROJECT_DIR$/src/Array/SpiralMatrixII.java" />
-        <option value="$PROJECT_DIR$/src/LinkedList/RotateList.java" />
         <option value="$PROJECT_DIR$/src/Others/PalindromeNumber.java" />
         <option value="$PROJECT_DIR$/src/Array/MajorityElement.java" />
         <option value="$PROJECT_DIR$/src/Others/PowerOfTwo.java" />
@@ -179,6 +187,7 @@
         <option value="$PROJECT_DIR$/src/DynamicProgramming/LongestIncreasingSubsequence.java" />
         <option value="$PROJECT_DIR$/src/DynamicProgramming/RussianDollEnvelopes.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/ReverseLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/RotateList.java" />
       </list>
     </option>
   </component>
@@ -445,12 +454,12 @@
       <workItem from="1561087605817" duration="14154000" />
       <workItem from="1561202084544" duration="2710000" />
       <workItem from="1561243506915" duration="37993000" />
-      <workItem from="1561530156813" duration="11024000" />
+      <workItem from="1561530156813" duration="11827000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="415351000" />
+    <option name="totallyTimeSpent" value="416154000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="478" y="-1080" width="795" height="1080" extended-state="0" />
@@ -487,16 +496,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Others/GrayCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Quiz/canWinNim.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -854,8 +853,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList/ReverseLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="919">
-          <caret line="50" column="20" selection-start-line="41" selection-end-line="51" />
+        <state relative-caret-position="699">
+          <caret line="40" column="49" lean-forward="true" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/RotateList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>
