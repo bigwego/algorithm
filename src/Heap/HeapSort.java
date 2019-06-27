@@ -5,7 +5,7 @@ public class HeapSort {
     public static void heapSort(int[] arr) {
         if (arr == null || arr.length < 2) return;
 
-        buildMapHeap(arr);
+        buildHeap(arr);
 
         int size = arr.length;
 
@@ -27,7 +27,7 @@ public class HeapSort {
         }
     }
 
-    private static void buildMapHeap(int[] arr) {
+    private static void buildHeap(int[] arr) {
         for (int i = 0, len = arr.length; i < len; i++) {
             heapInsert(arr, i);
         }
