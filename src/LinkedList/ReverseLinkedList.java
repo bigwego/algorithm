@@ -35,6 +35,19 @@ public class ReverseLinkedList {
         ListNode next = head.next;
         head.next = prev;
         prev = head;
-        return reverse(next,head);
+        return reverse(next, head);
+    }
+
+    public ListNode reverseList4(ListNode head) {
+        ListNode prev = null;
+
+        while (head != null) {
+            ListNode next = head.next;
+            head.next = prev;
+            prev = head;
+            head = next;
+        }
+
+        return prev;
     }
 }
