@@ -46,4 +46,24 @@ public class LongestIncreasingSubsequence {
         return res;
     }
 
+    public int lengthOfLIS3(int[] nums) {
+        if (nums == null || nums.length == 0) return 0;
+
+        int len = nums.length;
+        int[] tails = new int[len];
+        int size = 0;
+
+        for (int num : nums) {
+            int l = 0, r = size;
+            while (l < r) {
+                int mid = l + (r - l) / 2;
+                if (tails[mid] < num) l = mid + 1;
+                else r = mid;
+            }
+            tails[l] = num;
+            if (l == size) size++;
+        }
+
+        return size;
+    }
 }
