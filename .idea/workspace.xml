@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a720b7d4-b752-46a3-b325-eddac017ec52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/DistributeCandies2People.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackTracking/KSumIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/FillingBookcaseShelves.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/DistributeCandies2People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/DistributeCandies2People.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,11 +71,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Array/DistributeCandies2People.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+            <state relative-caret-position="396">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/FillingBookcaseShelves.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="20" column="23" selection-start-line="5" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -103,7 +112,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Trie/Trie.java" />
         <option value="$PROJECT_DIR$/src/BackTracking/WordSearchII.java" />
         <option value="$PROJECT_DIR$/src/Array/MaximumProductSubarray.java" />
         <option value="$PROJECT_DIR$/src/Array/IncreasingTripletSubsequence.java" />
@@ -154,6 +162,7 @@
         <option value="$PROJECT_DIR$/src/Array/TwoSumLessThanK.java" />
         <option value="$PROJECT_DIR$/src/BackTracking/KSumIII.java" />
         <option value="$PROJECT_DIR$/src/Array/DistributeCandies2People.java" />
+        <option value="$PROJECT_DIR$/src/DynamicProgramming/FillingBookcaseShelves.java" />
       </list>
     </option>
   </component>
@@ -164,9 +173,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="1100" />
-    <option name="width" value="340" />
-    <option name="height" value="900" />
+    <option name="x" value="478" />
+    <option name="y" value="-1080" />
+    <option name="width" value="954" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -189,7 +199,7 @@
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Array" type="462c0819:PsiDirectoryNode" />
+              <item name="DynamicProgramming" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -414,24 +424,24 @@
       <workItem from="1561087605817" duration="14154000" />
       <workItem from="1561202084544" duration="2710000" />
       <workItem from="1561243506915" duration="37993000" />
-      <workItem from="1561530156813" duration="30657000" />
+      <workItem from="1561530156813" duration="33356000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="434984000" />
+    <option name="totallyTimeSpent" value="437683000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="726" y="0" width="714" height="900" extended-state="6" />
+    <frame x="478" y="-1080" width="954" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49879518" weight="0.89880955" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49879518" weight="0.89824945" />
       <window_info id="Structure" order="1" sideWeight="0.50120485" side_tool="true" weight="0.3304721" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32771084" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26930693" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -456,16 +466,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Array/MissingNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Others/CountPrimes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="431">
@@ -840,8 +840,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/DistributeCandies2People.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        <state relative-caret-position="396">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DynamicProgramming/FillingBookcaseShelves.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="23" selection-start-line="5" selection-end-line="21" />
         </state>
       </provider>
     </entry>
