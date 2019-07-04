@@ -14,4 +14,17 @@ public class ReverseInteger {
 
         return res;
     }
+
+    public int reverse2(int x) {
+        int res = 0, tmp = 0;
+
+        while (x != 0) {
+            tmp = 10 * res + x % 10;
+            if (tmp / 10 != res) return 0;
+            res = tmp;
+            x /= 10;
+        }
+
+        return res;
+    }
 }

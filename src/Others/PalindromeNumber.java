@@ -1,5 +1,8 @@
 package Others;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class PalindromeNumber {
 
     public boolean isPalindrome(int x) {
@@ -25,5 +28,13 @@ public class PalindromeNumber {
         }
 
         return x == rev || x == rev / 10;
+    }
+
+    public static void main(String[] args) {
+        List list = new ArrayList<>();
+        Object o = new Object();
+        list.add(o);
+        o = null;
+        System.out.println(list.get(0) == null);
     }
 }
