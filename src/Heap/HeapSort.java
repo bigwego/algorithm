@@ -28,7 +28,7 @@ public class HeapSort {
     }
 
     private static void buildHeap(int[] arr) {
-        for (int i = 0, len = arr.length; i < len; i++) {
+        for (int i = 1, len = arr.length; i < len; i++) {
             heapInsert(arr, i);
         }
     }
@@ -46,18 +46,18 @@ public class HeapSort {
         arr[j] = tmp;
     }
 
-    public static void printArray(int[] arr) {
+    private static void printArray(int[] arr) {
         if (arr == null) {
             return;
         }
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
+        for (int value : arr) {
+            System.out.print(value + " ");
         }
         System.out.println();
     }
 
     public static void main(String[] args) {
-        int[] arr = new int[]{};
+        int[] arr = new int[]{ 9, 8, 7, 6, 5, 4, 3, 2, 1, 0 };
         heapSort(arr);
         printArray(arr);
     }
