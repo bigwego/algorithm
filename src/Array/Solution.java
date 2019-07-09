@@ -45,8 +45,7 @@ public class Solution {
         int[] res = new int[n];
 
         Arrays.sort(bookings, (b1, b2) -> b1[0] - b2[0]);
-
-        
+        return null;
     }
 
     public List<TreeNode> delNodes(TreeNode root, int[] to_delete) {
