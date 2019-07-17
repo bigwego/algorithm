@@ -28,6 +28,7 @@ public class AdditiveNumber {
     private boolean isValid(BigInteger num1, BigInteger num2, int start, String num) {
         num2 = num2.add(num1);
         num1 = num2.subtract(num1);
-        return num.startsWith(num2.toString(), start) && isValid(num1, num2, start + num2.toString().length(), num);
+        return num.startsWith(num2.toString(), start)
+                && isValid(num1, num2, start + num2.toString().length(), num);
     }
 }
