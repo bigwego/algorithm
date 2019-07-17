@@ -7,9 +7,7 @@ public class Subsets {
 
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
-        if (nums == null || nums.length == 0) {
-            return res;
-        }
+        if (nums == null || nums.length == 0) return res;
         help(res, new ArrayList<>(), nums, 0);
         return res;
     }
