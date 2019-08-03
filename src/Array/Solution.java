@@ -1,8 +1,6 @@
 package Array;
 
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 import BinaryTree.TreeNode;
 
@@ -82,8 +80,91 @@ public class Solution {
         del(curr, curr.right, res, d);
     }
 
+    public int numEquivDominoPairs(int[][] dominoes) {
+        Map<String, Integer> map = new HashMap<>();
+        int res = 0;
+
+        for (int[] d : dominoes) {
+            String key = "" + d[0] + d[1];
+            map.put(key, map.getOrDefault(key, 0) + 1);
+        }
+
+        Set<String> set = new HashSet<>();
+
+        for (String key : map.keySet()) {
+            if (map.get(key) > 1)
+                res += map.get(key) * (map.get(key) - 1);
+            String revKey = "" + key.charAt(1) + key.charAt(0);
+            if (!revKey.equals(key) && map.containsKey(revKey) && !set.contains(revKey))
+                res += map.get(key) * map.get(revKey);
+            set.add(key);
+        }
+
+        return res;
+    }
+
+    public int[] shortestAlternatingPaths(int n, int[][] red_edges, int[][] blue_edges) {
+        int[] res = new int[n];
+        LinkedList<Integer> queue = new LinkedList<>();
+
+        Arrays.fill(res, -1);
+        res[0] = 0;
+        queue.add(0);
+        int d = 1;
+
+        while (!queue.isEmpty()) {
+            for (int i = 0, sz = queue.size(); i < sz; i++) {
+                int curr = queue.poll();
+
+            }
+        }
+        return null;
+    }
+
     public static void main(String[] args) {
-        int[] arr = new int[]{ 7, 8, 9, 1, 2, 3, 4, 5 };
-        System.out.println(findRotateArray(arr, 7));
+        System.out.println(alphabetBoardPath("leet"));
+    }
+
+    public int tribonacci(int n) {
+        if (n == 0) return 0;
+        if (n < 3) return 1;
+
+        int[] dp = new int[n];
+        dp[1] = dp[2] = 1;
+
+        for (int i = 3; i < n; i++) {
+            dp[i] = dp[i - 1] + dp[i - 2] + dp[i - 3];
+        }
+
+        return dp[n - 1];
+    }
+
+    public static String alphabetBoardPath(String target) {
+        String[] board = {"abcde", "fghij", "klmno", "pqrst", "uvwxy", "z"};
+        Map<Character, int[]> map = new HashMap<>();
+        for (int i = 0, len = board.length; i < len; i++) {
+            String s = board[i];
+            for (int j = 0, sz = s.length(); j < sz; j++)
+                map.put(s.charAt(j), new int[]{i, j});
+        }
+
+        StringBuilder sb = new StringBuilder();
+        int[] curr = new int[]{0, 0};
+
+        for (char c : target.toCharArray()) {
+            int[] pos = map.get(c);
+            int x = pos[0] - curr[0];
+            int y = pos[1] - curr[1];
+            System.out.println(x + "" + y);
+            if (x > 0) while (x-- > 0) sb.append("D");
+            else if (x < 0) while (x++ < 0) sb.append("U");
+            if (y > 0) while (y-- > 0) sb.append("R");
+            else if (y < 0) while (y++ < 0) sb.append("L");
+            sb.append("!");
+            curr[0] = pos[0];
+            curr[1] = pos[1];
+        }
+
+        return sb.toString();
     }
 }
